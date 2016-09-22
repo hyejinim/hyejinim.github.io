@@ -4,35 +4,65 @@
   <title>Hyejin's Portfolio</title>
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.css">
   <style>
+  #container{
+    margin-top: 40px;
+  }
+  body{
+    font-size: 1.2rem;
+    font-weight: 300;
 
+  }
+  .snsLink{
+    transition: all 0.1s ease-in-out!important;
+    display: inline-block;
+  }
+  .snsLink:hover{
+    /*opacity: 0.8;*/
+    transform: scale(1.3);
+  }
+
+
+  .menu .item{
+    margin: 0px!important;
+    padding-bottom: 0px!important;
+  }
   </style>
 </head>
 <body>
-  <div class="ui container">
+  <div id="container" class="ui container">
+    <div class="ui stackable grid">
+      <div class="row">
+        <div class="two wide column">
+          <h3 class="ui header">HYEJIN IM</h3>
+          <div class="ui vertical huge text menu" style="font-weight:400">
+            <a class="item" style="paddi">
+              ABOUT
+            </a>
+            <a class="item">
+              PROJECTS
+            </a>
+          </div>
+        </div>
+        <div class="fourteen wide column">
+          <div class="ui basic segment" style="font-size:1.2rem; padding-top:0px">
+            <img class="ui small left floated image" src="/img/prof.jpeg">
+            <p>I am a user experience designer.</p>
+            <p>I had worked at <a href="http://www.pxd.co.kr/">pxd</a>, one of the Korean user centered design agency for two years over.</p>
+            <p>As a junior designer, I conducted several qualitative user researches (in Korea and abroad) and designed digital interfaces of home appliances, web, and mobile application in the variety domain. Also, I did design thinking workshops for companies or university as a facilitator who help people think well about the user perspectives.</p>
+            <p>I have always enjoyed studying sensitive user emotions while interacting digital product and finding user insights to help building amazing products.</p>
+            <p>I am interested in improving people's relationship technology. (TBD)</p>
+            <br>
+            <p style="color:gray">hyejinim17@gmail.com<br>
+            Zurich, Switzerland<br>
+            000-0000-0000</p>
+            <br>
+            <a class="snsLink" href="http://www.linkedin.com/imaginekor" target="_blank"><i class="circular inverted teal linkedin icon"></i></a>
+            <a class="snsLink" href="http://www.instagram.com/imaginekor" target="_blank"><i class="circular inverted blue facebook f icon"></i></a>
+            <a class="snsLink" href="http://www.instagram.com/hyecoo" target="_blank"><i class="circular inverted orange instagram icon"></i></a>
 
-    <div class="ui secondary pointing menu" style="border-bottom-width:0px">
-      <div class="item">
-        HYEJIN IM
+        </div>
       </div>
-
-      <div class="right menu">
-        <a class="ui active item">
-          About
-        </a>
-        <a class="ui item">
-          CV
-        </a>
-        <a class="ui item">
-          Projects
-        </a>
-      </div>
-    </div>
-
-    <div class="ui basic segment">
-      <img class="ui fluid image" src="/img/imagine.jpg">
-    <p></p>
-    </div>
-
+    </div><!-- end of grid-->
   </div>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.js"></script>
