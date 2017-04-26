@@ -3,16 +3,40 @@
 
   <head>
     <meta charset="utf-8">
-    <title>Photo Gallery</title>
+    <title>Gallery</title>
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/bcf434bbd4.js"></script>
+    <style>
+      i{
+        margin: 1%;
+      }
+      body {
+        background-color: #FFD3C0;
+      }
+      @media only screen and (max-width: 1200px) {
+        body {
+          background: #FFFACD;
+        }
+      }
+      @media only screen and (max-width: 780px) {
+        body {
+          background: #E1F1CB;
+        }
+      }
+      @media only screen and (max-width: 480px) {
+        body {
+          background: #E1F1CB;
+        }
+      }
 
+    </style>
   </head>
 
   <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -21,20 +45,39 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Photo Gallery</a>
+          <a class="navbar-brand" href="#">Personal Website</a>
         </div>
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="#">About</a>
+                    <a href="mywebsite.html">About</a>
                 </li>
                 <li>
-                    <a href="#">Upload</a>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Work <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-header">Personal</li>
+                    <li><a href="#">On Time</a></li>
+                    <li><a href="#">Time Transcendence</a></li>
+                    <li><a href="#">Grooovy: Easy Beat Maker</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Professional</li>
+                    <li><a href="#">LG Signature Washing Machine</a></li>
+                    <li><a href="#">Transparent Flexible Display</a></li>
+                    <li><a href="#">Samsung Smart TV</a></li>
+                    <li><a href="#">Smart Home Products</a></li>
+                    <li><a href="#">High-Resolution Music Website</a></li>
+                    <li><a href="#">Samsung Intranet Service</a></li>
+                  </ul>
                 </li>
             </ul>
+          </div>
         </div>
       </nav>
+
 
       <div class="container">
         <div class="row">
@@ -42,12 +85,19 @@
           <br>
 
           <div class="col-lg-12">
-            <h1 class="page-header">Travel History</h1>
+            <h1 class="page-header"><i class="fa fa-paw fa-1x"></i>Gallery</h1>
           </div>
 
           <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-            <a class="thumbnail" href="#">
+            <a class="thumbnail" href="http://hyejinim.github.io/img/testimg01.png"
+              data-lightbox="example-set" data-title="Image One">
               <img class="img-responsive" src="http://hyejinim.github.io/img/testimg01.png" alt="">
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+            <a class="thumbnail" href="http://hyejinim.github.io/img/testimg07.png"
+              data-lightbox="example-set" data-title="Image One">
+              <img class="img-responsive" src="http://hyejinim.github.io/img/testimg07.png" alt="">
             </a>
           </div>
           <div class="col-lg-3 col-md-4 col-xs-6 thumb">
@@ -80,23 +130,23 @@
               <img class="img-responsive" src="http://hyejinim.github.io/img/testimg07.png" alt="">
             </a>
           </div>
+
         </div>
+
 
         <hr>
 
-        <footer>
-          <div class="row">
-            <div class="col-lg-12">
-              <p>Copyright &copy; Hyejin</p>
-            </div>
+        <footer class="footer">
+          <div class="container">
+            <p>Copyright &copy; 2017 Hyejin</p>
           </div>
         </footer>
 
       </div>
       <!-- container -->
 
-      <!-- jQuery -->
-      <script src="js/jquery.js"></script>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
       <!-- Latest compiled and minified JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
