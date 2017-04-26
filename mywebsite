@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Personal Website</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/bcf434bbd4.js"></script>
+    <style>
+      i{
+        margin: 1%;
+      }
+      .jumbotron {
+        background-color: #FFD3C0;
+      }
+      @media only screen and (max-width: 1200px) {
+        .jumbotron {
+          background: #FFFACD;
+        }
+      }
+      @media only screen and (max-width: 780px) {
+        .jumbotron {
+          background: #E1F1CB;
+        }
+      }
+      @media only screen and (max-width: 480px) {
+        .jumbotron {
+          background: #E1F1CB;
+        }
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Personal Website</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="mywebsite.html">About</a>
+                </li>
+                <li>
+                    <a href="gallery.html">Gallery</a>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Work <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-header">Personal</li>
+                    <li><a href="#">On Time</a></li>
+                    <li><a href="#">Time Transcendence</a></li>
+                    <li><a href="#">Grooovy: Easy Beat Maker</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Professional</li>
+                    <li><a href="#">LG Signature Washing Machine</a></li>
+                    <li><a href="#">Transparent Flexible Display</a></li>
+                    <li><a href="#">Samsung Smart TV</a></li>
+                    <li><a href="#">Smart Home Products</a></li>
+                    <li><a href="#">High-Resolution Music Website</a></li>
+                    <li><a href="#">Samsung Intranet Service</a></li>
+                  </ul>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+      <!-- Main jumbotron for a brief introduction -->
+      <div class="jumbotron" style="margin-top: 4%">
+        <div class="container">
+          <div class="col-sm-4">
+            <img class="img-responsive img-circle" src="http://hyejinim.github.io/img/earth.png" alt="">
+          </div>
+          <div class="col-md-8">
+            <h1 class="display-3">Hyejin Im</h1>
+            <p>Hi, I am Hyejin and I am a UX Designer based on Seoul.  I love to think deeply about why people behave the way they do, and how changes to their environments influence their actions. I thrive in creative problem-solving, studying human behavior, and thinking about how to use that information to inspire design. At the heart of my motivation is a commitment to human-centered design and to rigorous research.</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Resume &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Project Title</h2>
+            <img class="img-responsive" src="http://hyejinim.github.io/img/lgwasher.jpg" alt="">
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <h2>Project Title</h2>
+            <img class="img-responsive" src="http://hyejinim.github.io/img/vismorn.png" alt="">
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+         </div>
+          <div class="col-md-4">
+            <h2>Project Title</h2>
+            <img class="img-responsive" src="http://hyejinim.github.io/img/grooovy.png" alt="">
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+
+      </div>
+
+
+        <hr>
+
+        <footer class="footer">
+          <div class="container">
+            <p>Copyright &copy; 2017 Hyejin</p>
+          </div>
+        </footer>
+
+
+      <!-- container -->
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </body>
+</html>
