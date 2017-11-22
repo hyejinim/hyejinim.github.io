@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+<TITLE>Simpler program that uses WebGazer.js</TITLE>
+
+<script src="webgazer.js"></script>
+
+<script>
+/*
+ * Bare bones program that uses WebGazer.js
+ *
+ * Based on https://webgazer.cs.brown.edu/demo.html by Jeff Huang
+ *
+ * Must run on a remote server, and access via https not http. 
+ * Must also put webgazer.js where above 'script src=' statement will find it. 
+ * Currently works on Chrome, but not on Safari. 
+ * Can ignore alert box that complains about webGL. 
+ */
+
+function inTarget (data) { 
+    // Weird offset determined empirically, other dimensions match our HTML
+    var xoffset = -250
+    return data && data.x > 400+xoffset && data.x < 400+xoffset+100 && data.y > 300 && data.y < 300+100
+}
+
+/*
+ * Called whenever we get new gaze data
+ * data = object containing an x and y key which are the x and y prediction coordinates (no bounds limiting)
+ * clock = elapsed time in milliseconds since webgazer.begin() was called
+ */
+var lastHit = 0
+function gaze (data, clock) { 
+    const delay = 400 // ms
+
+    var target = document.getElementById("target1")
+
+    if (inTarget (data)) { 
+        target.style.color = "red"
+	target.style.background = "black" 
+
+	lastHit = clock 
+    }
+    else {
+	// Time delay is just so user will notice the color change
+	if (clock-lastHit > delay) { 
+	    target.style.color = "black" 
+	    target.style.background = "white" 
+	}
+    }
+}
+
+window.onload = function() {
+    webgazer.setRegression('ridge')
+        .setTracker('clmtrackr')
+        .setGazeListener(gaze)
+        .begin()
+};
+</script>
+
+</HEAD>
+<BODY LANG="en-US" LINK="#0000ff" DIR="LTR">
+    <div id="target1" style="position:absolute; border-style:solid; border-color:red; right:400px; top:300px; height:100px; width:100px">
+	<h2>Try me!</h2>
+    </div>
+</BODY>
+</HTML>
