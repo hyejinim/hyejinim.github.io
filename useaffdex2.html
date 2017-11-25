@@ -57,7 +57,7 @@ onload = function () {
       //Add a callback to receive the results from processing an image.
       //The faces object contains the list of the faces detected in an image.
       //Faces object contains probabilities for all the different expressions, emotions and appearance metrics
-      detector.addEventListener("onImageResultsSuccess", function(faces, image, timestamp) { 
+      detector.addEventListener("onImageResultsSuccess", function(faces, image, timestamp) {
 	document.getElementById("results").innerHTML = ""
         log('results', "Timestamp: " + timestamp.toFixed(2));
         log('results', "Number of faces found: " + faces.length);
@@ -85,15 +85,27 @@ onload = function () {
 	  gc.closePath()
 
 	  // Ball rises/falls based on amount of smile
-	  var rad = 50;
-	  var y = c.height - rad - faces[0].expressions["smile"] * (c.height - 2 * rad) / 100 
+	  // var rad = 50;
+	  // var y = c.height - rad - faces[0].expressions["smile"] * (c.height - 2 * rad) / 100
 
-	  // Draw the ball at appropriate y height
-	  gc.fillStyle = "red" 
-	  gc.beginPath() 
-	  gc.arc(c.width/2, y, rad, 0, 2*Math.PI); 
-	  gc.fill() 
-	  gc.closePath() 
+    // Draw the ball at appropriate y height
+	  // gc.fillStyle = "red"
+	  // gc.beginPath()
+	  // gc.arc(c.width/2, y, rad, 0, 2*Math.PI);
+	  // gc.fill();
+	  // gc.closePath(); 
+
+    // Mouth up/down based on amount of smile
+    var mouthSize = facex[0].expressions["smile"];
+
+    // Draw the mouth in appropriate size
+    gc.fillStyle = "#FF5252";
+    gc.beginPath();
+    gc.arc(canvas.width-(head.x*canvas.width/video.width)-250, canvas.height/2+85, mouthSize, 0, Math.PI * 1, false);
+    gc.fill();
+    gc.closePath()
+
+
 	}
       });
 }
