@@ -93,7 +93,7 @@ onload = function () {
 	  // gc.beginPath()
 	  // gc.arc(c.width/2, y, rad, 0, 2*Math.PI);
 	  // gc.fill();
-	  // gc.closePath(); 
+	  // gc.closePath();
 
     // Mouth up/down based on amount of smile
     var mouthSize = facex[0].expressions["smile"];
@@ -101,7 +101,7 @@ onload = function () {
     // Draw the mouth in appropriate size
     gc.fillStyle = "#FF5252";
     gc.beginPath();
-    gc.arc(canvas.width-(head.x*canvas.width/video.width)-250, canvas.height/2+85, mouthSize, 0, Math.PI * 1, false);
+    gc.arc(c.width/2, c.height/2, mouthSize, 0, Math.PI * 1, false);
     gc.fill();
     gc.closePath()
 
