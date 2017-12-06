@@ -1,0 +1,11 @@
+/*Hyejin Im, hyejin.im@tufts.edu*/
+
+#MyCanvas{
+  /*background: linear-gradient(#FFAFBD, #ffc3a0);*/
+  /*https://uigradients.com/#Roseanna #43C6AC, #F8FFAE */
+  width:100%;
+  height:100%;
+}
+body{
+  /*overflow:hidden;*/
+}
