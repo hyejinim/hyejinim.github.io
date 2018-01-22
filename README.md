@@ -1,2 +1,2 @@
 # hyejinim.github.io
-Hyejin's Portfolio Website.
+Hyejin's Website.
