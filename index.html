@@ -25,56 +25,59 @@
   <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
 
   <script src="script.js"></script>
-  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- for tooltip -->
   <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
 
   <title>Hyejin Im</title>
 </head>
 
 <body>
-  <div class="navbar">
+  <div class="navbar" id="top">
     <div class="title">Hyejin Im.</div>
     <div class="menu">
       <div class="dropdown">
-        <a class="item">Work</a>
+        <a class="item" href="#programming">Work</a>
         <div class="dropdown-content">
           <a href="#programming">Programming</a>
           <a href="#design">Design</a>
           <a href="#research">Research</a>
         </div>
       </div>
-      <a class="item" href="#about">About</a>
+      <a class="item" href="#top" onclick="openAbout()">About</a>
       <a class="item" href="assets/hyejinim-2018.pdf" target="_blank">Resume</a>
     </div>
   </div>
 
   <div class="container" style="margin-top: 0px">
     <!-- Intro --------------------------------------->
-    <div class="full" id="about">
+    <div class="full" id="main">
       <div class="intro" style="margin-top:40px">
         <div class="description" style="margin-top:0">
           I am Jin, a designer,
           studying Human-Computer Interaction
           at <a href="http://engineering.tufts.edu/" target="_blank">Tufts University</a>.
-          <!-- <br /><br />My interests are laid on making
-          technological tools for helping people to improve their abilities or acheive their goals. -->
-          <br /><br />
-          I am interested in designing technological tools
-          for people who have disadvantages when it comes to improve their abilities
-          due to personal characteristics assumed as minorities's one.
-          <br /><br />For example, I would like to research about gender-neautral type of
-          educational robotics kit that encourages young children both boys and girls
-          to have interest in STEM area.
           <br /><br />Previously, I was UX designer who designs user interface for
           the web and digital devices in Korea.
+          <!-- <br /><br />My interests are laid on making
+          technological tools for helping people to improve their abilities or acheive their goals. -->
+
+          <div id="about" style="display:none">
+            <br />
+            I am interested in designing technological tools
+            for people who have disadvantages when it comes to improve their abilities
+            due to personal characteristics assumed as minorities's one.
+            <br /><br />For example, I would like to research about gender-neautral type of
+            educational robotics kit that encourages young children both boys and girls
+            to have interest in STEM area.
+          </div>
           <br />
           <br />
           <div class="tooltip">
             <span class="tooltiptext" id="myTooltip">Copy email</span>
               <a href="#" style="font-weight:400" onclick="copyToClipboard('#myEmail')" onmouseout="outFunc()">
               <i class="fa fa-envelope" aria-hidden="true" style="cursor: pointer"></i>
-              <span id="myEmail" style="cursor: pointer">hyejinim17@gmail.com</span></a>
-            </div>
+            <span id="myEmail" style="cursor: pointer">hyejinim17@gmail.com</span></a>
+          </div>
           <br />
           <a class="button" href="assets/hyejinim-2018.pdf" target="_blank">
             SEE RESUME <i class="fas fa-arrow-right"></i>
