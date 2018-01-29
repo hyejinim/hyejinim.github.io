@@ -1,521 +1,629 @@
-* {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  cursor: default;
-  margin: 0;
-  padding: 0;
-}
-
-html, body {
-  height: 100%;
-  margin: 0;
-}
-
-body {
-  font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-  line-height: 1.3;
-  font-size: 17px;
-  color: #0e0e0e;
-  -webkit-font-smoothing: antialiased;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-a[href]:hover {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-h1 {
-  font-size: 40px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-h2 {
-  font-size: 14px;
-  font-weight: 500;
-  margin-bottom: 3px;
-}
-
-h3 {
-  font-size: 14px;
-  font-weight: 500;
-  margin: 0;
-  color: #777;
-}
-
-::selection {
-  background: #68EFAD;
-}
-
-.navbar {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  z-index: 80;
-  margin: 0px auto;
-  padding-top: 15px;
-  padding-bottom: 10px;
-  width: 100%;
-  text-align: center;
-  background: #fff;
-  display: block;
-  border-bottom: 1px solid #E5E5E5;
-}
-
-.navbar .title {
-  font-size: 24px;
-  font-weight: 800;
-}
-
-.navbar .menu {
-  margin-top: 5px;
-}
-
-.navbar .menu .item {
-  font-size: 16px;
-  color: #616161;
-  margin: 0 4px;
-}
-
-.navbar .menu .active {
-  color: #0E0E0E;
-}
-
-.navbar .menu .item:hover {
-  background-color: #68EFAD;
-}
-
-.container {
-  margin: 0 auto;
-  padding: 0;
-}
-
-/*-- Common --------------------------------------------------*/
-.full {
-  width: 100%;
-  min-height: 100%; /*for mozilla*/
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.full .subtitle {
-  font-size: 14px;
-  font-weight: 500;
-  color: #afa910;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.full .description {
-  width: 90%;
-}
-
-.full b {
-  font-weight: 600;
-}
-
-.full a {
-  font-weight: 600;
-}
-
-.full a:hover {
-  background-color: #68EFAD;
-  color: #000;
-}
-
-.full ::selection {
-  background-color: #68EFAD;
-  color: #000;
-}
-
-/*-- Project --------------------------------------------------*/
-.project {
-  max-width: 680px;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 50px auto;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-}
-
-.project .teaser {
-  width: 100%;
-  align-items: center;
-  align-content: center;
-}
-
-.teaser video {
-  width: 90%;
-}
-.teaser img {
-  width: 90%;
-  height:auto;
-}
-
-.project .description {
-  margin: 20px 0px;
-  text-align: left;
-  font-size: 16px;
-  color: #353535;
-  font-weight: 400;
-  line-height: 1.4;
-  color: #0e0e0e;
-  text-rendering: optimizeLegibility;
-  font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-
-.project .header {
-  margin-bottom: 20px;
-}
-
-/*-- Intro --------------------------------------------------*/
-.intro {
-  max-width: 680px;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 50px auto;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-}
-
-.intro .header {
-  margin-bottom: 20px;
-}
-
-.intro .description {
-  width: 90%;
-  margin: 0px 0px;
-  text-align: left;
-  font-size: 16px;
-  color: #353535;
-  font-weight: 400;
-  /*box-sizing: border-box;*/
-  line-height: 1.4;
-  color: #0e0e0e;
-  text-rendering: optimizeLegibility;
-  font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-}
-
-/*-- Row --------------------------------------------------*/
-.row {
-  width: 90%;
-  display: flex;
-  align-items: center;
-  display: -webkit-flex;
-  -webkit-align-items: center;
-  margin: auto;
-}
-
-.row .teaser {
-  width: 8%;
-  display: inline;
-  float: left;
-}
-
-.row .description {
-  display: inline;
-  width:85%;
-  float:right;
-  text-align:left;
-  /*align-self: center;*/
-  padding-left:5%;
-}
-
-/*-- Grid --------------------------------------------------*/
-.grid {
-  max-width: 1180px;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-}
-
-.grid .item {
-  max-width: 360px;
-  position: relative;
-  margin-top: 20px;
-}
-
-/*-- Button --------------------------------------------------*/
-.button {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0px;
-  color: #000000;
-  font-size: 14px;
-  font-weight: 700;
-  text-align: center;
-  text-decoration: none;
-  background: #fff;
-  padding: 10px 20px 10px 20px;
-  /*margin: auto;*/
-  margin-top: 30px;
-  width: 100%;
-  max-width: 260px;
-  transition-property: background;
-  transition-duration: 0.2s;
-  display: block;
-  border: solid #000000 1px;
-  line-height: 1.5;
-  padding: .5rem 2rem;
-  cursor: pointer;
-  /*margin: 14px 0 28px 0;*/
-}
-
-.button:hover {
-  background: #000000;
-  text-decoration: none;
-  color: #fff;
-  /*font-weight: 600;*/
-}
-
-/*-- Image --------------------------------------------------*/
-.image {
-  overflow: hidden;
-}
-
-.image img {
-  max-width: 100%;
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.image:hover img {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-.image--cover {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin: 20px;
-  display: inline-block;;
-  object-fit: cover;
-  object-position: center right;
-}
-
-/*-- Tooltip --------------------------------------------------*/
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 140px;
-  background-color: #000;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px;
-  position: absolute;
-  z-index: 1;
-  bottom: 150%;
-  left: 50%;
-  margin-left: -75px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #000 transparent transparent transparent;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
-/*-- Dropdown --------------------------------------------------*/
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #fff;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    /*color: black;*/
-    color: #616161;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-size: 14px;
-    text-align: left;
-}
-
-.dropdown-content a:hover {background-color: #68EFAD}
-/*#f1f1f1 #f9f9f9*/
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/*-- Carousel --------------------------------------------------*/
-.carousel {
-    position: relative;
-    margin: auto;
-    width: 90%;
-    align-items: center;
-    align-content: center;
-}
-
-.carousel-inner {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-}
-
-.carousel-open:checked + .carousel-item {
-    position: static;
-    opacity: 100;
-}
-
-.carousel-item {
-    position: absolute;
-    opacity: 0;
-    -webkit-transition: opacity 0.6s ease-out;
-    transition: opacity 0.6s ease-out;
-}
-
-.carousel-item img {
-    display: block;
-    height: auto;
-    max-width: 100%;
-}
-
-.carousel-item video {
-    display: block;
-    height: auto;
-    max-width: 100%;
-    width: 100%;
-}
-
-.carousel-control {
-    color: #f5f5f5;
-    cursor: pointer;
-    display: none;
-    font-size: 30px;
-    height: 40px;
-    line-height: 35px;
-    position: absolute;
-    top: 50%;
-    -webkit-transform: translate(0, -50%);
-    cursor: pointer;
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    text-align: center;
-    width: 40px;
-    z-index: 10;
-}
-
-.carousel-control.prev {
-    left: 2%;
-}
-
-.carousel-control.next {
-    right: 2%;
-}
-
-.carousel-control:hover {
-    color: #68EFAD;
-}
-
-#carousel-1:checked ~ .control-1,
-#carousel-2:checked ~ .control-2,
-#carousel-3:checked ~ .control-3,
-#carousel-4:checked ~ .control-4,
-#carousel-5:checked ~ .control-5,
-#carousel-6:checked ~ .control-6,
-#carousel-7:checked ~ .control-7,
-#carousel-8:checked ~ .control-8,
-#carousel-9:checked ~ .control-9,
-#carousel-10:checked ~ .control-10 {
-    display: block;
-}
-
-.carousel-indicators {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    bottom: 1%;
-    left: 0;
-    right: 0;
-    text-align: center;
-    z-index: 10;
-}
-
-.carousel-indicators li {
-    display: inline-block;
-    margin: 0 5px;
-}
-
-.carousel-bullet {
-    color: #f5f5f5;
-    cursor: pointer;
-    display: block;
-    font-size: 40px;
-}
-
-.carousel-bullet:hover {
-    color: #aaaaaa;
-}
-
-#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
-#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
-#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet,
-#carousel-4:checked ~ .control-4 ~ .carousel-indicators li:nth-child(4) .carousel-bullet,
-#carousel-5:checked ~ .control-5 ~ .carousel-indicators li:nth-child(5) .carousel-bullet,
-#carousel-6:checked ~ .control-6 ~ .carousel-indicators li:nth-child(6) .carousel-bullet,
-#carousel-7:checked ~ .control-7 ~ .carousel-indicators li:nth-child(7) .carousel-bullet,
-#carousel-8:checked ~ .control-5 ~ .carousel-indicators li:nth-child(8) .carousel-bullet,
-#carousel-9:checked ~ .control-6 ~ .carousel-indicators li:nth-child(9) .carousel-bullet,
-#carousel-10:checked ~ .control-7 ~ .carousel-indicators li:nth-child(10) .carousel-bullet {
-    color: #68EFAD;
-}
-
-/*-- Etc --------------------------------------------------*/
-.fas:hover {
-  cursor: pointer;
-}
-
-/*#B388FF #fcf113 #FFCC80 #A1887F*/
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="Portfolio of Hyejin Im" name="description">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:description" content="Portfolio of Hyejin">
+  <meta property="og:image:url" content="assets/thumbnail.png" />
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:url" content="http://hyejinim.github.io">
+  <meta property="og:image:height" content="600">
+  <meta property="og:image:height" content="600">
+  <meta property="og:title" content="Hyejin Im">
+
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css"/> -->
+  <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"/> -->
+  <!-- Add the new slick-theme.css if you want the default styling -->
+  <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
+
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+
+  <script src="script.js"></script>
+  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+  <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
+
+  <title>Hyejin Im</title>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="title">Hyejin Im.</div>
+    <div class="menu">
+      <div class="dropdown">
+        <a class="item">Work</a>
+        <div class="dropdown-content">
+          <a href="#programming">Programming</a>
+          <a href="#design">Design</a>
+          <a href="#research">Research</a>
+        </div>
+      </div>
+      <a class="item" href="#about">About</a>
+      <a class="item" href="assets/hyejinim-2018.pdf" target="_blank">Resume</a>
+    </div>
+  </div>
+
+  <div class="container" style="margin-top: 0px">
+    <!-- Intro --------------------------------------->
+    <div class="full" id="about">
+      <div class="intro" style="margin-top:40px">
+        <div class="description" style="margin-top:0">
+          I am Jin, a designer,
+          studying Human-Computer Interaction
+          at <a href="http://engineering.tufts.edu/" target="_blank">Tufts University</a>.
+          <!-- <br /><br />My interests are laid on making
+          technological tools for helping people to improve their abilities or acheive their goals. -->
+          <br /><br />
+          I am interested in desigining equally accessible, effective, and enjoyable
+          technological tools
+          regardless of personal characteristics or gender preferences;
+          thus, that allows people to have the same opportunity
+          to improve their abilities.
+          <!-- <br /><br />For example, I would like to research about gender-neautral type of
+          educational robotics kit that encourages young children to have interest in STEM area. -->
+          <br /><br />Previously, I was UX designer who designs user interface for
+          the web and digital devices in Korea.
+          <br />
+          <br />
+          <div class="tooltip">
+            <span class="tooltiptext" id="myTooltip">Copy email</span>
+              <a href="#" style="font-weight:400" onclick="copyToClipboard('#myEmail')" onmouseout="outFunc()">
+              <i class="fa fa-envelope" aria-hidden="true" style="cursor: pointer"></i>
+              <span id="myEmail" style="cursor: pointer">hyejinim17@gmail.com</span></a>
+            </div>
+          <br />
+          <a class="button" href="assets/hyejinim-2018.pdf" target="_blank">
+            SEE RESUME <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Programming --------------------------------------->
+    <div class="full" style="background-color:#F3F6F6" id="programming">
+      <div class="intro">
+        <div class="description">
+          <h1>Programming Works.</h1>
+          I recently have done several programming works in
+          <a href="http://www.cs.tufts.edu/~jacob/86/index.html" target="_blank">
+          COMP86: Objective-Oriented Programming with Graphical User Interface</a> course.
+          <br />
+          <div class=button onclick="openLearned()">SEE WHAT I LEARNED <i class="fas fa-angle-down"></i></div>
+          <div id="learned" style="display:none; margin-top:30px">
+            + how the OOP concept works in Java.
+            <br />+ how to apply OOP in other programming languages.
+            <br />+ how to design animated 3D objects.
+            <br />+ how to design user interface for game and rules of the game.
+            <br />+ how to use various user inputs from WIMP to speech or facial expression.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Speak Go --------------------------------------->
+    <div class="full" id="speakGo">
+      <div class="project">
+        <div class="header">
+          <h1>Speak Go</h1>
+          <h3>#SPEECHUI #EDUCATION #GAMIFICATION</h3>
+        </div>
+
+        <div class="teaser">
+          <video autoplay muted loop preload="metadata">
+            <source src="assets/speakgo.mp4" type='video/mp4' alt="Video of Speak Go"/>
+          </video>
+        </div>
+        <div class="description">
+          Game for encouraging children to learn and memorize the name of shapes by speaking.
+          <br /><br />It uses multiple input modals: speech and keyboard.
+          <br /><br /><h3>*Works on only Chrome desktop</h3>
+          <a class="button" href="https://hyejinim.github.io/speakgo/" target="_blank"
+          style="margin:30px auto 0px">
+            PLAY IT <i class="fas fa-gamepad" style="font-size: 16px"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Space Dog --------------------------------------->
+    <div class="full" id="spaceDog">
+      <div class="project">
+        <div class="header">
+          <h1>Space Dog</h1>
+          <h3>#3D #SIMULATION #THREEJS</h3>
+        </div>
+        <div class="teaser">
+          <video autoplay muted loop preload="metadata">
+            <source src="assets/spacedog.mp4" type='video/mp4' alt="Video of Space Dog" />
+          </video>
+        </div>
+        <div class="description">
+          Simulation application of floating dogs in the space using
+          <a href="https://threejs.org/" target="_blank">Three.js</a>.
+          <br /><br />Dogs' movement and meteors' speed are changed depending on user's mouse position.
+          <br /><br />I learned how to design animated 3D objects including multiple parts,
+          how to express different materials, and how to use lights in the 3D world.
+          <br /><br /><h3>*Works on only Chrome desktop</h3>
+          <a class="button" href="https://hyejinim.github.io/spacedog/"
+          style="margin:30px auto 0px" target="_blank">
+          TRY IT <i class="fas fa-paw" style="font-size: 16px"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Laika Game --------------------------------------->
+    <div class="full" id=laikaGame>
+      <div class="project">
+        <div class="header">
+          <h1>Laika Back to the Earth</h1>
+          <h3>#GAME #JAVA</h3>
+        </div>
+        <div class="teaser">
+          <video autoplay muted loop preload="metadata">
+            <source src="assets/laikagame.mp4" type='video/mp4' alt="Video of Laika Game"/>
+          </video>
+        </div>
+        <div class="description">
+          2D simulation game using Java. It has game design mode and play mode.
+          <br /><br />This project was inspired by the real story of
+          <a href="https://en.wikipedia.org/wiki/Laika" target="_blank">Laika</a>,
+          the soviet stray dog who was sacrified for a space experiment and
+          could not come back to the earth.
+          <br /><br />Player can save other dogs in the space and make Laika come back to home.
+          I hope more people can be awared of the behind story of this game: animals' sacrifice
+          and contribution.
+          <br /><br />I would like to give a positive lesson to players through this game.
+          It does not require fighting and competeting against enemies
+          but helping ohters to achieve the success.
+          <!-- <a class="button" href="https://hyejinim.github.io/speakgo/"
+          style="margin:30px auto 0px" target="_blank">
+            PLAY IT <i class="fas fa-gamepad" style="font-size: 16px"></i>
+          </a> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Autonomous Robot --------------------------------------->
+    <div class="full" id="autoRobot">
+      <div class="project">
+        <div class="header">
+          <h1>Autonomous Robots</h1>
+          <h3>#AUTO-SYSTEM #LEGO #MINDSTORMS</h3>
+        </div>
+        <div class="carousel">
+          <div class="carousel-inner">
+            <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+            <div class="carousel-item">
+              <video autoplay muted loop preload="metadata">
+                <source src="assets/parallelparking.mp4" type='video/mp4' alt="Video of Automated Parallel Parking Robot"/>
+              </video>
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+              <img src="assets/parallelparking-2.png" alt="Parking Robot - Concept of Operation">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+              <img src="assets/parallelparking-3.png" alt="Parking Robot - Internal and External Constraints">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-4" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+              <video autoplay muted loop preload="metadata">
+                <source src="assets/launchingmachine.mp4" type='video/mp4' alt="Video of Launching Machine"/>
+              </video>
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-5" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+              <img src="assets/launchingmachine-2.png" alt="Launching Machine - Concept of Operation">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-6" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+              <img src="assets/launchingmachine-3.png" alt="Launching Machine - Code">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-7" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+              <img src="assets/launchingmachine-4.png" alt="Launching Machine - Product Instruction">
+            </div>
+
+            <label for="carousel-7" class="carousel-control prev control-1"><i class="fas fa-angle-left"></i></label>
+            <label for="carousel-6" class="carousel-control prev control-7"><i class="fas fa-angle-left"></i></label>
+            <label for="carousel-5" class="carousel-control prev control-6"><i class="fas fa-angle-left"></i></label>
+            <label for="carousel-4" class="carousel-control prev control-5"><i class="fas fa-angle-left"></i></label>
+            <label for="carousel-3" class="carousel-control prev control-4"><i class="fas fa-angle-left"></i></label>
+            <label for="carousel-2" class="carousel-control prev control-3"><i class="fas fa-angle-left"></i></label>
+            <label for="carousel-1" class="carousel-control prev control-2"><i class="fas fa-angle-left"></i></label>
+            <label for="carousel-2" class="carousel-control next control-1"><i class="fas fa-angle-right"></i></label>
+            <label for="carousel-3" class="carousel-control next control-2"><i class="fas fa-angle-right"></i></label>
+            <label for="carousel-4" class="carousel-control next control-3"><i class="fas fa-angle-right"></i></label>
+            <label for="carousel-5" class="carousel-control next control-4"><i class="fas fa-angle-right"></i></label>
+            <label for="carousel-6" class="carousel-control next control-5"><i class="fas fa-angle-right"></i></label>
+            <label for="carousel-7" class="carousel-control next control-6"><i class="fas fa-angle-right"></i></label>
+            <label for="carousel-1" class="carousel-control next control-7"><i class="fas fa-angle-right"></i></label>
+
+            <ol class="carousel-indicators">
+              <li>
+                <label for="carousel-1" class="carousel-bullet">•</label>
+              </li>
+              <li>
+                <label for="carousel-2" class="carousel-bullet">•</label>
+              </li>
+              <li>
+                <label for="carousel-3" class="carousel-bullet">•</label>
+              </li>
+              <li>
+                <label for="carousel-4" class="carousel-bullet">•</label>
+              </li>
+              <li>
+                <label for="carousel-5" class="carousel-bullet">•</label>
+              </li>
+              <li>
+                <label for="carousel-6" class="carousel-bullet">•</label>
+              </li>
+              <li>
+                <label for="carousel-7" class="carousel-bullet">•</label>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="description">
+          As assignments of Human-Machine System Design course, we made automated
+          parallel parking robot
+          and loading &amp; launching projectile.
+          <br /><br />Making these robots with
+          <a href="https://www.lego.com/en-us/mindstorms/about-ev3" target="_blank">Lego Mindstorms</a>,
+          I learned how autonomous system works and how we can provide a considerate communication
+          system of robots to collaborate well with the human operator.
+        </div>
+
+        <!-- <div class="carousel">
+          <div class="carousel-inner">
+            <input class="carousel-open" type="radio" id="carousel-8" name="carousel" aria-hidden="true" hidden="" checked="checked">
+            <div class="carousel-item">
+              <video autoplay muted loop preload="metadata">
+                <source src="assets/parallelparking.mp4" type='video/mp4' alt="Video of Automated Parallel Parking Robot"/>
+              </video>
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-9" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+              <img src="assets/parallelparking-2.png" alt="Parking Robot - Concept of Operation">
+            </div>
+            <input class="carousel-open" type="radio" id="carousel-10" name="carousel" aria-hidden="true" hidden="">
+            <div class="carousel-item">
+              <img src="assets/parallelparking-3.png" alt="Parking Robot - Internal and External Constraints">
+            </div>
+
+            <label for="carousel-10" class="carousel-control prev control-8"><i class="fas fa-angle-left"></i></label>
+            <label for="carousel-9" class="carousel-control prev control-10"><i class="fas fa-angle-left"></i></label>
+            <label for="carousel-8" class="carousel-control prev control-9"><i class="fas fa-angle-left"></i></label>
+            <label for="carousel-9" class="carousel-control next control-8"><i class="fas fa-angle-right"></i></label>
+            <label for="carousel-10" class="carousel-control next control-10"><i class="fas fa-angle-right"></i></label>
+
+            <ol class="carousel-indicators">
+              <li>
+                <label for="carousel-8" class="carousel-bullet">•</label>
+              </li>
+              <li>
+                <label for="carousel-9" class="carousel-bullet">•</label>
+              </li>
+              <li>
+                <label for="carousel-10" class="carousel-bullet">•</label>
+              </li>
+            </ol>
+          </div>
+        </div> -->
+
+      </div>
+    </div>
+
+    <!-- Design Case Study --------------------------------------->
+    <div class="full" style="background-color:#F3F6F6" id="design">
+      <div class="intro">
+        <div class="description">
+          <h1>Design Case Studies.</h1>
+          I conducted case studies about everyday-used apps to
+          redesign them.
+
+          <!-- <div class=button onclick="openList()">SEE MORE PROJECT LIST <i class="fas fa-angle-down"></i></div>
+          <div id="projects" style="display:none; margin-top:30px">
+            <b>2016</b>
+            <br />+ Smart Home Product UI Design
+            <br /><br /><b>2015</b>
+            <br />+ User Research for Location-based Service Mobile Apps
+            <br />+ Intranet Service App UI Design
+            <br />+ User Research and Design Strategy for Music Service
+            <br />+ Washing Machine UI Design
+            <br /><br /><b>2014</b>
+            <br />+ Smart TV Design Guideline and UI Design
+            <br />+ E-commerce Website Design Strategy and UI Design
+            <br /><br /><b>2013</b>
+            <br />+ Interaction and Future Scenario Research for Transparent Flexible Display
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Alarm Clock --------------------------------------->
+    <div class="full" id="alarmClock">
+      <div class="project">
+        <div class="header">
+          <h1>Alarm Clock</h1>
+          <h3>#PRODUCTIVITY #BEHAVIORCHANGE</h3>
+        </div>
+        <div class="teaser">
+        <img srcset="assets/alarm.png" style="width:60%" alt="Main Screen of Alarm Clock">
+        </div>
+        <div class="description">
+          <b><i>"How might we make the sleephead wake up when they have to do?"</i></b>
+          <br /><br />This app presents how much time user has in a day depending on
+          when user wakes up and start the day.
+          By allowing user to figure that out, the app helps user
+          to set the ideal wakeup time, to prevent
+          doing habitual snoozes, and to motivate to start a day as user planned.
+          <br /><br />Wakeup time is not just a moment but it affects
+          the whole day. I would like to enhance the awareness of people who
+          used to be not punctual by presenting these information; so people
+          might can wake up rather than do snooze and just sleep more when alarm
+          is ringing.
+          <a class="button" href="https://medium.com/@hyecoo/make-an-idea-a-working-prototype-for-two-month-67f8cc9d9096"
+          style="margin:30px auto 0px" target="_blank">
+            SEE MORE <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Messanger --------------------------------------->
+    <div class="full" id="messanger">
+      <div class="project">
+        <div class="header">
+          <h1>Preset Message</h1>
+          <h3>#COMMUNICATION #RELATIONSHIP</h3>
+        </div>
+        <div class="teaser">
+          <img srcset="assets/messanger.png" style="width:60%" alt="Main Screen of Messanger">
+        </div>
+        <div class="description">
+          <b><i>"How might we help people who in a long-distance relationship to communicate better?"</i></b>
+          <br /><br />Behavior of messaging and calling are limited due to the time gap
+          caused by the distance of regions.
+          <br /><br />I wanted to encourage people not to suppress their
+          feelings but express that without delay by providing preset function.
+          <a class="button"
+          style="max-width: 320px; margin:30px auto 0px; cursor:default"
+          onmouseover="this.style.background='#9E9E9E'"
+          onmouseout="this.style.background='white'">
+            DETAILS WILL BE UPDATED SOON
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Design Projects --------------------------------------->
+    <div class="full" style="background-color:#F3F6F6" id="industry">
+      <div class="intro">
+        <div class="description">
+          <h1>Design Projects.</h1>
+          I participated in various 
+          user interface design and qualitative user research projects.
+          <br /><br /><h3>Clients included SAMSUNG, LG Electronics, SKTelecom, and etc.
+            <br />*Details are under NDA</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="full">
+      <div class="project" style="display:inline; width:100%">
+        <div class="row">
+          <div class="teaser">
+            <img srcset="assets/smarthome-icon.png" alt="Smart Home Icon" style="width:100%;">
+          </div>
+          <div class="description">
+            <h3>2016</h3>
+            <b>Smart Home Product</b>
+            <br />UI design for wall pad and mobile app to control IoT products
+            and smart home environment
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="teaser">
+            <img srcset="assets/intranet-icon.png" alt="Intranet Icon" style="width:100%;">
+          </div>
+          <div class="description">
+            <h3>2015</h3>
+            <b>Intranet Service</b>
+            <br />UI design for mobile app and pad to improve work productivity
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="teaser">
+            <img srcset="assets/lbs-icon.png" alt="LBS Icon" style="width:100%;">
+          </div>
+          <div class="description">
+            <!-- <h3>2015</h3> -->
+            <b>Location-Based Service Mobile App</b>
+            <br />In-depth interview and A/B test to understand user needs and painpoints
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="teaser">
+            <img srcset="assets/washer-icon3.png" alt="Washer Icon" style="width:100%;">
+          </div>
+          <div class="description">
+            <h3>2014</h3>
+            <b>Washing Machine</b>
+            <br />UI design for circular display of washer and dryer
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="teaser">
+            <img srcset="assets/smarttv.png" alt="TV Icon" style="width:100%;">
+          </div>
+          <div class="description">
+            <!-- <h3>2014</h3> -->
+            <b>Smart TV</b>
+            <br />TV UI Guideline and UI Design for initial setup
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="teaser">
+            <img srcset="assets/music-icon.png" alt="Headphone Icon" style="width:100%;">
+          </div>
+          <div class="description">
+            <!-- <h3>2014</h3> -->
+            <b>High-Resolution Music Service</b>
+            <br />Qualitative user research, design strategy, and website prototype
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="teaser">
+            <img srcset="assets/ecommerce-icon2.png" alt="Shopping Cart Icon" style="width:100%;">
+          </div>
+          <div class="description">
+            <!-- <h3>2014</h3> -->
+            <b>Fashion Ecommerce Responsive Website</b>
+            <br />Design Strategy and UI Design for mobile, pad, and desktop
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="teaser">
+            <img srcset="assets/tfd-icon.png" alt="Laika Pixel Icon" style="width:100%;">
+          </div>
+          <div class="description">
+            <h3>2013</h3>
+            <b>Transparent Flexible Display</b>
+            <br />Use case and interaction studies
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Publication --------------------------------------->
+    <div class="full" style="background-color:#F3F6F6" id="research">
+      <div class="intro">
+        <div class="description">
+          <h1>Research.</h1>
+          I participated in a visualization research.
+        </div>
+      </div>
+    </div>
+
+    <!-- Story Curves --------------------------------------->
+    <div class="full" style="background:">
+      <div class="project">
+        <div class="header">
+          <h1>Visualizing Nonlinear Narratives with Story Curves</h1>
+          <h3>#VISUALIZATION #NONLINEAR-NARRATIVE #VISUAL-PATTERNS</h3>
+        </div>
+        <div class="teaser">
+          <video autoplay muted loop preload="metadata">launchingmachine.mp4
+            <source src="assets/storyexplorer.mp4" type='video/mp4' alt="Video of Story Explorer"/>
+          </video>
+        </div>
+        <div class="description">
+          Nam Wook Kim, Benjamin Bach, <b>Hyejin Im</b>, Sasha Schriber, Markus Gross, Hanspeter Pfister
+          <br />IEEE Transactions on Visualization and Computer Graphics, 2018, IEEE VIS (InfoVis)
+          <br /><i class="fas fa-trophy"></i> <a href="https://www.informationisbeautifulawards.com/"
+          style="font-weight:200" target="_blank">
+          Kantar Information is Beautiful Awards</a> Longlist
+          <br /><br />
+          A nonlinear narrative is a storytelling device that portrays events of
+          a story out of chronological order.
+          <br /><br /><b>Story curves</b> visualize the
+          nonlinear narrative of a movie by showing the order in which events
+          are told in the movie and comparing them to their actual chronological order,
+          resulting in possibly meandering visual patterns in the curve. We also
+          developed <b>Story Explorer</b>, an interactive tool that visualizes
+          a story curve together with complementary information such as characters
+          and settings.
+          <br><br>I am in charged with a part of designing representing data and
+          tagging data for visualization.
+          <a class="button" href="http://storycurve.namwkim.org/"
+          style="margin:30px auto 0px;" target="_blank">
+            SEE MORE <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Miscellaneous --------------------------------------->
+    <div class="full" style="background-color:#F3F6F6" id="design">
+      <div class="intro">
+        <div class="description">
+          <h1>Miscellaneous.</h1>
+          I love drawing and taking photos of animals, ice skating in Winter,
+          watching movies of indie or thriller genre, and trying
+          bunch of new released apps in my spare time!
+        </div>
+      </div>
+    </div>
+
+    <!-- Photos --------------------------------------->
+    <div class="full">
+      <div class="grid">
+        <div class="item">
+          <div class="teaser">
+            <img srcset="assets/laika.png" alt="Laika Pixel Icon">
+          </div>
+        </div>
+        <!-- <div class="item">
+          <div class="teaser">
+            <img srcset="assets/photo-1.jpg" alt="Image of Basketball">
+          </div>
+        </div> -->
+        <div class="item">
+          <div class="teaser">
+            <img srcset="assets/photo-2.jpg" alt="Image of Pink Rose">
+          </div>
+        </div>
+        <div class="item">
+          <div class="teaser">
+            <img srcset="assets/photo-3.jpg" alt="Image of Deer">
+          </div>
+        </div>
+      </div>
+      <div class="grid" style="margin-top:0; margin-bottom:60px;">
+        <div class="item">
+          <div class="teaser">
+            <img srcset="assets/photo-4.jpg" alt="Image of White Deer">
+          </div>
+        </div>
+        <div class="item">
+          <div class="teaser">
+            <img srcset="assets/photo-5.png" alt="Image of Otter">
+          </div>
+        </div>
+        <div class="item">
+          <div class="teaser">
+            <img srcset="assets/photo-6.png" alt="Image of Baby Alpaca">
+          </div>
+        </div>
+      </div>
+      <a href=# style="text-align:center; margin-bottom:60px;"
+        onmouseover="this.style.background='white';">
+        <i class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+  <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.min.js"></script> -->
+
+</body>
+
+</html>
