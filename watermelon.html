@@ -1,22 +1,36 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-    <meta charset="utf-8" />
+  <head>
+    <title>Watermelon</title>
     <link href="https://cdn.rawgit.com/YJSoft/Webfonts/0.1/BM_JUA.css" rel="stylesheet" type="text/css" />
-
-    <title>Gamedev Canvas Workshop</title>
-    <style type="text/css">
-    	* { padding: 0; margin: 0; }
-    	canvas { background: #eee; display: block; margin: 0 auto; position: fixed; }
-        @import url('https://cdn.rawgit.com/singihae/Webfonts/master/style.css');
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        font-family:'BM JUA','배달의민족 주아',sans-serif;
+      }
+      @import url('https://cdn.rawgit.com/singihae/Webfonts/master/style.css');
         .jua {font-family:'BM JUA','배달의민족 주아',sans-serif;}
-        .hana{font-family:'BM HANNA','배달의민족 한나', sans-serif; }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="578" height="200"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+      var x = 80;
+      var y = 110;
 
-Hello World
-
-
-</body>
-</html>
+      context.font = '60pt BM JUA';
+      context.lineWidth = 3;
+      // stroke color
+      context.strokeStyle = 'blue';
+      context.strokeText('라이언의 수박서리!', x, y);
+    </script>
+  </body>
+</html>      
+    
+    
+    
+    
+    
