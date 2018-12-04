@@ -243,6 +243,35 @@ blockquote {
   margin-top: 80px;
 }
 
+.detail {
+  width: 40%;
+  min-width: 680px;
+  font-size: 18px;
+  /* display: flex;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-align-items: center; */
+  margin: 20px auto;
+  margin-top: 80px;
+  
+}
+
+
+.detail h2 {
+  margin-top: 40px;
+  
+}
+
+.detail h4 {
+  margin-top: 20px;
+  
+}
+
+.detail p {
+  font-size: 14px;
+  line-height: 1.8;
+
+}
 .publication {
   width: 60%;
   min-width: 840px;
@@ -331,9 +360,6 @@ blockquote {
   -ms-text-size-adjust: 100%;
 }
 
-.project h2 {
-  /* margin-top: 40px; */
-}
 
 .project .header {
   margin-bottom: 20px;
@@ -425,6 +451,18 @@ hr {
   height: 60%;
   margin: 0px;
   background: url(assets/emat-top.JPG) no-repeat center center fixed; 
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  flex-direction: column;
+}
+
+.vismorn {
+  width: 100%;
+  height: 60%;
+  margin: 0px;
+  background: url(assets/vismorn.png) no-repeat center center fixed; 
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
