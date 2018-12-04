@@ -190,7 +190,6 @@ blockquote {
   margin: auto;
   width: 100%;
   min-height: 100%; /*for mozilla */
-  margin: auto;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -232,8 +231,9 @@ blockquote {
 
 /*-- Project --------------------------------------------------*/
 .project {
-  width: 40%;
-  min-width: 680px;
+
+  width: 60%;
+  min-width: 840px;
   font-size: 18px;
   /* display: flex;
   align-items: center;
@@ -241,7 +241,17 @@ blockquote {
   -webkit-align-items: center; */
   margin: 20px auto;
   margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+
+  width: 60%;
+  min-width: 840px;
+  font-size: 18px;
 }
+
 
 .detail {
   width: 40%;
