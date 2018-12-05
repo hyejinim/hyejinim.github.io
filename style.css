@@ -416,11 +416,13 @@ blockquote {
 
 
 .teaser img {
-  width: 100%;
+  width:100%;
   height:auto;
   cursor: pointer;
   opacity: 1;
 }
+
+
 
 .teaser text-block {
     z-index:100;
@@ -430,6 +432,36 @@ blockquote {
     width: 100%;
 }
 
+.row2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  margin-top: 20px;
+}
+
+.row2 .teaser2 {
+  width: 20%;
+  display: inline;
+  float: left;
+}
+
+.row2 .teaser2 img {
+  width:40%;
+  height:auto;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.row2 .description2 {
+  display: inline;
+  width:95%;
+  float:right;
+  text-align:left;
+  /*align-self: center;*/
+  padding-left:5%;
+}
 .project .description {
   margin: 20px 0px;
   text-align: left;
