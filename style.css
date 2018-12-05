@@ -212,6 +212,13 @@ blockquote {
   margin: 0px auto;
 }
 
+.detail .column {
+  float: left;
+  width: 50%;
+  padding-right: 10px;
+  margin: 0px auto;
+}
+
 .row {
   width: 100%;
   min-width: 840px;
@@ -223,6 +230,16 @@ blockquote {
   position: relative;
 }
 
+.detail .row {
+  width: 100%;
+  min-width: 840px;
+  display: flex;
+  align-items: center;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  margin: 5px auto;
+  position: relative;
+}
 .wideRow {
   width: 100vw;
   min-width: 840px;
