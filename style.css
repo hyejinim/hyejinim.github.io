@@ -221,7 +221,7 @@ blockquote {
 
 .project .row {
   width: 100%;
-  min-width: 840px;
+  /* min-width: 640px; */
   display: flex;
   /* align-items: center; */
   /* display: -webkit-flex;
@@ -232,7 +232,7 @@ blockquote {
 
 .detail .row {
   width: 100%;
-  min-width: 840px;
+  /* min-width: 640px; */
   display: flex;
   /* align-items: center;
   display: -webkit-flex;
