@@ -15,288 +15,410 @@
 
   <link href="style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css"/> -->
-  <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"/> -->
-  <!-- Add the new slick-theme.css if you want the default styling -->
-  <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
-
   <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-
   <script src="script.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- for tooltip -->
-  <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
-
-  <title>Hyejin Im</title>
-
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- Tooltip -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130268891-1"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
 
-    gtag('config', 'UA-130268891-1');
-  </script>
+  gtag('config', 'UA-130268891-1');
+</script>
+  <title>Hyejin Im</title>
 </head>
 
 <body>
-  <div class="navbar" id="top">
-    <!-- <div class="title">Hyejin Im.</div> -->
+
+  <nav class="navbar" id="nav">
     <div class="menu">
-      <div class="dropdown">
-        <a class="item" href="#projects">Projects</a>
-        <!-- <div class="dropdown-content">
-          <a href="#programming">Research</a>
-          <a href="#design">Product Development</a>
-          <a href="#research">UX/UI Case Study</a>
-        </div> -->
-      </div>
+        <a class="item" href="#about">About</a>
+        <div class="dropdown">
+          <a class="item" href="#projects">Projects</a>
+          <div class="dropdown-content">
+            <a href="emat.html">E-Mat</a>
+            <a href="storyexplorer.html">StoryExplorer</a>
+            <a href="donare.html">Donare</a>
+            <a href="vismorn.html">Vismorn</a>
+            <a href="industry.html">Industrial Projects</a>
+            <a href="speakgo.html">Speak Go</a>
+            <a href="spacedog.html">Space Dog</a>
+            <a href="dataselfie.html">Data Selfie</a>
+            <a href="pci.html">Parent-Child Interaction Study</a>
+            <a href="bci.html">ScratchPad</a>
+          </div>
+        </div>
       <a class="item" href="#publications">Publications</a>
-      <!-- <a class="item" href="#top" >About</a> -->
       <a class="item" href="assets/hyejinim-resume.pdf" target="_blank">Resume</a>
     </div>
-  </div>
+  </nav>
 
-  <div class="full intro" id="top">
-      <div class="description">
-        <br /><br /><br /><br /><br /><br /><br /><br />
-        <h1>Hyejin Im.</h1> 
-        <br />A designer who codes, a daydreamer who makes things.
-        <br>
-        <br>I'm currently a research assistant at the HCI Lab and
-        <br>the DevTech Research Group at Tufts University.
-        <a class="button" href="assets/hyejinim-resume.pdf" target="_blank">
-          SEE RESUME <i class="fas fa-arrow-right"></i>
-        </a>
-      </div>
-  </div>
+  <header class="intro" id="intro">
+    <div class="container">
 
-  <!-- Projects --------------------------------------->
-  <div class="full" id="projects">
-    <div class="project" >
-        <h1>UI/UX Design</h1>
-        <!-- <div class="row">
-          <h1>Projects</h1>
-        </div> -->
       <div class="row">
         <div class="column">
-          <div class="teaser">
-            <video muted loop preload="metadata" autoplay>
-              <source src="assets/emat.mp4" type='video/mp4' alt="Video of Speak Go"/>
-            </video>
+          <br><br>
+          <h1>Hyejin Im</h1>
+          <h6>
+            RESEARCH ASSISTANT
+            <br> TUFTS UNIVERSITY
+            <br>
+            <div class="tooltip" style="margin-top:10px">
+              <span class="tooltiptext" id="myTooltip">Copy email</span>
+              <a href="#" style="font-weight:400" onclick="copyToClipboard('#myEmail')" onmouseout="outFunc()">
+              <i class="fa fa-envelope" aria-hidden="true" style="cursor: pointer"></i>
+              <span id="myEmail" style="cursor: pointer">hyejinim17@gmail.com</span></a>
+            </div>
+            <br>
+            <i class="fas fa-volume-up"></i> HEH-jin
+            </h6>
+            <!-- <a class="button" href="assets/hyejinim-resume.pdf" target="_blank">
+              SEE RESUME <i class="fas fa-arrow-right"></i>
+            </a> -->
           </div>
-        </div>
         <div class="column">
-          <div class="teaser">
-              <h2><a href="emat.html">E-Mat</a></h2>
-            <p>An Interactive Robot for Young Children's Emotional Development</p>
-            <h3>#Learning Technology #Child-Computer Interaction</h3>
+          <!-- <div class="teaser">
+            <img src="assets/me-1.JPG" alt="Photo of Hyejin">
+          </div> -->
+          <br>
+          <div class="center">
+            <img class="image--cover" src="assets/me-1.JPG" alt="Photo of Hyejin">
+            <!-- <p class="o" style="font-size: 10px; margin-top:0px"><a></a>A designer who codes, a daydreamer who makes things.</a></p> -->
           </div>
+          
         </div>
       </div>
+    </div>
+  </header>
 
-      <div class="row" style="cursor: pointer;" onclick="window.location='storyexplorer.html';">
-          <div class="column">
-            <div class="teaser">
-              <video muted loop preload="metadata" autoplay>
-                <source src="assets/storyexplorer.mp4" type='video/mp4' alt="Video of Speak Go"/>
-              </video>
-            </div>
-          </div>
-          <div class="column">
-            <div class="teaser">
-              <div class="text-block">
-                <h2><a href="storyexplorer.html">StoryExplorer</a></h2>
-                <p>An Interactive Tool that Visualizes a Nonlinear Narrative</p>
-                <h3>#Data Visualization #Research</h3>
-              </div>
-            </div>
-          </div>
-        </div>
+  
 
-      <div class="row" style="cursor: pointer;" onclick="window.location='donare.html';">
-          <div class="column">
-            <div class="teaser">
-                <img src="assets/donare.png" alt="Main Screen of Donare App">
-            </div>
-          </div>
-          <div class="column">
-            <div class="teaser">
-              <div class="text-block">
-                <h2><a href="donare.html">Donare</a></h2>
-                <p>The Easist Way of Donation to Causes You Care About</p>
-                <h3>#Mobile User Interface</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      <div class="row" style="cursor: pointer;" onclick="window.location='vismorn.html';">
-        <div class="column">
-          <div class="teaser">
-            <video muted loop preload="metadata" autoplay>
-              <source src="assets/vismorn.mp4" type='video/mp4' alt="Video of Speak Go"/>
-            </video>
-          </div>
-        </div>
-        <div class="column">
-          <div class="teaser">
-            <div class="text-block">
-              <h2><a href="vismorn.html">VisMorn</a></h2>
-              <p>A Goal-Oriented Morning Alarm Clock</p>
-              <h3>#Mobile User Interface #Behavior Change</h3>
-            </div>
-          </div>
-        </div>
+  <main>
+    <section class="about" id="about">
+      <div class="container">
+        <h2 style="text-align:center; margin-bottom:20px">ABOUT</h2>
+        <!-- <br />A designer who codes, a daydreamer who makes things. -->
+        
+        <p>
+          I am a user experience designer and researcher in the <a href="">HCI lab</a>
+          and the <a href="">DevTech research group</a> at <a href="">Tufts University</a>, working on
+          brain computer interfaces and educational technology for young children. 
+          Previously, I worked           at pxd in Seoul, Korea where I designed user 
+          interfaces of various digital products and conducted qualitative user research.
+        </p>
+        <p>
+          My research interests span <b>human-computer interaction and learning technology</b>. 
+          I think learning can be done in different ways as people have different personalities.
+          Exporing user interfaces to incoporate to learner's characteristics or learning settings,
+          I would like to help more people have access learning opportunities.
+        </p>
+        <p>
+          I recently finished the <a href="https://engineering.tufts.edu/cs/hci-certificate">
+            Human-Computer Interaction certificate program</a> at Tufts University,
+          where I learned about human factors, interface design, and programming.
+        </p>
       </div>
+    </section>
 
-      <div class="row" style="cursor: pointer;" onclick="window.location='industry.html';">
-          <div class="column">
-            <div class="teaser">
-                <img src="assets/industry.png" alt="A person wearing fNIRS sensors">
-            </div>
+    <section class="project" id="projects" >
+        <div class="container">
+            <h2 style="text-align:center; margin-bottom:20px">PROJECTS</h2>
+            <p style="text-align:center;"> Recent research, product design, and development</p>
+        <div class="row projectList" style="margin-top: 40px;">
+          <div class="column small">
+              <p class="projectTitle"><a href="emat.html">E-Mat</a></p>
+              <p class="projectLocation">CHSD114: CHILD AND NEW TECHNOLOGIES</p>
+              <div class=projectTags><span class="projectTag productDesign">product design</span></div>
           </div>
-          <div class="column">
-            <div class="teaser">
-              <div class="text-block">
-                <h2><a href="industry.html">Industrial Projects</a></h2>
-                <p>UI/UX Design for Various Digital Products</p>
-                <h3>#User Interface #User Research #Design Methodology</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <br><br>
-        <hr/>
-        <h1>Programming</h1>
-
-        <div class="row" style="cursor: pointer;" onclick="window.location='speakgo.html';">
-            <div class="column">
+          <div class="column big">
               <div class="teaser">
                 <video muted loop preload="metadata" autoplay>
-                  <source src="assets/speakgo.mp4" type='video/mp4' alt="Video of Speak Go"/>
+                  <source src="assets/emat.mp4" type='video/mp4' alt="Video of Speak Go" />
                 </video>
+                <div class="projectDescription">
+                    <p>E-Mat (Emotinal Mat) is an <b>interactive robot for children ages 4 to 7 to aid their emotional development in a social setting</b>.
+                      </p>
+                    <p>Following an iterative design process, I worked with team members from mechanical engineering and child development 
+                    to define project requirements, prototype and test our solution, and presented outcomes to faculty and students at our course's final project showcase.
+                  </p><p>
+                    My role was child-robot interaction and play curriculum design.</p>
+
+                  <div class=textButton><a href="emat.html"><i class="fas fa-eye"></i> SEE DETAILS</a></div>
+                </div>
               </div>
             </div>
-            <div class="column">
-              <div class="teaser">
-                <div class="text-block">
-                  <h2><a href="speakgo.html">Speak Go</a></h2>
-                  <p>A Speech Game that Enhances Memorizing with Playful and Engaging Learning</p>
-                  <h3>#Learning Technology #Speech Input</h3>
+        </div>
+
+        <div class="row projectList" >
+            <!-- style="cursor: pointer;" onclick="window.location='storyexplorer.html';" -->
+            <div class="column small">
+                  <div class="text-block">
+                    <p class="projectTitle"><a href="storyexplorer.html">StoryExplorer</a></p>
+                    <p class="projectLocation">DATA VISUALIZATION RESEARCH COLLABORATION</p>
+                    <div class=projectTags><span class="projectTag research">research</span></div>
                 </div>
+              </div>
+          <div class="column big">
+            <div class="teaser">
+              <video muted loop preload="metadata" autoplay>
+                <source src="assets/storyexplorer.mp4" type='video/mp4' alt="Video of Speak Go" />
+              </video>
+              <div class="projectDescription">
+                <p>StoryExplorer is an <b>interactive tool that visualizes a nonlinear narrative</b>.</p>
+                <p>Collaborating with a graduate researcher from Visual Computing Group at Harvard University, 
+                  I generated visualization sketches to reveal nonlinear narrative patterns in movie 
+                  scripts, and designed user interface of Story Explorer. </p>
+                <p>We used Story Explorer to analyze 10 popular nonlinear movies and 
+                  describe the spectrum of narrative patterns that we discovered, including some novel 
+                  patterns not previously described in the literature.</p>
+                  <div class="textButton">
+                      <a href="storyexplorer.html" target="_blank"><i class="fas fa-eye"></i> SEE DETAILS </a>
+                      <a href="https://storycurve.namwkim.org/file/paper.pdf" target="_blank"><i class="far fa-file-alt"></i> PAPER </a>
+                      <a href="https://storyexplorer.namwkim.org/" target="_blank"><i class="fas fa-gamepad"></i> SOFTWARE </a> 
+                    </div>
               </div>
             </div>
           </div>
+          
+        </div>
 
-          <div class="row" style="cursor: pointer;" onclick="window.location='spacedog.html';">
-              <div class="column">
-                <div class="teaser">
-                  <video muted loop preload="metadata" autoplay>
-                    <source src="assets/spacedog.mp4" type='video/mp4' alt="Video of Speak Go"/>
-                  </video>
+        <div class="row projectList">
+          <div class="column small">
+            <div class="text-block">
+                <p class="projectTitle"><a href="donare.html">Donare</a></p>
+                <p class="projectLocation">CS141: HUMAN-COMPUTER INTERACTION</p>
+              <div class=projectTags><span class="projectTag productDesign">product design</span></div>
+            </div>
+          </div>
+          <div class="column big">
+              <div class="teaser">
+                  <img src="assets/donare.png" alt="Main Screen of Donare App">
+                  <div class="projectDescription">
+                   <p>Donare is a <b>mobile application that helps people easily and delightfully donate items 
+                     to causes they care about</b>.</p>
+                     <p>Our team defined design goals, designed user interface 
+                       based on the heuristic evaluation, and improved our design through user testing. 
+                       </p>
+                     <p>My role was designing user interface (from sketch to medium-fidelity prototype) and information architecture, planning tests, and anlyzing the results. </p>
+                     <div class=textButton><a href="donare.html"><i class="fas fa-eye"></i> SEE DETAILS</a></div>
+                    </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="row projectList">
+            <div class="column small">
+                  <div class="text-block">
+                      <p class="projectTitle"><a href="vismorn.html">VisMorn</a></p>
+                      <p class="projectLocation">INTERACTION DESIGN SPECIALIZATION</p>
+                    <div class=projectTags><span class="projectTag productDesign">product design</span><span class="projectTag development">development</span></div>
                 </div>
               </div>
-              <div class="column">
+          <div class="column big">
+            <div class="teaser">
+              <video muted loop preload="metadata" autoplay>
+                <source src="assets/vismorn.mp4" type='video/mp4' alt="Video of Speak Go" />
+              </video>
+              <div class="projectDescription">
+                <p>Vismorn is a <b>goal-oriented morning alarm clock mobile application</b>.</p>
+                <p>This is my first side project where I experienced the whole HCI design process from defining needs and pain points to creating a high-fidelity prototype.</p>
+                <p>Vismorn is for people who struggle to wake up at a sceduled time. Instead of setting a single time to wake up as other 
+                  alarm clocks do, Vismorn provides two different times to set up, one for waking up and another for doing following task (e.g., go to work). </p>
+                  <div class=textButton><a href="vismorn.html"><i class="fas fa-eye"></i> SEE DETAILS</a></div>
+              </div>
+
+            </div>
+          </div>
+         
+        </div>
+
+        <div class="row projectList">
+          <div class="column small">
+            <div class="text-block">
+              <p class="projectTitle"><a href="industry.html">Industrial Projects</a></p>
+              <p class="projectLocation">PXD INC.</p>
+              <div class=projectTags><span class="projectTag productDesign">product design</span></div>
+            </div>
+          </div>
+          <div class="column big">
+              <div class="teaser">
+                <img src="assets/industry.png" alt="A person wearing fNIRS sensors">
+                <div class="projectDescription">
+                  <p>As a UX designer, I worked on <b>UI/UX design and qualitative user research </b>for 
+                    various clients in different industries such as SAMSUNG, LG Electronics, and SK Telecom.</p>
+                    <p>I experienced varying types of screen user interface such as mobile, tablet, web, home appliances
+                      including smart TV and washing machine.  </p>
+                      <p>I learned vital UX design methods to better understand users and design products: personas, scenarios, 
+                        affinity diagramming, journey maps, semi-structured interview, surveys, etc. </p>
+                  <div class=textButton><a href="industry.html"><i class="fas fa-eye"></i> SEE DETAILS</a></div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="row projectList">
+          <div class="column small">
+              <div class="text-block">
+                <p class="projectTitle"><a href="speakgo.html">Speak Go</a></p>
+                <p class="projectLocation">CS86: OBJECT-ORIENTED PROGRAMMING GRAPHICAL USER INTERFACE</p>
+                <div class=projectTags><span class="projectTag development">development</span></div>
+            </div>
+          </div>
+          <div class="column big">
+              <div class="teaser">
+                <video muted loop preload="metadata" autoplay>
+                  <source src="assets/speakgo.mp4" type='video/mp4' alt="Video of Speak Go" />
+                </video>
+                <div class="projectDescription">
+                  <p>
+                      Speak Go is a <b>speech game that enhances memorizing with playful and engaging learning</b>. 
+                      We implemented Web Speech API to make a voice controlled interface.
+                  </p>
+                  <p>My role was game design and development as well as 2D character and animation design.</p>
+                  <div class=textButton><a href="speakgo.html"><i class="fas fa-eye"></i> SEE DETAILS</a></div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="row projectList">
+          <div class="column small">
+              <div class="text-block">
+                <p class="projectTitle"><a href="spacedog.html">Space Dog</a></p>
+                <p class="projectLocation">CS86: OBJECT-ORIENTED PROGRAMMING GRAPHICAL USER INTERFACE</p>
+                <div class=projectTags><span class="projectTag development">development</span></div>
+            </div>
+          </div>
+          <div class="column big">
+              <div class="teaser">
+                <video muted loop preload="metadata" autoplay>
+                  <source src="assets/spacedog.mp4" type='video/mp4' alt="Video of Speak Go" />
+                </video>
+                <div class="projectDescription">
+                  <p>While I learned programming languages, I build a <b>3D simulation and a 2D game using Java and Javascript</b>
+                    applying the object-oriented programming concept. </p>
+                    <!-- <p>Space dog is a 3D simulation application of floating dogs in the space. I implemented Three.js to express it.</p>
+                  <p>Laika: Back to the Earth is a 2D game programmed in Java applying object-oriented programming concept. </p> -->
+                  <div class=textButton><a href="spacedog.html"><i class="fas fa-eye"></i> SEE DETAILS</a></div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="row projectList">
+          <div class="column small">
+              <div class="text-block">
+                <p class="projectTitle"><a href="dataselfie.html">DataSelfie</a></p>
+                <p class="projectLocation">DATA VISUALIZATION RESEARCH COLLABORATION</p>
+                <div class=projectTags><span class="projectTag research">research</span><span class="projectTag productDesign">product design</span></div>
+            </div>
+          </div>
+          <div class="column big">
+              <div class="teaser">
+                <video muted loop preload="metadata" autoplay>
+                  <source src="assets/dataselfie.mp4" type='video/mp4' alt="Video of Speak Go" />
+                </video>
+                <div class="projectDescription">
+                  <p>Data Selfie is <b>a tool to empower people to create a personalized visuals to represent data.</b></p>
+                  <p>We open coded 104 pieces of data visualizations and reflection text about hand-drawn data visualization process 
+                    recorded by two professional information designers during the 
+                    <a href="http://www.dear-data.com/theproject/">Dear Data</a> project.
+                    After then, we brainstormed useful featurees and created a system.</p>
+                    <p>My role was text analysis and user interface design.</p>
+                  <div class=textButton><a href="dataselfie.html"><i class="fas fa-eye"></i> SEE DETAILS</a></div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="row projectList">
+          <div class="column small">
+              <div class="text-block">
+                <p class="projectTitle"><a href="pci.html">Parent-Child Interaction Study</a></p>
+                <p class="projectLocation">DEVTECH RESEARCH GROUP</p>
+                <div class=projectTags><span class="projectTag research">research</span></div>
+            </div>
+          </div>
+          <div class="column big">
+              <div class="teaser">
+                <img src="assets/PCI.jpg" alt="A kid playing with KIBO, a robotics kit">
+                <div class="projectDescription">
+                  <p>We studied <b>parent-child interaction in coding learning settings </b>to see 
+                    how the collaborative learning experience with open-ended coding platforms affect child's development as well 
+                    as computational thinking. 
+                    </p>
+                    <p>We analyzed Family Coding Days videos and extracted five roles they engaged during the play.</p>
+                  <div class=textButton><a href="pci.html"><i class="fas fa-eye"></i> SEE DETAILS</a></div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+        <div class="row projectList">
+          <div class="column small">
+              <div class="text-block">
+                <p class="projectTitle"><a href="bci.html">ScratchPad</a></p>
+                <p class="projectLocation">HCI LAB</p>
+                <div class=projectTags><span class="projectTag research">research</span></div>
+               </div>
+              </div>
+            <div class="column big">
                 <div class="teaser">
-                  <div class="text-block">
-                    <h2><a href="spacedog.html">Space Dog</a></h2>
-                    <p>Computational Expressions and Game</p>
-                    <h3>#Java #Javascript</h3>
+                  <img src="assets/bci-01.JPG" alt="A person wearing fNIRS sensors">
+                  <div class="projectDescription">
+                    <p>ScratchPad is a memory prosthesis application using brain sensing measured by fNIRS
+                      (Functional near-infrared spectroscopy). </p>
+                    <p>I am assisting literature research, experimental design, and brain-computer interface design. 
+                    </p>
+                    <div class=textButton><a href="bci.html"><i class="fas fa-eye"></i> SEE DETAILS</a></div>
                   </div>
                 </div>
               </div>
-            </div>
-            <br><br>
-            <hr id="research">
-        <h1 >Ongoing Research</h1>
+          </div>
+        </section>
 
-        <div class="row" style="cursor: pointer;" onclick="window.location='dataselfie.html';">
-            
-            <div class="column">
-              <div class="teaser">
-                <video muted loop preload="metadata" autoplay>
-                  <source src="assets/dataselfie.mp4" type='video/mp4' alt="Video of Speak Go"/>
-                </video>
+        <section class="publications" id="publications" >
+          <div class="container">
+              <h2 style="text-align:center; margin-bottom:20px">PUBLICATIONS</h2>
+              <div class=publicationList>
+                <p class="title">DataSelfie: Empowering People to Design Personalized Visuals to Represent Their Data</p>
+                Nam Wook Kim, <b>Hyejin Im</b>, Nathalie Henry Riche, Alicia Wang, Krzysztof Z. Gajos,
+                Hanspeter Pfister 
+                <p class="i">ACM CHI 2019 Human Factors in Computing Systems Conference (To Appear)</p>
               </div>
-            </div>
-            <div class="column">
-              <div class="teaser">
-                <div class="text-block">
-                  <h2><a href="dataselfie.html">DataSelfie</a></h2>
-                  <p>A Personalized Visualization Tool for Your Own Data</p>
-                  <h3>#Data Visualization #Research</h3>
-                </div>
+              <div class=publicationList>
+                  <p class="title">Visualizing Nonlinear Narratives with Story Curves</p>
+                  Nam Wook Kim, Benjamin Bach, <b>Hyejin Im</b>, Sasha Schriber, Markus Gross, Hanspeter Pfister 
+                  <p class="i" style="margin-bottom:5px">IEEE InfoVis 2017 Transactions on Visualization and Computer Graphics</p>
+                  <div class="textButton">
+                    <a href="https://storycurve.namwkim.org/file/paper.pdf" target="_blank"><i class="far fa-file-alt"></i> PAPER </a>
+                    <a href="https://storyexplorer.namwkim.org/" target="_blank"><i class="fas fa-gamepad"></i> SOFTWARE </a> 
+                    <a href="https://storycurve.namwkim.org/" target="_blank"><i class="fas fa-eye"></i> WEBPAGE </a>
+                  </div>
+               </div>
               </div>
-            </div>
-          </div>
+           </section>
+       
+          
 
-      <div class="row" >
-          <!-- style="cursor: pointer;" onclick="window.location='pci.html';" -->
-        <div class="column">
-          <div class="teaser">
-            <img src="assets/PCI.jpg" alt="A kid playing with KIBO, a robotics kit">
-          </div>
-        </div>
-        <div class="column">
-          <div class="teaser">
-            <div class="text-block">
-              <h2>Parent-Child Interaction Study</h2>
-              <p>Effects of Different User Interfaces of Technology on Children's Coding Leaning Experience</p>
-              <h3>#Learning Technology #Research</h3>
-            </div>
-          </div>
-        </div>
       </div>
-
-
-      <div class="row" >
-          <!-- style="cursor: pointer;" onclick="window.location='bci.html';" -->
-        <div class="column">
-          <div class="teaser">
-            <img src="assets/BCI.png" alt="A person wearing fNIRS sensors">
-          </div>
-        </div>
-        <div class="column">
-          <div class="teaser" >
-            <div class="text-block">
-              <h2>Memory Prosthesis Application Study</h2>
-              <p>Implicit Brain-Computer Interfaces for Memory Prosthesis</p>
-              <h3>#Brain-Computer Interface #Research</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="publication" style="margin-top: 40px" id="publications">
-          <hr/>
-          <h1>Publications</h1>
-        <div>
-          <br />Nam Wook Kim, <b>Hyejin Im</b>, Nathalie Henry Riche, Alicia Wang, Krzysztof Z. Gajos, 
-          Hanspeter Pfister. <br>“DataSelfie: Empowering People to Design Personalized Visuals to Represent 
-          Their Data”. <i>ACM CHI 2019 Human Factors in Computing Systems Conference (2019).</i> — Conditionally Accepted
-          <br />
-        </div>
-  
-        <div>
-          <br />Nam Wook Kim, Benjamin Bach, <b>Hyejin Im</b>, Sasha Schriber, Markus Gross, Hanspeter Pfister. 
-          <br>“Visualizing Nonlinear Narratives with Story Curves”. <i>IEEE InfoVis 2017 Transactions 
-            on Visualization and Computer Graphics (2017).</i> <a href="https://storycurve.namwkim.org/file/paper.pdf" target="_blank">[pdf]</a>, 
-            <a href="https://storyexplorer.namwkim.org/" target="_blank">[demo]</a>, <a href="https://storycurve.namwkim.org/" target="_blank">[project page]</a>
-  
-          <br />
-          </div>
-          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        </div>
-
-
     </div>
   </div>
-</div>
-
+</main>
+<footer class="footer dark">
+  <div class="container">
+    <p>DESIGNED AND BUILD BY <a href="#intro">HYEJIN IM</a></p>
+  </div>
+</footer>
+<script defer="defer" type="text/javascript">smoothScroll.init();
+</script>
 
 </body>
 

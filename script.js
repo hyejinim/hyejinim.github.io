@@ -34,9 +34,11 @@ function copyToClipboard(element) {
 
   var tooltip = document.getElementById("myTooltip");
   tooltip.innerHTML = "Copied!";
+
 }
 
 function outFunc() {
   var tooltip = document.getElementById("myTooltip");
   tooltip.innerHTML = "Copy email";
+
 }
