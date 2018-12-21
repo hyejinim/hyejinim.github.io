@@ -206,7 +206,7 @@ a:hover {
 } */
 
 h1 {
-  font-family: "Roboto Mono", "Futura", "Trebuchet MS", Arial, sans-serif;
+  font-family:  "Futura","Roboto Mono", "Trebuchet MS", Arial, sans-serif;
   font-style: normal;
   font-variant: normal;
   font-size: 40px;
@@ -216,7 +216,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Roboto Mono","Futura", "Trebuchet MS", Arial, sans-serif;
+  font-family:  "Futura","Roboto Mono","Futura", "Trebuchet MS", Arial, sans-serif;
   font-size: 28px;
   font-style: normal;
   font-variant: normal;
@@ -226,12 +226,15 @@ h2 {
 }
 
 h3 {
-  font-family: "Roboto Mono","Futura Lt BT", "Trebuchet MS", Arial, sans-serif;
-  font-size: 14px;
+  font-family:  "Roboto Mono","Futura Lt BT", "Trebuchet MS", Arial, sans-serif;
+  /* font-size: 14px;
   font-weight: 500;
-  line-height: 25px;
+  line-height: 25px; */
   margin: 0;
   color: #777;
+  font-size:0.8rem;
+  letter-spacing:1px;
+  margin-bottom:10px;
 }
 
 h6 {
@@ -299,7 +302,7 @@ span.author {
 .projectLocation{
   font-size:0.8rem;
   letter-spacing:1px;
-  margin-bottom:10px
+  margin-bottom:10px;
 }
 
 /* .teaser__wrap {
@@ -360,7 +363,7 @@ span.author {
   margin-bottom:10px
 }
 .publicationTitle {
-  font-family: "Roboto Mono","Futura", "Trebuchet MS", Arial, sans-serif;
+  font-family:  "Futura","Roboto Mono","Futura", "Trebuchet MS", Arial, sans-serif;
   font-size: 14px;
   font-style: normal;
   font-variant: normal;
@@ -376,7 +379,7 @@ span.author {
   width: 70%;
 }
 .projectTitle {
-  font-family: "Roboto Mono","Futura", "Trebuchet MS", Arial, sans-serif;
+  font-family:  "Futura","Roboto Mono","Futura", "Trebuchet MS", Arial, sans-serif;
   font-size: 24px;
   font-style: normal;
   font-variant: normal;
@@ -866,7 +869,7 @@ hr {
   /* margin: 0px; */
   /* background-color: #E8F5E9; */
   padding: 20px;
-  height: 50%;
+  /* height: 50%; */
   /* vertical-align: middle; */
   /* background: linear-gradient(
     rgba(0, 0, 0, 0.4),
@@ -979,7 +982,7 @@ hr {
   -webkit-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
-  font-family: "Roboto Mono","futura_bkbook", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family:  "Futura","Roboto Mono","futura_bkbook", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   width: 60%;
 }
 
