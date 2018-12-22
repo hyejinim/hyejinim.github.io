@@ -77,9 +77,14 @@ section p:last-child{
 
 .about {
   padding:20px;
-  background-color:#9dfcd4;
-  /* light green: eafae8, emerald green: 70e6c2,
+  background-color:#fff;
+  /* light green: adfada, eafae8, emerald green: 70e6c2,
    light skyblue: eefafa, skyblue: d3f2f5*/
+}
+
+.news {
+  padding:20px;
+  background-color:#fbfde2;
 }
 
 .projects {
