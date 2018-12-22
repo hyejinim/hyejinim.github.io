@@ -12,82 +12,60 @@
     <meta property="og:image:height" content="600">
     <meta property="og:image:height" content="600">
     <meta property="og:title" content="Hyejin Im">
-    
+
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css"/> -->
-    <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"/> -->
-    <!-- Add the new slick-theme.css if you want the default styling -->
-    <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
-    
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-    
+
     <script src="script.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- for tooltip -->
-    <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
-    
     <title>Hyejin Im</title>
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130268891-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        
-        gtag('config', 'UA-130268891-1');
-    </script>
 </head>
 
 <body>
-        <nav class="navbar" id="nav">
-                <div class="menu">
-                    <a class="item" href="index.html">About</a>
-                    <div class="dropdown">
-                      <a class="item" href="index.html#projects">Projects</a>
-                      <div class="dropdown-content">
-                        <a href="emat.html">E-Mat</a>
-                        <a href="storyexplorer.html">StoryExplorer</a>
-                        <a href="donare.html">Donare</a>
-                        <a href="vismorn.html">Vismorn</a>
-                        <a href="industry.html">Industrial Projects</a>
-                        <a href="speakgo.html">Speak Go</a>
-                        <a href="spacedog.html">Space Dog</a>
-                        <a href="dataselfie.html">Data Selfie</a>
-                        <a href="pci.html">Parent-Child Interaction Study</a>
-                        <a href="bci.html">ScratchPad</a>
-                      </div>
-                    </div>
-                  <a class="item" href="index.html#publications">Publications</a>
-                  <a class="item" href="assets/hyejinim-resume.pdf" target="_blank">Resume</a>
+    <nav class="navbar line" id="nav">
+        <div class="menu">
+            <a class="item" href="index.html">About</a>
+            <div class="dropdown">
+                <a class="item" href="index.html#projects">Projects</a>
+                <div class="dropdown-content">
+                    <a href="emat.html">E-Mat</a>
+                    <a href="storyexplorer.html">StoryExplorer</a>
+                    <a href="donare.html">Donare</a>
+                    <a href="vismorn.html">Vismorn</a>
+                    <a href="industry.html">Industrial Projects</a>
+                    <a href="speakgo.html">Speak Go</a>
+                    <a href="spacedog.html">Space Dog</a>
+                    <a href="dataselfie.html">Data Selfie</a>
+                    <a href="pci.html">Parent-Child Interaction Study</a>
+                    <a href="bci.html">ScratchPad</a>
                 </div>
-              </nav>
-    
-    <!-- <div class="half storyexplorer" id="top">
-    </div> -->
-    
-    <div class="full sub">
-        <div class="detail" style="margin-top: 40px">
+            </div>
+            <a class="item" href="index.html#publications">Publications</a>
+            <a class="item" href="assets/hyejinim-resume.pdf" target="_blank">Resume</a>
+        </div>
+    </nav>
+
+    <div class="details" id="top">
+        <div class="container" style="margin-top: 10px">
             <div class="center">
                 <h1><b>StoryExplorer</b></h1>
-                
-                <h3>Jan 2017 - Mar 2017</h3>
+                <h6>JAN 2017 - MAR 2017</h6>
             </div>
-                
-                
+
             <div class="figure">
                 <video muted loop preload="metadata" autoplay>
-                    <source src="assets/storyexplorer.mp4" type='video/mp4' alt="Video of Speak Go"/>
+                    <source src="assets/storyexplorer.mp4" type='video/mp4' alt="Video of Speak Go" />
                 </video>
             </div>
 
             <div class="row">
-                <div class="column" style="width:50%">
+                <div class="column">
                     <H2>OVERVIEW</H2>
                     <p> StoryExplorer is an interactive tool that visualizes a nonlinear narrative.
-                </p>
+                    </p>
                 </div>
                 <div class="column">
                     <h2>MY ACTIVITIES</h2>
@@ -104,48 +82,50 @@
                 </div>
             </div>
             <hr>
-
-
-
-
-
-
-            <!-- <br> -->
-            <p> Collaborating with a graduate researcher from Visual Computing Group at Harvard 
-                University, I generated visualization sketches to reveal nonlinear narrative 
-                patterns in movie scripts, and designed user interface of Story Explorer. 
-                Story Explorer provides a script curation interface that allows users to specify 
-                the chronological order of events in movies. We used Story Explorer to analyze 
-                10 popular nonlinear movies and describe the spectrum of narrative patterns that 
-                we discovered, including some novel patterns not previously described in the 
+            <p> Collaborating with a graduate researcher from Visual Computing Group at Harvard
+                University, I generated visualization sketches to reveal nonlinear narrative
+                patterns in movie scripts, and designed user interface of Story Explorer.
+                Story Explorer provides a script curation interface that allows users to specify
+                the chronological order of events in movies. We used Story Explorer to analyze
+                10 popular nonlinear movies and describe the spectrum of narrative patterns that
+                we discovered, including some novel patterns not previously described in the
                 literature.
             </p>
+            <!-- <div class="textButton">
+                <a href="https://storycurve.namwkim.org/file/paper.pdf" target="_blank"><i class="far fa-file-alt"></i>
+                    PAPER </a>
+                <a href="https://storyexplorer.namwkim.org/" target="_blank"><i class="fas fa-gamepad"></i> SOFTWARE
+                </a>
+                <a href="https://storycurve.namwkim.org/" target="_blank"><i class="fas fa-eye"></i> WEBPAGE </a>
+            </div> -->
             <a class="button" href="https://storyexplorer.namwkim.org/" target="_blank">
-                OPEN STORY EXPLORER <i class="fas fa-arrow-right"></i></a>
-                
+                <i class="far fa-file-alt"></i> READ PAPER</a>
+            <a class="button" href="https://storyexplorer.namwkim.org/" target="_blank">
+                <i class="fas fa-gamepad"></i> OPEN STORY EXPLORER <i class="fas fa-arrow-right"></i></a>
 
-            <hr/>
-            <H2>USER INTERFACE OT STORY EXPLORER</H2>
+
+            <hr>
+            <H2>USER INTERFACE OF STORY EXPLORER</H2>
             <div class="figure">
                 <img src="assets/storyexplorer-02.png" alt="Emotional development">
             </div>
 
-            <hr/>
+            <hr>
             <H2>DESIGN PROCESS</H2>
             <div class="row">
                 <div class="column">
                     <div class="figure">
                         <img src="assets/storyexplorer-01.png" alt="Emotional development">
                     </div>
-                    <p>Tested Various Visualization Techniques with Movie Script</p>
+                    <h3>Tested Various Visualization Techniques with Movie Script</h3>
                 </div>
                 <div class="column">
                     <div class="figure">
                         <video muted loop preload="metadata" autoplay>
-                            <source src="assets/storycurves.mp4" type='video/mp4' alt="Video of Speak Go"/>
+                            <source src="assets/storycurves.mp4" type='video/mp4' alt="Video of Speak Go" />
                         </video>
                     </div>
-                    <p>Developed Story Curves</p>
+                    <h3>Developed Story Curves</h3>
                 </div>
             </div>
             <div class="row" style="margin-top: 20px">
@@ -153,24 +133,24 @@
                     <div class="figure">
                         <img src="assets/storyexplorer-05.png" alt="Emotional development">
                     </div>
-                    <p>Paper Prototype of Story Explorer</p>
+                    <h3>Paper Prototype of Story Explorer</h3>
                 </div>
                 <div class="column">
                     <div class="figure">
                         <img src="assets/storyexplorer-06.png" alt="Emotional development">
                     </div>
-                    <p>User Interface Design of Story Explorer</p>
+                    <h3>User Interface Design of Story Explorer</h3>
                 </div>
-            </div> 
+            </div>
 
-            <hr/>
+            <hr>
             <H2>FEATURES</H2>
             <div class="row">
                 <div class="column">
                     <div class="figure">
                         <img src="assets/storyexplorer-03.png" alt="Emotional development">
                     </div>
-                    <p>Reconstruction the Chronological Order of Scenes</p>
+                    <h3>Reconstruction the Chronological Order of Scenes</h3>
                     <!-- <p>We used the script reading interface in Story Explorer to reconstruct the arrangement of the scenes in chronological order. 
                         We watched the movies, and read synopsis and other resources to figure out the casual order of the scenes. 
                     </p> -->
@@ -181,22 +161,23 @@
                             <img src="assets/storyexplorer-09.png" alt="Emotional development">
                         </div>
                     </div>
-                    <p>Visual Exploration of Movie Scripts</p>
-                   
+                    <h3>Visual Exploration with Movie Scripts</h3>
+
                 </div>
-               
+
                 <div class="column">
                     <div class="figure">
                         <img src="assets/storyexplorer-04.png" alt="Emotional development">
                     </div>
-                    <p>Scene Understanding with Complementary Information: Characters (Gender, Sentiment), Location, Time)</p>
+                    <h3>Scene Understanding with Complementary Information: Characters (Gender, Sentiment, Location,
+                        Time)</h3>
                     <!-- <p>Color coding of gender, sentiment, and characters</p> -->
                 </div>
-            </div> 
+            </div>
 
-            
 
-            <hr/>
+
+            <hr>
             <H2>NONLINEAR NARRATIVE PATTERNS BY STORY CURVE</H2>
             <!-- <div class="figure">
                     <img src="assets/storyexplorer-00.png" alt="Emotional development">
@@ -212,7 +193,7 @@
                         <img src="assets/storycurves-02.png" alt="Emotional development">
                     </div>
                 </div>
-            </div> 
+            </div>
             <div class="row">
                 <div class="column">
                     <div class="figure">
@@ -224,33 +205,30 @@
                         <img src="assets/storycurves-04.png" alt="Emotional development">
                     </div>
                 </div>
-            </div> 
+            </div>
 
-
-
-            <a class="button" href="https://storycurve.namwkim.org/" target="_blank">
-                OPEN PROJECT WEBSITE <i class="fas fa-arrow-right"></i>
-            </a>
-                    
-                <hr/>
+            <hr>
             <h2>PUBLICATION</h2>
-            <p>Nam Wook Kim, Benjamin Bach, <b>Hyejin Im</b>, Sasha Schriber, Markus Gross, Hanspeter Pfister. 
-            <br>“Visualizing Nonlinear Narratives with Story Curves”. <i>IEEE InfoVis 2017 Transactions 
-                on Visualization and Computer Graphics (2017).</i> </p>
-            
-            <a class="button" href="https://storycurve.namwkim.org/file/paper.pdf" target="_blank">
-                SEE PAPER <i class="fas fa-arrow-right"></i>
+            <p class="title">Visualizing Nonlinear Narratives with Story Curves</p>
+            <p>Nam Wook Kim, Benjamin Bach, <b>Hyejin Im</b>, Sasha Schriber, Markus Gross, Hanspeter Pfister</p>
+            <p class="i" style="margin-bottom:5px">IEEE InfoVis 2017 Transactions on Visualization and Computer
+                Graphics</p>
+            <a class="fullButton center" href="donare.html">
+                <h6>Next</h6>
+                <h1>Donare</h1>
             </a>
-            <div class="center">
-                    <a class="fullbutton" href="donare.html">
-                   Next: Donare</a>
-                    
-                </div>
-            <br><br><br><br>
-            
-                
-                
-
         </div>
-    </body>
-    </html>
+    </div>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130268891-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130268891-1');
+    </script>
+</body>
+
+</html>

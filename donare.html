@@ -12,78 +12,59 @@
     <meta property="og:image:height" content="600">
     <meta property="og:image:height" content="600">
     <meta property="og:title" content="Hyejin Im">
-    
+
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css"/> -->
-    <!-- <link rel="stylesheet" type="text/css" href="slick/slick.css"/> -->
-    <!-- Add the new slick-theme.css if you want the default styling -->
-    <!-- <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/> -->
-    
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
-    
+
     <script src="script.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- for tooltip -->
-    <!-- <script type="text/javascript" src="slick/slick.min.js"></script> -->
-    
     <title>Hyejin Im</title>
-    
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130268891-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        
-        gtag('config', 'UA-130268891-1');
-    </script>
 </head>
 
 <body>
-        <nav class="navbar" id="nav">
-                <div class="menu">
-                    <a class="item" href="#about">About</a>
-                    <div class="dropdown">
-                      <a class="item" href="index.html#projects">Projects</a>
-                      <div class="dropdown-content">
-                        <a href="emat.html">E-Mat</a>
-                        <a href="storyexplorer.html">StoryExplorer</a>
-                        <a href="donare.html">Donare</a>
-                        <a href="vismorn.html">Vismorn</a>
-                        <a href="industry.html">Industrial Projects</a>
-                        <a href="speakgo.html">Speak Go</a>
-                        <a href="spacedog.html">Space Dog</a>
-                        <a href="dataselfie.html">Data Selfie</a>
-                        <a href="pci.html">Parent-Child Interaction Study</a>
-                        <a href="bci.html">ScratchPad</a>
-                      </div>
-                    </div>
-                  <a class="item" href="index.html#publications">Publications</a>
-                  <a class="item" href="assets/hyejinim-resume.pdf" target="_blank">Resume</a>
+    <nav class="navbar line" id="nav">
+        <div class="menu">
+            <a class="item" href="index.html">About</a>
+            <div class="dropdown">
+                <a class="item" href="index.html#projects">Projects</a>
+                <div class="dropdown-content">
+                    <a href="emat.html">E-Mat</a>
+                    <a href="storyexplorer.html">StoryExplorer</a>
+                    <a href="donare.html">Donare</a>
+                    <a href="vismorn.html">Vismorn</a>
+                    <a href="industry.html">Industrial Projects</a>
+                    <a href="speakgo.html">Speak Go</a>
+                    <a href="spacedog.html">Space Dog</a>
+                    <a href="dataselfie.html">Data Selfie</a>
+                    <a href="pci.html">Parent-Child Interaction Study</a>
+                    <a href="bci.html">ScratchPad</a>
                 </div>
-              </nav>
-    
-    <!-- <div class="half storyexplorer" id="top">
-    </div> -->
-    
-    <div class="full sub">
-        <div class="detail" style="margin-top: 40px">
+            </div>
+            <a class="item" href="index.html#publications">Publications</a>
+            <a class="item" href="assets/hyejinim-resume.pdf" target="_blank">Resume</a>
+        </div>
+    </nav>
+
+    <div class="details" id="top">
+        <div class="container" style="margin-top: 10px">
             <div class="center">
                 <h1><b>Donare</b></h1>
-                
-                <h3>Sep 2017 - Dec 2017 </h3>
+
+                <h6>SEP 2017 - DEC 2017 </h6>
             </div>
             <br>
             <div class="figure">
-                    <img src="assets/donare.png" alt="Main Screen of Donare App">
+                <img src="assets/donare.png" alt="Main Screen of Donare App">
             </div>
 
             <div class="row">
-                <div class="column" style="width:50%">
+                <div class="column">
                     <H2>OVERVIEW</H2>
-                    <p> Donare is a mobile application that helps people easily and delightfully donate irems to causes they care about.
+                    <p> Donare is a mobile application that helps people easily and delightfully donate irems to causes
+                        they care about.
                     </p>
                 </div>
                 <div class="column">
@@ -97,67 +78,38 @@
                 <div class="column">
                     <h2>CONTEXT</h2>
                     <p></b>CS171: Human-Computer Interaction, Tufts University
-                    <br> Team: Vivien Chen, Joseph, Kam Chan Kang, Behnam
-
+                        <br> Team: Vivien Chen, Joseph, Kam Chan Kang, Behnam
                     </p>
                 </div>
-                
             </div>
+            <hr>
 
-            <!-- <hr>
-            <H2>DESIGN PROCESS</H2>
-            <div class="row">
-                    <div class="column">
-                        <h4>Research</h4>
-                        <p> • Competitive Analysis  <br>• Literature Research </p>
-                    </div>
-                    <div class="column">
-                        <h4>Ideation</h4>
-                        <p>• Brainstorming Ideas<br>• Sketching Product</p>
-                    </div>
-                    <div class="column">
-                        <h4>Prototyping</h4>
-                        <p>• Hardware Implementation <br>• Product & Curriculum Design</p>
-                    </div>
-                    <div class="column">
-                        <h4>Evaluaton</h4>
-                        <p>• Usability Testing<br>• Co-designing with Children</p>
-                    </div>
-                </div> -->
-
-            <hr/>
-            
             <H2>THE OPPORTUNITY</H2>
             <div class="figure">
-                    <img src="assets/donare-01.png" alt="">
+                <img src="assets/donare-01.png" alt="">
             </div>
             <div class="row">
                 <div class="column" style="margin-right: 10px;">
-                    
                     <h4>User Side</h4>
-                    <p>
-                        <ul>
-                        <li>Often times, people have the heart to donate but are not aware of which charities are out there </li>
-                        <li>People do not have the time to actively seek them out</li>
-                        </ul>
-                   </p>
+                    <p>• Often times, people have the heart to donate but are not aware of which charities are
+                        out there
+                        <br>• People do not have the time to actively seek them out
+                    </p>
                 </div>
                 <div class="column" style="margin-left: 10px;">
-                  
+
                     <h4>Charity Side</h4>
-                    <p>
-                        <ul>
-                            <li>Oharities often receive donations that are irrelevant/ unneeded for their cause</li>
-                            <li>Charity organizations need more donations </li>
-                        </ul>
+                    <p>• Oharities often receive donations that are irrelevant/ unneeded for their cause</li>
+                        <br> • Charity organizations need more donations
                     </p>
                 </div>
             </div>
 
-            <hr/>
+            <hr>
             <H2>FINAL DESIGN</H2>
             <div class="figure">
-                <iframe style="border: none;" width="400" height="900" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRU6pI9RGl3tpnqhSJihvUm%2FFinal%3Fnode-id%3D0%253A1%26scaling%3Dmin-zoom" allowfullscreen></iframe>
+                <iframe style="border: none;" width="300" height="840" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FRU6pI9RGl3tpnqhSJihvUm%2FFinal%3Fnode-id%3D0%253A1%26scaling%3Dmin-zoom"
+                    allowfullscreen></iframe>
             </div>
 
             <hr>
@@ -178,31 +130,31 @@
                 </div>
             </div>  -->
 
- 
+
 
             <div class="figure">
-                    <img src="assets/donare-02.png" alt="">
+                <img src="assets/donare-02.png" alt="">
             </div>
             <div class="figure">
-                    <img src="assets/donare-03.png" alt="">
+                <img src="assets/donare-03.png" alt="">
             </div>
             <div class="figure">
-                    <img src="assets/donare-04.png" alt="">
+                <img src="assets/donare-04.png" alt="">
             </div>
 
             <hr>
             <h2>MAIN USER FLOW</h2>
             <div class="figure">
-                    <img src="assets/donare-05.png" alt="">
+                <img src="assets/donare-05.png" alt="">
             </div>
             <div class="figure">
-                    <img src="assets/donare-06.png" alt="">
+                <img src="assets/donare-06.png" alt="">
             </div>
             <div class="figure">
-                    <img src="assets/donare-07.png" alt="">
+                <img src="assets/donare-07.png" alt="">
             </div>
             <hr>
-            
+
             <H2>DESIGN</H2>
             <h4>Storyboards</H4>
             <div class="figure">
@@ -224,8 +176,8 @@
                         <img src="assets/donare-09.png" alt="">
                     </div>
                 </div>
-            </div> 
-            
+            </div>
+
             <h4>Wireframe</H4>
             <div class="figure">
                 <img src="assets/donare-12.png" alt="">
@@ -234,10 +186,10 @@
             <H2>EVALUATION</H2>
             <div class="row">
                 <div class="column">
-                        <h4 style="margin-bottom:10px">1st Evaluation: Paper Prototype</h4>
+                    <h4 style="margin-bottom:10px">1st Evaluation: Paper Prototype</h4>
                     <div class="figure">
                         <video muted loop preload="metadata" autoplay>
-                            <source src="assets/donare-paper.mp4" type='video/mp4' alt=""/>
+                            <source src="assets/donare-paper.mp4" type='video/mp4' alt="" />
                         </video>
                     </div>
                 </div>
@@ -254,7 +206,7 @@
                         <br>• How easy was it to use to achieve your goal? (5 easiest): <i>3.9 to 4.66 (+.76)</i>
                         <br>• Did you like the experience of using the app? (1 to 5): <i> 3.8 to 4.33 (+.53)</i>
                     </p> -->
-                    
+
                 </div>
             </div>
 
@@ -266,9 +218,10 @@
                         <img src="assets/donare-14.png" alt="">
                     </div>
                     <h4>Sharing donation needs with friends
-                        </h4>
+                    </h4>
                     <p>
-                        Sometimes, those around you may need what you are trying to donate. With this feature, you could help those around you who you didn't know needed help.
+                        Sometimes, those around you may need what you are trying to donate. With this feature, you
+                        could help those around you who you didn't know needed help.
                     </p>
                 </div>
                 <div class="column">
@@ -277,7 +230,9 @@
                     </div>
                     <h4>Thank you messages from recipients</h4>
                     <p>
-                        We as humans can only be so altruistic. A thank you from the charities / recipients of the donations would be very rewarding to the users, which would motivate them to utilize our service more.
+                        We as humans can only be so altruistic. A thank you from the charities / recipients of the
+                        donations would be very rewarding to the users, which would motivate them to utilize our
+                        service more.
                     </p>
                 </div>
                 <div class="column">
@@ -286,25 +241,28 @@
                     </div>
                     <h4>Timeline news of liked charities or topics</h4>
                     <p>
-                        By providing updates regarding the charities that the user has liked, the user can be continuously engaged, preventing the experience becoming a one-time use.
+                        By providing updates regarding the charities that the user has liked, the user can be
+                        continuously engaged, preventing the experience becoming a one-time use.
                     </p>
                 </div>
             </div>
-            
-            <div class="center">
-                    <a class="fullbutton" href="vismorn.html">
-                   Next: Vismorn</a>
-                    
-                </div>
-           
-            
 
-            
-            <br><br><br><br>
-            
-                
-                
+            <a class="fullButton center" href="vismorn.html">
+                <h6>Next</h6>
+                <h1>Vismorn</h1>
+            </a>
 
         </div>
-    </body>
-    </html>
+    </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130268891-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130268891-1');
+    </script>
+</body>
+
+</html>
