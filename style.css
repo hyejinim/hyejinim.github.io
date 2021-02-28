@@ -196,7 +196,11 @@ a:hover {
 .textButton{
   font-size: 14px;
   letter-spacing:1px;
-  margin-bottom:10px
+  margin-bottom: 20px
+}
+
+.textButton a{
+  margin-right: 10px;
 }
 
 .button {
@@ -501,8 +505,8 @@ blockquote {
 }
 
 .teaser:hover img {
-  visibility: hidden;
-  opacity: 0;
+  visibility: visible;
+  opacity: 1;
 }
 
 .teaser:hover .projectDescription {
@@ -663,7 +667,7 @@ hr {
     opacity: 1;
   }
   .figure {
-    margin-top: 10px;"
+    margin-top: 10px;
   }
   .button {
     max-width: 100%;
