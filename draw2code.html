@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta content="Portfolio of Hyejin Im" name="description">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:description" content="Portfolio of Hyejin">
+    <meta property="og:image:url" content="assets/thumbnail.png" />
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:url" content="http://hyejinim.github.io">
+    <meta property="og:image:height" content="600">
+    <meta property="og:image:height" content="600">
+    <meta property="og:title" content="Hyejin Im">
+
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+    <script src="script.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> <!-- for tooltip -->
+    <title>Hyejin Im</title>
+</head>
+
+<body>
+    <nav class="navbar line" id="nav">
+        <div class="menu">
+            <a class="item" href="index.html">About</a>
+            <div class="dropdown">
+                <a class="item" href="index.html#projects">Projects</a>
+                <div class="dropdown-content">
+                    <a href="emat.html">E-Mat</a>
+                    <a href="storyexplorer.html">StoryExplorer</a>
+                    <a href="donare.html">Donare</a>
+                    <a href="vismorn.html">Vismorn</a>
+                    <a href="industry.html">Industrial Projects</a>
+                    <a href="speakgo.html">Speak Go</a>
+                    <a href="spacedog.html">Space Dog</a>
+                    <a href="dataselfie.html">Data Selfie</a>
+                    <a href="pci.html">Parent-Child Interaction Study</a>
+                    <a href="bci.html">ScratchPad</a>
+                </div>
+            </div>
+            <a class="item" href="index.html#publications">Publications</a>
+            <a class="item" href="assets/hyejinim-resume.pdf" target="_blank">Resume</a>
+        </div>
+    </nav>
+
+    <div class="details" id="top">
+        <div class="container" style="margin-top: 10px">
+            <div class="center">
+                <h1><b>Draw2Code</b></h1>
+
+                <h6>Jan 2020 - Present </h6>
+            </div>
+            <br>
+            <div class="figure">
+                <img src="assets/draw2code-00.JPG" alt="Main Screen of Donare App">
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <H2>OVERVIEW</H2>
+                    <p> Draw2Code is a low-cost and expressive computational kit designed for early childhood.
+                    </p>
+                </div>
+                <div class="column">
+                    <h2>MY ROLES</h2>
+                    <p>• Literature Review
+                        <br>• Concept Development
+                        <br>• UI Design
+                        <br>• Software Development
+                        <br>• User Research
+                    </p>
+                </div>
+                <div class="column">
+                    <h2>CONTEXT</h2>
+                    <p>Master's Thesis, Tufts University
+                        <br>Advisor: Prof. Chris Rogers
+                    </p>
+                </div>
+
+            </div>
+            <hr>
+            <h2>ABOUT</h2>
+            <p>Draw2Code is a paper-based tangible computational kit for young children to create an interactive 2D augmented reality animation. Children use Draw2Code to make their paper drawing alive as an animated virtual sprite and control it using hand gestures. Children create the animation using paper coding blocks provided by Draw2Code, which includes Sprite, Event, and Action, and then execute the program on a personal mobile device. 
+                Through out the process, they go through five steps: design, code, scan, play, and test.
+                It exposes children to basic programming concepts through playful and tangible interaction.
+                
+            </p>
+            <div class="figure">
+                <img src="assets/draw2code-01.png" alt="">
+            </div>
+            
+            <h2>BACKGROUND</h2>
+            <p>
+                Computational thinking is nowadays considered an essential skill in the K-12 educational curriculum. While many computational kits and platforms have been developed in the past decades, most of the tangible kits that are designed for early childhood are either expensive to be deployed at home and in classroom environments or only provide pre-defined challenges with limited creative content creation opportunities. We investigated low-cost and expressive tangible interfaces that foster computational literacy.
+            </p>
+            <h2>DESIGN GOALS</h2>
+            <p>
+                The intended audience of Draw2Code is young children of pre-school and early elementary school. In addition to being age-appropriate, intuitive, and attractive, Draw2Code has three design goals:
+                <br>
+                <ol>
+                    <li>Support <b>hands-on experiences </b>by offering natural interaction and supporting physical engagement. We achieve this by using coding by drawing and interacting through gestures. </li>
+                    <li>Be <b>low-cost</b>, using affordable materials. We address this by using pen & paper and widely available personal mobile devices such as cell phones and tablets. </li>
+                    <li>Provide <b>openness</b> in which children can express personally meaningful ideas. We tackle this goal by using a freeform drawing that is familiar and expressive.</li>
+                </ol>
+                
+            </p>
+            <h2>INTERFACE DESIGN</h2>
+            <p>
+                The Draw2Code kit consists of two major components: paper coding blocks and a mobile application. Children can author their own animations by manipulating the paper coding blocks and execute the code with a mobile device. We designed elements of the interface to make both of tangible and virtual interfaces appropriate for young children. For example, no text is used, buttons are big enough, and icons are straightforward to understand. We also paid attention to involving both boys and girls, such as using colors to which both genders can feel a sense of belonging. 
+            </p><br>
+            <div class="figure">
+                <img src="assets/draw2code-02.png" alt="">
+            </div>
+            <p>
+                The Sprite block has an empty canvas area where children can draw their own character or place a small craft on it to use it as a character. The Event block is for triggering the virtual character to animate. The current version can use hand gestures such as rock paper scissors and graphical play button as event blocks. Each event block represents a particular command to trigger the program and has a unique visual depending on its type. The Action block has a grid where children can fill color in it with a different size and location that guide the virtual character’s appearance in each frame. A sequence of action blocks creates an animation.
+                <br><br>
+                The child can use the scan mode in the mobile application to load the sequence of the blocks as an animation and see the current state of the animation in the run mode.
+            </p>
+            <h2>IMPLEMENTATION</h2>
+            <p>We fabricated Draw2Code paper coding blocks by printing them in colored paper and cutting out the paper. Draw2Code software is a web-based application written in Javascript. We used the p5.js library for building user interface components. We leveraged Teachable Machine to create image classification models to detect different coding blocks and hand gestures from images. We made image processing algorithms to parse the block images to data and control variables using computer vision techniques. We used a camera embedded in a mobile device to capture the block images. </p>
+            <p>
+                <br><br>
+                <h3>*It works on Safari, iPhone.</h3>
+            </p>
+            <a class="button" href="https://hyejinim.github.io/draw2code/" target="_blank">
+                <i class="fas fa-gamepad"></i> TRY SPEAK GO 
+            </a>
+
+
+
+            <a class="fullButton center" href="spacedog.html">
+                <h6>Next</h6>
+                <h1>Space Dog</h1>
+            </a>
+        </div>
+    </div>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130268891-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130268891-1');
+    </script>
+</body>
+
+</html>
