@@ -204,11 +204,12 @@ a:hover {
 }
 
 .button {
-  border-bottom: 0px solid;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0px;
-  background: #68EFAD;
+  border: 1px solid;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  border-color: #000000;
+  /* background: #68EFAD; */
   margin-top: 20px;
   width: 100%;
   max-width: 260px;
@@ -291,7 +292,7 @@ h3 {
 }
 
 h6 {
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing:1px;
 }
 
@@ -438,7 +439,7 @@ blockquote {
 }
 
 .details h6 {
-  font-size: 16px;
+  font-size: 14px;
   color: grey;
   font-weight: 400;
 }
@@ -449,18 +450,18 @@ blockquote {
 
 /*-- Navigation Bar --------------------------------------------------*/
 .navbar {
-  /* position: -webkit-fixed;
-  position: fixed; */
+  position: -webkit-fixed;
+  position: fixed;
   top: 0;
   z-index: 80;
   margin: 0px auto;
   padding-top: 15px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   width: 100%;
   text-align: center;
-  /* background-color: #fff; */
+  background-color: #fff;
   display: block;
-  /* background:rgba(250, 245, 245, 0.05); */
+  /* background:rgba(240, 240, 240, 0.8);  */
   /* border-bottom: 1px solid #E5E5E5; */
 }
 
@@ -515,12 +516,12 @@ blockquote {
 
 .teaser:hover video {
   visibility: visible;
-  opacity: 0.25;
+  /* opacity: 0.5; */
 }
 
 .teaser:hover img {
   visibility: visible;
-  opacity: 0.25;
+  /* opacity: 0.5; */
 }
 
 .image--cover {
