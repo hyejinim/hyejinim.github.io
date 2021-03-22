@@ -1,0 +1,112 @@
+{   
+    "about":{
+        "name":"Nam Wook Kim",
+        "title":"Assistant Professor @ Boston College",
+        "photo":"assets/profile.png",
+        "desc":"Nam Wook Kim is an Assistant Professor of Computer Science at Boston College. His research vision is to lower barriers for everyone to understand and communicate complex data. He tackles this challenge by studying visualization within the broad context of human-computer interaction. His research investigates innovative approaches to interact with data, going beyond traditional expert systems and addressing the needs of a broader audience, including designers, journalists, and casual users. His work has been recognized with awards from ACM CHI, ACM UIST, and Kantar Information is Beautiful Awards.",
+        "email": "nam.wook.kim@bc.edu",
+        "address": "St. Mary's Hall S256, Chestnut Hill, MA 02467",
+        "resume": "assets/resume.pdf",
+        "twitter":"https://twitter.com/namwkim85",
+        "linkedin":"https://www.linkedin.com/in/namwkim/",
+        "github":"https://github.com/namwkim"
+    },
+    "news":[
+        {
+            "title":"Teaching a web programming course",
+            "date": "Jan 13, 2020"
+        },
+        {
+            "title":"Presenting my dissertation research at Ajou University",
+            "date": "Dec 16, 2019"
+        },
+        {
+            "title":"Traveling to Korea",
+            "date": "Dec 12, 2019"
+        },
+        {
+            "title":"Serving as a program committee for CHI 2020",
+            "date": "Sep 18, 2019"
+        },
+        {
+            "title":"Serving as a program committee for CSCW 2020",
+            "date": "Sep 11, 2019"
+        },
+        {
+            "title":"Attending CHI 2019 @ Glasgow, UK",
+            "date": "May 04, 2019 ~ May 09, 2019"
+        }
+    ],
+    "projects":[
+        {
+            "id":"storycurves",
+            "title": "Visualizing Nonlinear Narratives with Story Curves",
+            "authors": "Nam Wook Kim, Benjamin Bach, Hyejin Im, Sasha Schriber, Markus Gross, Hanspeter Pfister",
+            "source": "IEEE Transactions on Visualization and Computer Graphics(InfoVis), 2018",
+            "teaser": "assets/storycurves/teaser.png",
+            "tags":["Journal", "Technique"],
+            "materials": [
+                { 
+                    "label": "Paper",
+                    "path": "assets/storycurves/paper.pdf"
+                },
+                { 
+                    "label": "Video",
+                    "path": "assets/storycurves/video.mp4"
+                },
+                { 
+                    "label": "Demo",
+                    "path": "https://storycurve.namwkim.org/"
+                }
+            ],
+            "desc": "In this paper, we present story curves, a visualization technique for exploring and communicating nonlinear narratives in movies. A nonlinear narrative is a storytelling device that portrays events of a story out of chronological order, e.g., in reverse order or going back and forth between past and future events. Many acclaimed movies employ unique narrative patterns which in turn have inspired other movies and contributed to the broader analysis of narrative patterns in movies. However, understanding and communicating nonlinear narratives is a difficult task due to complex temporal disruptions in the order of events as well as no explicit records specifying the actual temporal order of the underlying story. Story curves visualize the nonlinear narrative of a movie by showing the order in which events are told in the movie and comparing them to their actual chronological order, resulting in possibly meandering visual patterns in the curve. We also present Story Explorer, an interactive tool that visualizes a story curve together with complementary information such as characters and settings. Story Explorer further provides a script curation interface that allows users to specify the chronological order of events in movies. We used Story Explorer to analyze 10 popular nonlinear movies and describe the spectrum of narrative patterns that we discovered, including some novel patterns not previously described in the literature. Feedback from experts highlights potential use cases in screenplay writing and analysis, education and film production. A controlled user study shows that users with no expertise are able to understand visual patterns of nonlinear narratives using story curves."
+        },
+        {
+            "id":"bubbleview",
+            "title": "BubbleView: an Alternative to Eye-tracking for Crowdsourcing Image Importance",
+            "authors": "Nam Wook Kim*, Zoya Bylinskii*, Michelle A. Borkin, Krzysztof Z. Gajos, Aude Oliva, Fredo Durand, Hanspeter Pfister",
+            "source": "ACM Transactions on Computer-Human Interaction(TOCHI), 2017",
+            "teaser": "assets/bubbleview/teaser.png",
+            "tags":["Journal", "Evaluation"],
+            "materials": [
+                { 
+                    "label": "Paper",
+                    "path": "assets/bubbleview/paper.pdf"
+                },
+                { 
+                    "label": "Video",
+                    "path": "assets/bubbleview/video.mp4"
+                },
+                { 
+                    "label": "Demo",
+                    "path": "https://bubbleview.namwkim.org/"
+                }
+            ],
+            "desc": "In this paper, we present BubbleView, an alternative methodology for eye tracking using discrete mouse clicks to measure which information people consciously choose to examine. BubbleView is a mouse-contingent, moving-window interface in which participants are presented with a series of blurred images and click to reveal 'bubbles' - small, circular areas of the image at original resolution, similar to having a confined area of focus like the eye fovea. Across 10 experiments with 28 different parameter combinations, we evaluated BubbleView on a variety of image types: information visualizations, natural images, static webpages, and graphic designs, and compared the clicks to eye fixations collected with eye-trackers in controlled lab settings. We found that BubbleView clicks can both (i) successfully approximate eye fixations on different images, and (ii) be used to rank image and design elements by importance. BubbleView is designed to collect clicks on static images, and works best for defined tasks such as describing the content of an information visualization or measuring image importance. BubbleView data is cleaner and more consistent than related methodologies that use continuous mouse movements. Our analyses validate the use of mouse-contingent, moving-window methodologies as approximating eye fixations for different image and task types."
+        },
+        {
+            "id":"datatoon",
+            "title": "DataToon: Drawing Dynamic Network Comics With Pen + Touch Interaction",
+            "authors": "Nam Wook Kim, Nathalie Henry Riche, Benjamin Bach, Guanpeng Xu, Matthew Brehmer, Ken Hinckley, Michel Pahud, Haijun Xia, Michael McGuffin, Hanspeter Pfister<br>",
+            "source": "ACM Conference on Human Factors in Computing Systems(CHI), 2019",
+            "teaser": "assets/datatoon/teaser.png",
+            "tags":["Conference", "System"],
+            "materials": [
+                { 
+                    "label": "Paper",
+                    "path": "assets/datatoon/paper.pdf"
+                },
+                { 
+                    "label": "Video",
+                    "path": "assets/datatoon/video.mp4"
+                },
+                { 
+                    "label": "Demo",
+                    "path": "https://datatoon.github.io/"
+                }
+            ],
+            "desc": "Comics are an entertaining and familiar medium for presenting compelling stories about data. However, existing visualization authoring tools do not leverage this expressive medium. In this paper, we seek to incorporate elements of comics into the construction of data-driven stories about dynamic networks. We contribute DataToon, a flexible data comic storyboarding tool that blends analysis and presentation with pen and touch interactions. A storyteller can use DataToon rapidly generate visualization panels, annotate them, and position them within a canvas to produce a visually compelling narrative. In a user study, participants quickly learned to use DataToon for producing data comics."
+        }
+
+    ]
+}
