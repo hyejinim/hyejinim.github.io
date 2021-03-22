@@ -30,16 +30,9 @@
             <div class="dropdown">
                 <a class="item" href="index.html#projects">Projects</a>
                 <div class="dropdown-content">
-                    <a href="emat.html">E-Mat</a>
-                    <a href="storyexplorer.html">StoryExplorer</a>
-                    <a href="donare.html">Donare</a>
-                    <a href="vismorn.html">Vismorn</a>
-                    <a href="industry.html">Industrial Projects</a>
-                    <a href="speakgo.html">Speak Go</a>
-                    <a href="spacedog.html">Space Dog</a>
-                    <a href="dataselfie.html">Data Selfie</a>
-                    <a href="pci.html">Parent-Child Interaction Study</a>
-                    <a href="bci.html">ScratchPad</a>
+                    <a href="index.html#productdesign">Product Design</a>
+                    <a href="index.html#development">Development</a>
+                    <a href="index.html#research">Research</a>
                 </div>
             </div>
             <a class="item" href="index.html#publications">Publications</a>
@@ -52,92 +45,77 @@
             <div class="center">
                 <br><br>
                 <h1><b>STEAM Discovery Lab</b></h1>
-                <h6>An Online Community for STEAM Educators</h6>
+                <p>Redesign for An Online Community for STEAM Educators</p>
+                <br>
                 <!-- <h6>Jan 2020 - Present </h6> -->
             </div>
             <br>
             <div class="figure">
                 <img src="assets/steam-01.png" alt="STEAM Discovery Lab Home Page">
             </div>
-
+            <br>
             <div class="row">
                 <div class="column">
-                    <H2>DURATION</H2>
-                    <p> Jun 2019 - Aug 2019
+                    <H3>LINKS</H3>
+                    <!-- <a class="button" href="https://hyejinim.github.io/draw2code/" target="_blank">
+                        LIVE WEBSITE
+                    </a> -->
+                    <p><a href="https://www.steamdiscoverylab.com/" target="_blank">Live website</a></p>
+                </div>
+                <div class="column">
+                    <h3>ROLE</h3>
+                    <p>UI / UX
+                    <br>Illustration
                     </p>
                 </div>
                 <div class="column">
-                    <h2>CONTEXT</h2>
-                    <p>Summer Internship in the Center for Engineering Education and Outreach (CEEO) at Tufts University
-                    </p>
-                </div>
-                <div class="column">
-                    <h2>RESPONSIBILITIES</h2>
-                    <p>• Heuristic Evaluation
-                    <br>• Information Architecture
-                    <br>• Redesigning UI/UX
-                    <br>• Implementation
-                    <br>• Graphic Design & Illustration
+                    
+                    <h3>CONTEXT & DURATION</h3>
+                    <p>Summer Internship at Tufts Center for Engineering Education and Outreach (CEEO)
+                        <br>
+                        Jun 2019 - Aug 2019
                     </p>
                 </div>
                 
 
             </div>
-            <hr>
-            <h2>OVERVIEW</h2>
-            <p> The STEAM (Science, Technology, Engineering, Art, and Math) Discovery Lab is one of Tufts Center for Engineering Education and Outreach’s (CEEO) research projects.
+            <!-- <hr> -->
+            <br>
+            <h2>Overview</h2>
+            <p> The STEAM (Science, Technology, Engineering, Art, and Math) Discovery Lab is one of Tufts CEEO research projects.
                 The goal of the STEAM Discovery Lab is to provide educators with new and exciting ideas and resources for conducting hands-on activities in their classroom. 
-                The website provides teachers with inspiring lesson plans and activity ideas that they can tweak to best meet the needs of their students and subject area. The site also features activity ideas that combine different technologies in unconventional ways. 
-            <br><br>
-                My goal as a UX designer was to create a user-friendly website by making the content discoverable and accessible as well as visually appealing. 
+                The website provides teachers with inspiring lesson plans and activity ideas that they can tweak to best meet the needs of their students and subject area. 
+                The site also features activity ideas that combine different technologies in unconventional ways. 
             </p>
-            <!-- <div class="figure">
-                <img src="assets/draw2code-01.png" alt="">
-            </div> -->
-            
-            <!-- <h2>BACKGROUND</h2>
-            <p>
-                As more content have been created, the website ...
+            <br>
+                
             </p>
-            <h2>DESIGN GOALS</h2>
-            <p>The major design goals was to help users find content efficiently, make the website look credible and professional, and help authors easily create quality content. 
-                <ol>
-                    <li>Provide predictable navigation</li>
-                    <li>Make content consistent</li>
-                    <li>Visually appealing graphics</li>
-                    <li>Create template</li>
-                </ol>
+            <h2>Challenge</h2>
+            <p>As multiple authors (students and staff at the center) had been creating a lot of different types of content, 
+                the original navigation and website structure were not optimized for the current content. 
+                Also, the content produced by different authors were not always consistent.
+                It made users harder to find content easily and effectively on the website as well as to visit the website again. 
             </p>
-            <h2>INTERFACE DESIGN</h2>
-            <p>
-                The Draw2Code kit consists of two major components: paper coding blocks and a mobile application. Children can author their own animations by manipulating the paper coding blocks and execute the code with a mobile device. We designed elements of the interface to make both of tangible and virtual interfaces appropriate for young children. For example, no text is used, buttons are big enough, and icons are straightforward to understand. We also paid attention to involving both boys and girls, such as using colors to which both genders can feel a sense of belonging. 
-            </p><br>
-            <div class="figure">
-                <img src="assets/draw2code-02.png" alt="">
-            </div>
-            <p>
-                The Sprite block has an empty canvas area where children can draw their own character or place a small craft on it to use it as a character. The Event block is for triggering the virtual character to animate. The current version can use hand gestures such as rock paper scissors and graphical play button as event blocks. Each event block represents a particular command to trigger the program and has a unique visual depending on its type. The Action block has a grid where children can fill color in it with a different size and location that guide the virtual character’s appearance in each frame. A sequence of action blocks creates an animation.
-                <br><br>
-                The child can use the scan mode in the mobile application to load the sequence of the blocks as an animation and see the current state of the animation in the run mode.
-            </p>
-            <h2>IMPLEMENTATION</h2>
-            <p>We fabricated Draw2Code paper coding blocks by printing them in colored paper and cutting out the paper. Draw2Code software is a web-based application written in Javascript. We used the p5.js library for building user interface components. We leveraged Teachable Machine to create image classification models to detect different coding blocks and hand gestures from images. We made image processing algorithms to parse the block images to data and control variables using computer vision techniques. We used a camera embedded in a mobile device to capture the block images. </p>
-            <p>
-                <br><br>
-                <h3>*It works on Safari, iPhone.</h3>
-            </p>
-            <a class="button" href="https://hyejinim.github.io/draw2code/" target="_blank">
-                <i class="fas fa-gamepad"></i> TRY IT
-            </a> -->
+            <br>
 
-
-
-            <a class="fullButton center" href="spacedog.html">
-                <h6>Next</h6>
-                <h1>Space Dog</h1>
-            </a>
+            <h2>Solution</h2>
+            <p>Over 10-week summer internship, I was responsible for redesining the website to make it more user-friendly. 
+                The most important thing was to make the content discoverable and accessible.
+                Through heuristic evaluation, I analyzed major usability issues. I also created user scenarios and I redesigned information architecture, website structure, and user interface based on that.
+                Finally, I created illustration and updated graphics to make the website visually appealing. 
+            </p>
+            <br>
+            <h2>Impact</h2>
+            The new website was launched in Aug 2019. In a demo session conducted after website redesign proved that the new site was a success; the website returning visitor rate increased and the time for finding information significantly decreased.
+            <p></p>
         </div>
     </div>
+    <section class="news">
+        <div class="figure">
+            <div style="height: 0; padding-bottom: calc(62.73%); position:relative; width: 60%; text-align:"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/6058e369a86feb00a03e92b6" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Home Page" width="100%"></iframe></div><p style="text-align: center;">Home Page</p>
+        </div>
+    </section>
+   
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130268891-1"></script>
     <script>
