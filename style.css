@@ -87,6 +87,11 @@ section p:last-child{
   background-color:#fbfde2;
 }
 
+.gray {
+  padding:20px;
+  background-color:#222529;
+  color: #fff;
+}
 .projects {
   padding: 20px;
   display: flex;
