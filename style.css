@@ -378,7 +378,9 @@ blockquote {
   font-weight: 700;
   line-height: 40px;
   margin-bottom: 10px;
+  /* margin-top: 30px; */
 }
+
 
 .projectLocation{
   font-size:0.8rem;
@@ -528,6 +530,7 @@ blockquote {
   display: block;
   border-bottom: 0px;
 }
+
 
 /*-- Media --------------------------------------------------*/
 .teaser {
