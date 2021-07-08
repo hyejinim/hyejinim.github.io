@@ -1,0 +1,923 @@
+{   
+    "about":{
+        "name":"HYEJIN IM",
+        "title":"✨ UX Designer",
+        "title2":"<br>📚 Graduate Research Assistant",
+        "photo":"assets/profile.png",
+        "desc":"Based in <strong>Boston</strong> with experience in delivering <strong>end-to-end UX/UI design</strong> for digital products. I'm passionate about improving the lives of others through technology and am constantly looking to learn new things everyday. I love <strong>design, coding, and HCI</strong>.",
+        "desc2":"Working at <strong>Tufts Center for Engineering Education and Outreach (CEEO) </strong>, being advised by Prof. Chris Rogers. My studies and work are supported by scholarships from <strong>LEGO Foundation</strong>.",
+        "email": "hyejinim17@gmail.com",
+        "address": "",
+        "resume": "https://drive.google.com/file/d/17yPNy6cSE-3l3vAXcbhz4xvVWO9yzHYN/view?usp=sharing",
+        "twitter":"https://twitter.com/hyecoo",
+        "linkedin":"https://www.linkedin.com/in/hyejin-im/",
+        "github":"https://github.com/namwkim"
+    },
+    "news":[
+        {
+            "title":"Our Draw2Code Work-in-Progress paper is accepted to the IDC conference",
+            "date": "May, 2021"
+        },
+        {
+            "title":"Defended my master's thesis, Draw2Code: low-cost tangible programming for young children to create AR animations!",
+            "date": "Apr, 2021"
+        },
+        {
+            "title":"Awarded for Tufts Graduate Student Research Competition",
+            "date": "Feb, 2021"
+        },
+        {
+            "title":"Leading a Draw2Code workshop at PLAYfest 2021",
+            "date": "Jan, 2021"
+        },
+        {
+            "title":"Giving a talk on usability heuristics for user interface design for CEEO Summer interns",
+            "date": "Aug, 2020"
+        },
+        {
+            "title":"Selected by LEGO Ventures for in-person mentorship at the LEGO headquarter in Denmark (Canceled due to the COVID pandamic)",
+            "date": "Aug, 2020"
+        },
+        {
+            "title":"Awarded a best teamwork prize by Tufts Ventures Accelerator",
+            "date": "Aug, 2020"
+        }
+    ],
+    "projects":[
+        {
+            "id":"draw2code",
+            "title": "DRAW2CODE",
+            "role": "Lit Review, Concept Development, Design, Developlemnt, User Study, Data Analysis",
+            "type": "Individual Work <br>(Master's Thesis, <br> Advised by Prof. Chris Rogers)",
+            "product": "Tangible Kit, Web-Based Mobile Application",
+            "tools": "Figma, Miro, Qualtrics, Tableau, NVivo, Javascript, p5.js, Teachable Machine",
+            "award": "🏆 Awarded for Graduate Research Competition",
+            "subtitle": "Paper-based AR kit to engage young children in a playful coding environment to develop computational thinking",
+            "teaser": "assets/draw2code/teaser.png",
+            "tags":["UX/UI", "Concept", "Research", "Development", "Featured"],
+            "video": "assets/draw2code/draw2code-tutorial.mp4",
+            "rq": "How might we develop a computational kit that increases young children’s participation in computing, especially children from underrepresented groups in STEM?",
+            "desc": "Computational thinking is nowadays considered an essential skill in the K-12 educational curriculum. Many tangible computational kits designed for early childhood are either too expensive to benefit a wide range of children or only provide predetermined challenges with limited creative content creation opportunities. <br><br>We investigated low-cost and expressive tangible interfaces that foster computational literacy. We designed and implemented Draw2Code, a paper-based computational kit for young children to create an interactive AR animation. Children use Draw2Code to make their paper drawing alive as an animated virtual sprite and control it using hand gestures. It exposes children to basic programming concepts through playful and tangible interaction. <br><br> We conducted a user study with nine child-parent dyads (children ages 5 to 12) to evaluate the usability of the kit. Results from our initial evaluation revealed that all children showed high level of engagement in playing with Draw2Code regardless of age and gender. They engaged in computational thinking concepts and practices troughout the sessions.<br><br>This work is awarded a winner for Graduate Student Research Competition by Tufts GSAS and presented at the IDC 2021 Conference and the PLAYfest 2021. <br><br><i>Im, H., Rogers, C. (2021) Draw2Code: Low-Cost Tangible Programming for Creating AR Animations. In proceedings of Interaction Design and Children Conference 2021.</i>",
+            "desc2": "Your drawing comes to life!",
+            "next": "steamdiscoverylab",
+            "linklabel": "→ SEE THESIS",
+            "link": "https://drive.google.com/file/d/19VSQYhYBQMyJ6bVujrVg8ovS3AOEefCk/view?usp=sharing",
+            "link2": "https://drive.google.com/file/d/1JW_O21dNBpp3T8bE5ZrRDM6w61Vzob_J/view?usp=sharing",
+            "materials": [
+                { 
+                    "label": "Paper",
+                    "path": "assets/draw2code/paper.pdf"
+                },
+                { 
+                    "label": "Video",
+                    "path": "assets/draw2code/video.mp4"
+                },
+                { 
+                    "label": "Demo",
+                    "path": "https://hyejinim.github.io/draw2code/"
+                }
+            ],
+            "process": [
+                { 
+                    "step": "Background",
+                    "image": "assets/draw2code/kits-by-interface.png",
+                    "caption": ""
+                },
+                { 
+                    "step": "",
+                    "image": "assets/draw2code/kits-by-expressivity.png",
+                    "caption": "<br><br><i><strong>Underrepresented Children in STEM Matters</strong></i><br>• STEM gender stereotypes emerges in early childhood <br>• Previous coding experience is correlated with self-efficacy toward CS<br>• Children from low-income families do not have equal opportunities <br><br><i><strong>Opportunities in Tangible Inteface for Computational Thinking</strong></i><br>While tangible Interface are known as effective for young children's learning, many of them are not accessible to all children since they are expensive. They also constrain to predetermined challenges thus might not be engaging enough for some children.<br><br>"
+                },
+                { 
+                    "step": "Design Goals",
+                    "image": "assets/draw2code/design-consideration.png",
+                    "caption": "<br><br>The intended audience of Draw2Code is young children of pre-school through early elementary school. In addition to being age-appropriate, intuitive, and attractive, Draw2Code has three design goals: <br><br><i><strong>1. Supporting tangible programming</strong></i> that encourages natural interaction and physical movement — We achieve this by allowing users to use <i>drawing and gesture-based</i> interaction<br><br><i><strong>2. Using low-cost materials</strong></i> that can be deployed at home/in classroom settings — We address this by using <i>pen & paper</i> and widely available personal <i>mobile devices</i> such as cell phones and tablets<br><br><i><strong>3. Creating open-ended system</strong></i> in which children can express their creativity and personally meaningful ideas — We tackle this goal by enabling creating <i>AR animation using a physical drawing</i><br><br>To make the both tangible and virtual interfaces appropriate for young children, we minimized text usage, made buttons big, and made icons straightforward to understand. We also paid attention to involving both boys and girls, such as using colors to which both genders can feel a sense of belonging.<br><br>"
+                },
+                { 
+                    "step": "Draw2Code Interface",
+                    "image": "assets/draw2code/overview.png",
+                    "caption": "Draw2Code is a paper-based computational kit for young children to create interactive AR animations. The kit consists of two major components: paper coding blocks and a mobile application. Children can author their own animations by manipulating the paper coding blocks and execute the code with a mobile device."
+                },
+                { 
+                    "step": "",
+                    "image": "assets/draw2code/block-types.png",
+                    "caption": "<i>Paper coding blocks</i> "
+                },
+                { 
+                    "step": "",
+                    "image": "assets/draw2code/mobile-interface.png",
+                    "caption": "<i>Mobile web application</i><br><br>"
+                },
+                { 
+                    "step": "Coding/Interaction Workflow",
+                    "image": "assets/draw2code/workflow.png",
+                    "caption": "<br><br>"
+                },
+                { 
+                    "step": "Implementation",
+                    "image": "assets/draw2code/flowchart.png",
+                    "caption": "<br><br>We designed paper coding blocks that can be easily fabricated by printing and cutting out and developed a web application written in Javascript. We used p5.js library for building user interface components. We leveraged Teachable Machine to create image classification models to detect different coding blocks and hand gestures from images. We made image processing algorithms to parse the block images to data and control variables using computer vision techniques. We used a camera embedded in a mobile device to capture images.<br><br>"
+                },
+                { 
+                    "step": "Use Case Scenarios",
+                    "image": "assets/draw2code/object.png",
+                    "caption": "<br><br><i>Customizing sprites</i>"
+                },
+              
+                { 
+                    "step": "User Study",
+                    "image": "assets/draw2code/testing.png",
+                    "caption": "We conducted a remote user study with nine children to evaluate the usability of Draw2Code. With help from the parents, all participants easily prepared Draw2Code at home without extra cost and were able to use it without direct help from the researcher."
+                },
+                { 
+                    "step": "",
+                    "image": "assets/draw2code/task-results.png",
+                    "caption": "<br><br><i>Task Results</i>"
+                },
+                { 
+                    "step": "",
+                    "image": "assets/draw2code/survey-results.png",
+                    "caption": "<br><br><i>Survey Results</i><br><br>The results indicate that children ages 5 to 12 successfully used Draw2Code and played with it for 33 minutes on average (Min: 20, Max: 45), showing a high level of engagement. The children each created at least two and as many as five different AR animations based on their ideas. Throughout the sessions, all children were engaged in computational thinking concepts and practices including decomposition, abstraction, and algorithms. Most children mentioned they particularly liked the moment when their drawing came to life on the AR screen. They also liked intuitive drawing and gesture-based interactions to code for and control their program. *For more details, please look into my thesis."
+                },
+                { 
+                    "step": "",
+                    "image": "assets/draw2code/children-code.png",
+                    "caption": "<br><br><i>Artifacts of the code children generated: (a) a bee flying, (b) a blowing up effect getting bigger to the full-screen size, (c) a whale swimming, (d) an ice cream splitting into two pieces.</i>"
+                },
+                { 
+                    "step": "",
+                    "image": "assets/draw2code/children-outcome.png",
+                    "caption": "<i>Artifacts of the diverse AR animations with stories children created: (a) a truck is blowing up, (b) a creepy monster living in a forest is chasing and attacking a child, (c) a bee is coming close to a child's face and she is trying to dodge, (d) a child is showing her fist and a mouse is moving around on a green meadow, (e) an anger cloud is appearing over a child's head, (f) a little himself of a child is jumping on the snow.</i><br><br>"
+                }
+            ],
+            "images": [
+                { 
+                    "image": "assets/draw2code/coding-blocks.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/draw2code/teaser.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/draw2code/draw2code-01.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/draw2code/draw2code-02.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/draw2code/draw2code-03.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/draw2code/draw2code-04.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/draw2code/draw2code-05.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/draw2code/draw2code-06.png",
+                    "caption": ""
+                }
+            ],
+            "wrappedimages": [
+               
+            ],
+            "reflection": [
+                { 
+                    "title": "Joy of Implementing an Idea from Scratch",
+                    "desc": ""
+                },
+                { 
+                    "title": "Testing Early, Testing Often to Validate with Users",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "id":"steamdiscoverylab",
+            "title": "STEAM DISCOVERY LAB",
+            "role": "UX/UI Design, Graphic Design, Illustration",
+            "type": "Tufts CEEO Summer Internship Project",
+            "product": "Responsive Website",
+            "tools": "Post-it, Figma, Weebly, Javascript",
+            "subtitle": "Redesigning an online community for K-12 STEAM educators",
+            "teaser": "assets/steamdiscoverylab/teaser-hand6.jpeg",
+            "tags":["UX/UI", "Illustration"],
+            "video": "assets/steamdiscoverylab/video.mp4",
+            "rq": "How might we increase content discoverability and user engagement on the website?",
+            "desc": "The STEAM (Science, Technology, Engineering, Art, and Math) Discovery Lab is one of Tufts Center for Engineering Education and Outreach (CEEO) research projects. The goal of the STEAM Discovery Lab is to provide educators with new and exciting ideas and resources for conducting hands-on activities in their classroom. <br><br>Over 10-week summer internship, I was responsible for redesining the website to improve user experience and make it more user-friendly. I focused on identifying primary user scenarios and existing usability issues. Based on that, I redesigned information architecture, user flow, and user interface.",
+            "next": "donare",
+            "linklabel": "→ VISIT WEBSITE",
+            "link": "https://www.steamdiscoverylab.com/",
+            "process": [
+                { 
+                    "step": "Background",
+                    "image": "assets/steamdiscoverylab/poster.png",
+                    "caption": "• Not obvious site users, goals, do not look professional (Trustworthy) • Hard to navigate site • Inconsistent content: As multiple authors (students and staff at the center) had been creating a lot of different types of content, the original navigation and website structure were not optimized for the current content. Also, the content produced by different authors was not always consistent. It made users harder to find content easily and effectively on the website as well as to visit the website again."
+                },
+                { 
+                    "step": "Conducting Usability Inspection",
+                    "image": "assets/steamdiscoverylab/heuristic-evaluation.png",
+                    "caption": "Heuristic Evaluation"
+                },
+                { 
+                    "step": "",
+                    "image": "assets/steamdiscoverylab/grouped-content.png",
+                    "caption": "Information Architecture Analysis <br><br> User Testing (Let them freely explore websites and asked overall impression. Think Aloud and Breif Interview) <br>• I do not know what to start with this website <br>• It is hard to imagine where a specific content will be and it requires so many clicks <br>• It looks like it is designed for elementary school students <br> • Content and pages are not consistent and it looks like not professional and credible resources"
+                },
+                { 
+                    "step": "Design Goals",
+                    "image": "",
+                    "caption": "• Welcoming and usable home page: Providing an informative information on the home page to target users and credibility and guidance how to use this website <br>• Easy navigation: Make it easy to expectable and offer short user flow with less amount of time based on understanding of primary user scenarios <br>• Consistent layout and user flow depending on content types<br>• Optimized Look and Feel: Understand target users and make them belong to the website"
+                },
+                { 
+                    "step": "Emphasizing Potential Primary Users",
+                    "image": "assets/steamdiscoverylab/persona.png",
+                    "caption": "To reasonate design decision, persuade, on the same page with other members. Imaginary persona, user journey map, use case scenarios. The website provides teachers with inspiring lesson plans and activity ideas that they can tweak to best meet the needs of their students and subject area. The site also features activity ideas that combine different technologies in unconventional ways."
+                },
+                { 
+                    "step": "Redesigning the Website",
+                    "image": "assets/steamdiscoverylab/steam-structure.png",
+                    "caption": "IA and User flow - Narrow to shallow, Reorganized information architecture and created content Metadata for each content. They grouped by content type, category, and tags"
+                },
+                { 
+                    "step": "",
+                    "image": "assets/steamdiscoverylab/grouping-project.png",
+                    "caption": "Organize content meta data"
+                },
+                { 
+                    "step": "",
+                    "image": "assets/steamdiscoverylab/sketch.png",
+                    "caption": "Sketch"
+                },
+                { 
+                    "step": "Impact",
+                    "image": "assets/steamdiscoverylab/",
+                    "caption": "The redesigned website was launched in August 2019. A demo session conducted after website redesign proved that the new site was a success; task success rate increased to 100%. The amount of time it took for users to find information significantly decreased. The website returning visitor rate also increased."
+                }
+            ],
+            "images": [
+                { 
+                    "image": "assets/steamdiscoverylab/teaser2.png",
+                    "caption": ""
+                }
+            ],
+            "wrappedimages": [
+                { 
+                    "image": "assets/steamdiscoverylab/home.gif",
+                    "caption": "teaser"
+                },
+                { 
+                    "image": "assets/steamdiscoverylab/projects.gif",
+                    "caption": "teaser"
+                },
+                { 
+                    "image": "assets/steamdiscoverylab/tools.gif",
+                    "caption": "teaser"
+                },
+                { 
+                    "image": "assets/steamdiscoverylab/tools-detail.gif",
+                    "caption": "teaser"
+                },
+                { 
+                    "image": "assets/steamdiscoverylab/resources.gif",
+                    "caption": "teaser"
+                },
+                { 
+                    "image": "assets/steamdiscoverylab/logo.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/steamdiscoverylab/illustration.png",
+                    "caption": ""
+                }
+            ],
+            "reflection": [
+                { 
+                    "title": "Desining for Sustainability and Scalability",
+                    "desc": "Not just pretty but thinking about the cycle, as the product content grows, what changes required? from long-term perspective."
+                },
+                { 
+                    "title": "Importance of Consistency in Design",
+                    "desc": "To make create user experience. is the Key of Making High-Quality Products. how to support authors to create consistent content acrouss the all products? across all pages? design system. Consistent user interfaces facilitate communication. Use visual consistency to prioritize content, make it navigable, or highlight important bits of it. By using consistency to create a logical structure and to clearly define where users can find what, you'll spare yourself confused and frustrated users."
+                }
+
+            ]
+        },
+        {
+            "id":"speakgo",
+            "title": "SPEAK GO",
+            "role": "Concept Development, UX/UI Design, Development",
+            "type": "Team Project <br> (CS86: Object-Oriented Programming for Graphical User Interface)",
+            "product": "Web Application",
+            "tools": "HTML, Javascript, CSS, Web Speech API, Procreate",
+            "subtitle": "Voice-controlled game that enhances learning and memorizing",
+            "teaser": "assets/speakgo/kid.png",
+            "tags":["Development", "UX/UI", "Concept"],
+            "video": "assets/speakgo/video.mp4",
+            "rq": "How might we leverage voice user interfaces to create playful learning environment?",
+            "desc": "Speak Go is a speech game that enhances memorizing with playful and engaging learning. It is a web application written in Javascript. It is a game with a voice controlled interface. We implemented Web Speech API. <br><br> As a member of a small team (two people), we worked together on from developing the concept of the game to developing the user interface.",
+            "next": "",
+            "linklabel": "→ PLAY GAME (ON CHROME)",
+            "link": "https://hyejinim.github.io/speakgo/",
+            "process": [
+                { 
+                    "step": "Background",
+                    "image": "assets/speakgo/speech-recognition.png",
+                    "caption": "One of the programming assignments in the Object-Oriented Programming for GUI course was to create an useful user interface using an web API. We wanted to use voice wep speech API and make an educational application that engage users in learning."
+                },
+                { 
+                    "step": "Voice + Gamificiation",
+                    "image": "assets/speakgo/chrome-offline-dino-game.jpeg",
+                    "caption": "We brainstormed various ideas and decided to create a <strong>voice-controlled game for learning</strong>. We were inspired by Google Chrome's hidden Dinosaur browser game (a.k.a. Chrome Dino) that are available when your computer is offline. This game is very simple but fun enough. You just need to press the space bar to avoid oncoming obstacles by jumping."
+                },
+                { 
+                    "step": "Speak Go: Memorizing by Speaking",
+                    "image": "assets/speakgo/howitworks.png",
+                    "caption": "<br><br>Speak Go is similar to the Chrome Dino but beyond its funtionalities by using <strong>voice</strong> to play a game and providing <strong>various obstacles</strong> that require different voice commands to be destroyed. Our application is essentially a memorization game, that has several geometric shapes advance toward the user, requiring the user to say the name of the shape out loud in order to destroy it. "
+                },
+                { 
+                    "step": "",
+                    "image": "assets/speakgo/shapes.png",
+                    "caption": "<br><br>Our target user pool was <strong>young children</strong>, who struggle with learning <strong>geometric shapes</strong>. With the sense of urgency that the animation induces, it motivates the user to get the names of the shapes right in an entertaining way. Speak Go can be <strong>expanded with different types of obstacles</strong> to learn other subject matters (e.g., country flags to learn country name) and also in another language."
+                },
+                { 
+                    "step": "Character Design",
+                    "image": "assets/speakgo/chickpea.png",
+                    "caption": "To make the game a little more engaging, we created a cute character, Little Bean, and designed its motion. When it hits an obstacle, it gets pressed."
+                }
+            ],
+            "images": [
+                { 
+                    "image": "assets/speakgo/kid.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/speakgo/expanded-speakgo.png",
+                    "caption": ""
+                }
+            ],
+            "wrappedimages": [
+                { 
+                    "image": "assets/speakgo/start.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/speakgo/advanced.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/speakgo/jump.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/speakgo/gameover.png",
+                    "caption": ""
+                }
+               
+            ],
+            "reflection": [
+                
+            ]
+        },
+        {
+            "id":"donare",
+            "title": "DONARE",
+            "role": "UX/UI Design, Graphic Design, User Research",
+            "type": "Team Project<br> (CS171: HCI)",
+            "product": "Mobile Application",
+            "tools": "Paper Prototyping, Heuristic Evaluation, Figma, Usability Testing",
+            "subtitle": "Mobile app helping people donate to their cause quickly and delightfully",
+            "teaser": "assets/donare/donare-hand.png",
+            "tags":["UX/UI", "Featured"],
+            "video": "assets/donare/video.mp4",
+            "rq": "How might we encourage people to donate their items to cause they care about?",
+            "desc": "Donare is a mobile application that helps people easily and delightfully donate items to causes they care about. <br><br>I worked in a cross-functional team of five members in the Human-Computer Interaction (HCI) course. Throughout the semester, we designed, developed, and evaluated Donare. As a leading UX designer, I was involved in all phases of the project, from mapping out the problem to delivering final designs.",
+            "next": "donare",
+            "linklabel": "→ LAUNCH PROTOTYPE",
+            "link": "",
+            "process": [
+                { 
+                    "step": "The Opportunity",
+                    "image": "assets/donare/donare-01.png",
+                    "caption": "<br><br><strong>User Side</strong> <br> • Often times, people have the heart to donate but are not aware of which charities are out there <br>• People do not have the time to actively seek charities out <br><br> <strong>Charity Side</strong> <br> • Charities often receive donations that are irrelevant/ unneeded for their cause <br> • Charity organizations need more donations"
+                },
+                { 
+                    "step": "Storyboard",
+                    "image": "assets/donare/donare-10.png",
+                    "caption": ""
+                },
+                { 
+                    "step": "",
+                    "image": "assets/donare/donare-11.png",
+                    "caption": ""
+                },
+                { 
+                    "step": "Conceptual Model",
+                    "image": "assets/donare/donare-09.png",
+                    "caption": ""
+                },
+                { 
+                    "step": "Low-Fidelity Prototype",
+                    "image": "assets/donare/paper.png",
+                    "caption": "We created a paper prototype based on the conceptual model and tested it with potential users. Several changes had been made on the user flow and new features are added as we incorporated their feedback into our app design. Heuristic evaluation"
+                },
+                { 
+                    "step": "Wireframe",
+                    "image": "assets/donare/donare-12.png",
+                    "caption": "Usability testing"
+                },
+                { 
+                    "step": "Key Features",
+                    "image": "assets/donare/donare-02.png",
+                    "caption": ""
+                },
+                { 
+                    "step": "",
+                    "image": "assets/donare/donare-03.png",
+                    "caption": ""
+                },
+                { 
+                    "step": "",
+                    "image": "assets/donare/donare-04.png",
+                    "caption": ""
+                },
+                { 
+                    "step": "Main User Flows",
+                    "image": "assets/donare/donare-05.png",
+                    "caption": ""
+                },
+                { 
+                    "step": "",
+                    "image": "assets/donare/donare-06.png",
+                    "caption": ""
+                },
+                { 
+                    "step": "",
+                    "image": "assets/donare/donare-07.png",
+                    "caption": ""
+                },
+                { 
+                    "step": "Evaluation",
+                    "image": "",
+                    "caption": "We conducted usability testing with the final version of prototype. User satisfaction improved on all metrics comparing to the first prototype. <br><br>Metrics: <br> • How easy did you find the donation process on a scale from 1 to 5 (5 easiest)?: 4.2 to 4.66 (+.46) <br>• How many times did you not know what to do next?: 2 to 0.66 (-1.34) <br>• How easy was it to use to achieve your goal? (5 easiest): 3.9 to 4.66 (+.76) <br>• Did you like the experience of using the app? (1 to 5): 3.8 to 4.33 (+.53)"
+                },
+                { 
+                    "step": "Three More Features",
+                    "image": "assets/donare/features.png",
+                    "caption": "<br><br><strong>1. Sharing donation needs with friends</strong> <br> Sometimes, those around you may need what you are trying to donate. With this feature, you could help those around you who you didn't know needed help. <br><br> <strong>2. Thank you messages from recipients</strong> <br>We as humans can only be so altruistic. A thank you from the charities / recipients of the donations would be very rewarding to the users, which would motivate them to utilize our service more. <br><br> <strong>3. Timeline news of liked charities or topics</strong> <br> By providing updates regarding the charities that the user has liked, the user can be continuously engaged, preventing the experience becoming a one-time use."
+                }
+            ],
+            "images": [
+                { 
+                    "image": "assets/donare/teaser.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "",
+                    "caption": "mockup-context"
+                }
+            ],
+            "wrappedimages": [
+                { 
+                    "image": "assets/donare/teaser.png",
+                    "caption": "gif"
+                }
+            ],
+            "reflection": [
+                { 
+                    "title": "How to Effectively Work in a Multi-Displinary Team",
+                    "desc": "Our team members learned from one another by closely working in every step and actively sharing our knowledge and ideas. I realized that our team culture that we appreciated other's contribution and commitment made all of us motivated."
+                }
+            ]
+        },
+        {
+            "id":"vismorn",
+            "title": "VISMORN",
+            "role": "Concept Development, UX/UI Design, User Research, Prototype",
+            "type": "Individual Work (Capstone Project, Interaction Design Specialization, UC San Diego on Coursera)",
+            "product": "Mobile Application",
+            "tools": "Framer, UserTesting.com",
+            "subtitle": "Goal-oriented alarm clock for the habitual snoozers",
+            "teaser": "assets/vismorn/teaser-hand.jpeg",
+            "tags":["UX/UI", "Concept", "Featured"],
+            "video": "assets/vismorn/video.mp4",
+            "rq": "How might we help people who constantly use the snooze button easier to wake up on time in the morning?",
+            "desc": "Vismorn is for people who struggle to wake up on time in the morning. Instead of setting a single time to wake up as other alarm clocks do, Vismorn provides two different times to set up, one for waking up and another for doing following task (e.g., go to work). <br><br>The app focuses on achieving a high-level goal as waking up on time is often only a part of reaching the goal. That is, it emphasizes the time gap between wake-up time and task time to encourage a user to be more aware of the goal when setting the times and hitting the snooze button.",
+            "next": "steamdiscoverylab",
+            "linklabel": "→",
+            "link": "",
+            "process": [
+                { 
+                    "step": "Design Process",
+                    "image": "",
+                    "caption": "<strong>1. Needfinding</strong><br>Observation, interview, qualitative data analysis<br><strong>2. Ideation</strong><br>Inspiration boards, brainstorming, storyboards<br><strong>3. Prototyping</strong><br>Paper prototyping, wireframing, funtional prototyping<br><strong>4. Evaluation</strong><br>Heuristic evaluation, usability teseting, A/B testing"
+                },
+                { 
+                    "step": "User Research",
+                    "image": "assets/vismorn/vismorn-p1.png",
+                    "caption":  "I conducted survey with 26 people and a semi-structured interview interview with three people. "
+                },
+                { 
+                    "step": "Key Findings",
+                    "image": "assets/vismorn/vismorn-p1.png",
+                    "caption":  "• The gap between the time you want to wake up and the time you actually wake up <br>• Habitual snooze and regret it <br>• Multiple factors existed that affect to find an ideal wake-up time and it is cumbersome to calculate it every night"
+                },
+                { 
+                    "step": "Inspiration",
+                    "image": "assets/vismorn/vismorn-p2.png",
+                    "caption":  "Inspiration"
+                },
+                { 
+                    "step": "Storyboards",
+                    "image": "assets/vismorn/vismorn-04.png",
+                    "caption":  "Storyboards"
+                },
+                { 
+                    "step": "Paper Prototypes",
+                    "image": "assets/vismorn/vismorn-05.png",
+                    "caption":  ""
+                },
+                { 
+                    "step": "Funtional Prototype",
+                    "image": "assets/vismorn/vismorn-07.png",
+                    "caption":  ""
+                },
+                { 
+                    "step": "Iterations",
+                    "image": "assets/vismorn/vismorn-08.png",
+                    "caption":  ""
+                },
+                { 
+                    "step": "",
+                    "image": "assets/vismorn/vismorn-09.png",
+                    "caption":  ""
+                },
+                { 
+                    "step": "",
+                    "image": "assets/vismorn/vismorn-p3.png",
+                    "caption":  ""
+                }
+            ],
+            "images": [
+                { 
+                    "image": "assets/vismorn/vismorn-01.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/vismorn/vismorn-03.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/vismorn/vismorn-02.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/vismorn/vismorn-p4.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/vismorn/vismorn-p5.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/vismorn/vismorn.png",
+                    "caption": ""
+                }
+            ],
+            "wrappedimages": [
+            ],
+            "reflection": [
+                { 
+                    "title": "Joy of Implementing an Idea from Scratch",
+                    "desc": ""
+                },
+                { 
+                    "title": "Testing Early, Testing Often to Validate with Users",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "id":"storyexplorer",
+            "title": "STORY EXPLORER",
+            "authors": "Collaborated with Nam Wook Kim",
+            "role": "Data Analysis, UX/UI Design",
+            "type": "Web Application",
+            "tools": "Data Authoring, Figma",
+            "subtitle": "Visualization tool for authoring and exploring nonlinear narratives",
+            "teaser": "assets/storyexplorer/teaser.png",
+            "tags":["Visualization", "UX/UI", "Research", "Featured"],
+            "video": "assets/storyexplorer/video.mp4",
+            "materials": [
+                { 
+                    "label": "Paper",
+                    "path": "assets/datatoon/paper.pdf"
+                },
+                { 
+                    "label": "Video",
+                    "path": "assets/datatoon/video.mp4"
+                },
+                { 
+                    "label": "Demo",
+                    "path": "https://datatoon.github.io/"
+                }
+            ],
+            "desc": "Comics are an entertaining and familiar medium for presenting compelling stories about data. However, existing visualization authoring tools do not leverage this expressive medium. In this paper, we seek to incorporate elements of comics into the construction of data-driven stories about dynamic networks. We contribute DataToon, a flexible data comic storyboarding tool that blends analysis and presentation with pen and touch interactions. A storyteller can use DataToon rapidly generate visualization panels, annotate them, and position them within a canvas to produce a visually compelling narrative. In a user study, participants quickly learned to use DataToon for producing data comics."
+        },
+        {
+            "id":"dataselfie",
+            "title": "DATA SELFIE",
+            "authors": "Collaborated with Nam Wook Kim",
+            "role": "Data Analysis, UX/UI Design",
+            "type": "Web Application",
+            "tools": "Figma, Thematic Coding",
+            "subtitle": "Survey tool for creating personalized visuals representing data",
+            "teaser": "assets/dataselfie/teaser-mockup2.jpeg",
+            "tags":["Visualization", "UX/UI", "Research"],
+            "video": "assets/dataselfie/video.mp4",
+            "link": "https://dataselfie.namwkim.org/",
+            "materials": [
+                { 
+                    "label": "Paper",
+                    "path": "assets/datatoon/paper.pdf"
+                },
+                { 
+                    "label": "Video",
+                    "path": "assets/datatoon/video.mp4"
+                },
+                { 
+                    "label": "Demo",
+                    "path": "https://datatoon.github.io/"
+                }
+            ],
+            "desc": "Using DataSelfie, you can create a questionnaire to ask questions about qualitative and nuanced aspects of yourself and to design a personalized visual vocabulary to represent the collected data. <br><br> It is published in CHI 2019."
+        },
+        {
+            "id":"clientwork",
+            "title": "INDUSTRY WORK",
+            "authors": "Selected clients (Samsung, LG, SKTelecom)",
+            "type": "Web Application",
+            "role": "UX/UI Design, User Research",
+            "tools": "Wireframing, Affinity Diagraming, Prototyping, Interview, Survey",
+            "subtitle": "Mobile applications, responsive web platforms, and home appliance UX/UI design",
+            "teaser": "assets/clientwork/teaser.png",
+            "tags":["UX/UI", "Featured"],
+            "video": "assets/clientwork/video.mp4",
+            "materials": [
+                { 
+                    "label": "Paper",
+                    "path": "assets/bubbleview/paper.pdf"
+                },
+                { 
+                    "label": "Video",
+                    "path": "assets/bubbleview/video.mp4"
+                },
+                { 
+                    "label": "Demo",
+                    "path": "https://bubbleview.namwkim.org/"
+                }
+            ],
+            "images": [
+                { 
+                    "image": "assets/making/teaser.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/making/teaser.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/making/teaser.png",
+                    "caption": ""
+                }
+            ],
+            "wrappedimages": [
+                { 
+                    "image": "assets/laika/teaser.png",
+                    "caption": "teaser"
+                },
+                { 
+                    "image": "assets/laika/teaser.png",
+                    "caption": "teaser"
+                },
+                { 
+                    "image": "assets/laika/teaser.png",
+                    "caption": "reflection: client-facing projects, ideally in consulting, agency or other business-related services You can explain and sell design decisions to clients and stakeholders"
+                }
+            ],
+            "desc": "In this paper, we present BubbleView, an alternative methodology for eye tracking using discrete mouse clicks to measure which information people consciously choose to examine. BubbleView is a mouse-contingent, moving-window interface in which participants are presented with a series of blurred images and click to reveal 'bubbles' - small, circular areas of the image at original resolution, similar to having a confined area of focus like the eye fovea. Across 10 experiments with 28 different parameter combinations, we evaluated BubbleView on a variety of image types: information visualizations, natural images, static webpages, and graphic designs, and compared the clicks to eye fixations collected with eye-trackers in controlled lab settings. We found that BubbleView clicks can both (i) successfully approximate eye fixations on different images, and (ii) be used to rank image and design elements by importance. BubbleView is designed to collect clicks on static images, and works best for defined tasks such as describing the content of an information visualization or measuring image importance. BubbleView data is cleaner and more consistent than related methodologies that use continuous mouse movements. Our analyses validate the use of mouse-contingent, moving-window methodologies as approximating eye fixations for different image and task types."
+        },
+        {
+            "id":"tinkering",
+            "title": "TINKERING",
+            "authors": "Individual Work",
+            "role": "Concept Development, Design, Development",
+            "type": "Web Application, Game, Simulation",
+            "link": "https://hyejinim.github.io/spacedog/",
+            "tools": "Java, Javascript, Three.js, WebGL",
+            "subtitle": "Miscellaneous experiments for interaction and interface",
+            "teaser": "assets/spacedog/teaser.png",
+            "img1": "assets/spacedog/thumbnail.png",
+            "tags":["Development", "Concept"],
+            "video": "assets/spacedog/video.mp4",
+            "materials": [
+                { 
+                    "label": "Paper",
+                    "path": "assets/datatoon/paper.pdf"
+                },
+                { 
+                    "label": "Video",
+                    "path": "assets/datatoon/video.mp4"
+                },
+                { 
+                    "label": "Demo",
+                    "path": "https://datatoon.github.io/"
+                }
+            ],
+            "desc": "While I was learning about object-oriented programming, I wanted to create a simple yet interactive 3D environment using Three.js and WebGL. As user moves his/her mouse position, the movement of dogs and the speed of meteors would change. <br><br> Through this project, I learned how to design animated 3D objects having multiple parts, how to express different materials, and how to use lights in the 3D world."
+        }
+    ],
+    "archaived": [
+        {
+            "id":"sheetsite",
+            "title": "SHEET-BASED WEBSITE",
+            "role": "UX/UI Design, Developlemnt",
+            "type": "Individual Work (Tufts CEEO)",
+            "product": "Responsive Website",
+            "tools": "Figma, Javascript ES6, HTML, CSS",
+            "award": "",
+            "subtitle": "Creating an editable directory website from Google Sheets",
+            "teaser": "assets/sheetsite/emptysheets.png",
+            "tags":["UX/UI", "Concept", "Research", "Development", "Featured"],
+            "video": "",
+            "rq": "How might we help people who do not code easily update and maintain content for a website?",
+            "desc": "To help our lab members, people who don't code. no time to set up. easy to keep maintaining. take over.. The system is easy to use and the learning curve is next to nothing. manage a database and website tool all in one simple spreadsheet. Summer interns could setup a site within 30 minutes.  convenient tool to quickly and effectively display content on your website. o need for coding experience, etc. Simply enter your content in a google sheet",
+            "next": "steamdiscoverylab",
+            "linklabel": "→ LAUNCH PROJECT",
+            "link": "https://drive.google.com/file/d/19VSQYhYBQMyJ6bVujrVg8ovS3AOEefCk/view?usp=sharing",
+            "materials": [
+                { 
+                    "label": "Paper",
+                    "path": "assets/draw2code/paper.pdf"
+                },
+                { 
+                    "label": "Video",
+                    "path": "assets/draw2code/video.mp4"
+                },
+                { 
+                    "label": "Demo",
+                    "path": "https://hyejinim.github.io/draw2code/"
+                }
+            ],
+            "process": [
+                { 
+                    "step": "Research",
+                    "image": "assets/making/teaser.png",
+                    "caption": "Consider two side users: authors and audiences."
+                },
+                { 
+                    "step": "Design",
+                    "image": "assets/making/teaser.png",
+                    "caption": "Blah blah blah blah"
+                },
+                { 
+                    "step": "Development",
+                    "image": "assets/making/teaser.png",
+                    "caption": "Blah blah blah blah"
+                },
+                { 
+                    "step": "Three More Things",
+                    "image": "",
+                    "caption": "• More Design Templates <br>• Design Customization <br>• "
+                }
+            ],
+            "images": [
+                { 
+                    "image": "assets/making/teaser.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/making/teaser.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/making/teaser.png",
+                    "caption": ""
+                }
+            ],
+            "wrappedimages": [
+                { 
+                    "image": "assets/laika/teaser.png",
+                    "caption": "teaser"
+                },
+                { 
+                    "image": "assets/laika/teaser.png",
+                    "caption": "teaser"
+                },
+                { 
+                    "image": "assets/laika/teaser.png",
+                    "caption": "teaser"
+                }
+            ],
+            "reflection": [
+                { 
+                    "title": "Less Instructions, More Automization",
+                    "desc": "People do not follow rules. For consistency, force people to follow rules as form. Form follows content. Do not make users work."
+                },
+                { 
+                    "title": "Data triangulation and usability testing",
+                    "desc": "I learned how to triangulate data gathered from different research methods and to implement the feedback into our product. Usability testing also provided rich insights that I never thought of, and it was great to see how our platform can be developed further as we go through those phases."
+                }
+            ]
+        },
+        {
+            "id":"laika",
+            "title": "LAIKA",
+            "authors": "Individual Work",
+            "type": "Desktop Application",
+            "tools": "Java",
+            "subtitle": "Game interface that gives players freedom to customize their game design",
+            "teaser": "assets/laika/teaser.png",
+            "tags":["Development", "Concept"],
+            "video": "assets/laika/video.mp4",
+            "materials": [
+                { 
+                    "label": "Paper",
+                    "path": "assets/datatoon/paper.pdf"
+                },
+                { 
+                    "label": "Video",
+                    "path": "assets/datatoon/video.mp4"
+                },
+                { 
+                    "label": "Demo",
+                    "path": "https://datatoon.github.io/"
+                }
+            ],
+            "images": [
+            ],
+            "desc": "Comics are an entertaining and familiar medium for presenting compelling stories about data. However, existing visualization authoring tools do not leverage this expressive medium. In this paper, we seek to incorporate elements of comics into the construction of data-driven stories about dynamic networks. We contribute DataToon, a flexible data comic storyboarding tool that blends analysis and presentation with pen and touch interactions. A storyteller can use DataToon rapidly generate visualization panels, annotate them, and position them within a canvas to produce a visually compelling narrative. In a user study, participants quickly learned to use DataToon for producing data comics."
+        },
+        {
+            "id":"making",
+            "title": "TINKERING",
+            "authors": "",
+            "type": "...",
+            "tools": "...",
+            "subtitle": "Making, drawing, and shooting",
+            "teaser": "assets/making/teaser.png",
+            "tags":[],
+            "video": "assets/making/video.mp4",
+            "materials": [
+                { 
+                    "label": "Paper",
+                    "path": "assets/datatoon/paper.pdf"
+                },
+                { 
+                    "label": "Video",
+                    "path": "assets/datatoon/video.mp4"
+                },
+                { 
+                    "label": "Demo",
+                    "path": "https://datatoon.github.io/"
+                }
+            ],
+            "desc": "Comics are an entertaining and familiar medium for presenting compelling stories about data. However, existing visualization authoring tools do not leverage this expressive medium. In this paper, we seek to incorporate elements of comics into the construction of data-driven stories about dynamic networks. We contribute DataToon, a flexible data comic storyboarding tool that blends analysis and presentation with pen and touch interactions. A storyteller can use DataToon rapidly generate visualization panels, annotate them, and position them within a canvas to produce a visually compelling narrative. In a user study, participants quickly learned to use DataToon for producing data comics."
+        },
+        {
+            "id":"spacedog",
+            "title": "SPACE DOG",
+            "authors": "Individual Work",
+            "role": "Concept, Design, Development",
+            "type": "Web Application",
+            "link": "https://hyejinim.github.io/spacedog/",
+            "tools": "Javascript, Three.js, WebGL",
+            "subtitle": "Interactive 3D graphic simulation of floating dogs in the space",
+            "teaser": "assets/spacedog/teaser.png",
+            "img1": "assets/spacedog/thumbnail.png",
+            "tags":["Development", "Concept"],
+            "video": "assets/spacedog/video.mp4",
+            "materials": [
+                { 
+                    "label": "Paper",
+                    "path": "assets/datatoon/paper.pdf"
+                },
+                { 
+                    "label": "Video",
+                    "path": "assets/datatoon/video.mp4"
+                },
+                { 
+                    "label": "Demo",
+                    "path": "https://datatoon.github.io/"
+                }
+            ],
+            "desc": "While I was learning about object-oriented programming, I wanted to create a simple yet interactive 3D environment using Three.js and WebGL. As user moves his/her mouse position, the movement of dogs and the speed of meteors would change. <br><br> Through this project, I learned how to design animated 3D objects having multiple parts, how to express different materials, and how to use lights in the 3D world."
+        }
+    ]
+}
