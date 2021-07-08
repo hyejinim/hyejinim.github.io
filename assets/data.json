@@ -48,7 +48,7 @@
             "id":"draw2code",
             "title": "DRAW2CODE",
             "role": "Lit Review, Concept Development, Design, Developlemnt, User Study, Data Analysis",
-            "type": "Individual Work <br>(Master's Thesis, <br> Advised by Prof. Chris Rogers)",
+            "type": "Master's Thesis, <br> Advised by Prof. Chris Rogers",
             "product": "Tangible Kit, Web-Based Mobile Application",
             "tools": "Figma, Miro, Qualtrics, Tableau, NVivo, Javascript, p5.js, Teachable Machine",
             "award": "🏆 Awarded for Graduate Research Competition",
@@ -57,34 +57,15 @@
             "tags":["UX/UI", "Concept", "Research", "Development", "Featured"],
             "video": "assets/draw2code/draw2code-tutorial.mp4",
             "rq": "How might we develop a computational kit that increases young children’s participation in computing, especially children from underrepresented groups in STEM?",
-            "desc": "Computational thinking is nowadays considered an essential skill in the K-12 educational curriculum. Many tangible computational kits designed for early childhood are either too expensive to benefit a wide range of children or only provide predetermined challenges with limited creative content creation opportunities. <br><br>We investigated low-cost and expressive tangible interfaces that foster computational literacy. We designed and implemented Draw2Code, a paper-based computational kit for young children to create an interactive AR animation. Children use Draw2Code to make their paper drawing alive as an animated virtual sprite and control it using hand gestures. It exposes children to basic programming concepts through playful and tangible interaction. <br><br> We conducted a user study with nine child-parent dyads (children ages 5 to 12) to evaluate the usability of the kit. Results from our initial evaluation revealed that all children showed high level of engagement in playing with Draw2Code regardless of age and gender. They engaged in computational thinking concepts and practices troughout the sessions.<br><br>This work is awarded a winner for Graduate Student Research Competition by Tufts GSAS and presented at the IDC 2021 Conference and the PLAYfest 2021. <br><br><i>Im, H., Rogers, C. (2021) Draw2Code: Low-Cost Tangible Programming for Creating AR Animations. In proceedings of Interaction Design and Children Conference 2021.</i>",
+            "desc": "Computational thinking is nowadays considered an essential skill in the K-12 educational curriculum. Many tangible computational kits designed for early childhood are either too expensive to benefit a wide range of children or only provide predetermined challenges with limited creative content creation opportunities. <br><br>We investigated low-cost and expressive tangible interfaces that foster computational literacy. We designed and implemented Draw2Code, a paper-based computational kit for young children to create an interactive AR animation. Children use Draw2Code to make their paper drawing alive as an animated virtual sprite and control it using hand gestures. It exposes children to basic programming concepts through playful and tangible interaction. <br><br> This work is awarded a winner for Graduate Student Research Competition by Tufts GSAS and presented at the IDC 2021 Conference and the PLAYfest 2021. <br><br><i>Im, H., Rogers, C. (2021) Draw2Code: Low-Cost Tangible Programming for Creating AR Animations. In proceedings of Interaction Design and Children Conference 2021.</i>",
             "desc2": "Your drawing comes to life!",
             "next": "steamdiscoverylab",
             "linklabel": "→ SEE THESIS",
             "link": "https://drive.google.com/file/d/19VSQYhYBQMyJ6bVujrVg8ovS3AOEefCk/view?usp=sharing",
             "link2": "https://drive.google.com/file/d/1JW_O21dNBpp3T8bE5ZrRDM6w61Vzob_J/view?usp=sharing",
-            "materials": [
-                { 
-                    "label": "Paper",
-                    "path": "assets/draw2code/paper.pdf"
-                },
-                { 
-                    "label": "Video",
-                    "path": "assets/draw2code/video.mp4"
-                },
-                { 
-                    "label": "Demo",
-                    "path": "https://hyejinim.github.io/draw2code/"
-                }
-            ],
             "process": [
                 { 
                     "step": "Background",
-                    "image": "assets/draw2code/kits-by-interface.png",
-                    "caption": ""
-                },
-                { 
-                    "step": "",
                     "image": "assets/draw2code/kits-by-expressivity.png",
                     "caption": "<br><br><i><strong>Underrepresented Children in STEM Matters</strong></i><br>• STEM gender stereotypes emerges in early childhood <br>• Previous coding experience is correlated with self-efficacy toward CS<br>• Children from low-income families do not have equal opportunities <br><br><i><strong>Opportunities in Tangible Inteface for Computational Thinking</strong></i><br>While tangible Interface are known as effective for young children's learning, many of them are not accessible to all children since they are expensive. They also constrain to predetermined challenges thus might not be engaging enough for some children.<br><br>"
                 },
@@ -121,23 +102,23 @@
                 { 
                     "step": "Use Case Scenarios",
                     "image": "assets/draw2code/object.png",
-                    "caption": "<br><br><i>Customizing sprites</i>"
+                    "caption": "<br><br><i>Customizing sprites</i><br><br>"
                 },
               
                 { 
                     "step": "User Study",
                     "image": "assets/draw2code/testing.png",
-                    "caption": "We conducted a remote user study with nine children to evaluate the usability of Draw2Code. With help from the parents, all participants easily prepared Draw2Code at home without extra cost and were able to use it without direct help from the researcher."
+                    "caption": "We conducted a user study with nine child-parent dyads (children ages 5 to 12) to evaluate the usability of the kit. Results from our initial evaluation revealed that all children easily prepared Draw2Code at home with help from the parents and without extra cost."
                 },
                 { 
                     "step": "",
                     "image": "assets/draw2code/task-results.png",
-                    "caption": "<br><br><i>Task Results</i>"
+                    "caption": "<br><br><i>Task Success Rate and Free Play Length</i><br><br>The task success rate shows that all children successfully used Draw2Code without direct help from the researcher. Children showed high level of engagement in playing with Draw2Code regardless of age and gender. The results of free play task indicates that children played with it for 33 minutes on average (Min: 20, Max: 45)."
                 },
                 { 
                     "step": "",
                     "image": "assets/draw2code/survey-results.png",
-                    "caption": "<br><br><i>Survey Results</i><br><br>The results indicate that children ages 5 to 12 successfully used Draw2Code and played with it for 33 minutes on average (Min: 20, Max: 45), showing a high level of engagement. The children each created at least two and as many as five different AR animations based on their ideas. Throughout the sessions, all children were engaged in computational thinking concepts and practices including decomposition, abstraction, and algorithms. Most children mentioned they particularly liked the moment when their drawing came to life on the AR screen. They also liked intuitive drawing and gesture-based interactions to code for and control their program. *For more details, please look into my thesis."
+                    "caption": "<br><br><i>Survey Results</i><br><br>The children each created at least two and as many as five different AR animations based on their ideas. Throughout the sessions, all children were engaged in computational thinking concepts and practices including decomposition, abstraction, and algorithms. Most children mentioned they particularly liked the moment when their drawing came to life on the AR screen. They also liked intuitive drawing and gesture-based interactions to code for and control their program."
                 },
                 { 
                     "step": "",
@@ -147,7 +128,17 @@
                 { 
                     "step": "",
                     "image": "assets/draw2code/children-outcome.png",
-                    "caption": "<i>Artifacts of the diverse AR animations with stories children created: (a) a truck is blowing up, (b) a creepy monster living in a forest is chasing and attacking a child, (c) a bee is coming close to a child's face and she is trying to dodge, (d) a child is showing her fist and a mouse is moving around on a green meadow, (e) an anger cloud is appearing over a child's head, (f) a little himself of a child is jumping on the snow.</i><br><br>"
+                    "caption": "<i>Artifacts of the diverse AR animations with stories children created: (a) a truck is blowing up, (b) a creepy monster living in a forest is chasing and attacking a child, (c) a bee is coming close to a child's face and she is trying to dodge, (d) a child is showing her fist and a mouse is moving around on a green meadow, (e) an anger cloud is appearing over a child's head, (f) a little himself of a child is jumping on the snow.</i>"
+                },
+                { 
+                    "step": "Users' Quotes",
+                    "image": "",
+                    "caption": ""
+                },
+                { 
+                    "step": "Take-Away",
+                    "image": "",
+                    "caption": "<br><br>*For more details, please look into my thesis or the IDC paper."
                 }
             ],
             "images": [
@@ -475,17 +466,17 @@
             ],
             "images": [
                 { 
-                    "image": "assets/donare/teaser.png",
+                    "image": "assets/donare/donare-hand.png",
                     "caption": ""
                 },
                 { 
-                    "image": "",
+                    "image": "assets/donare/teaser.png",
                     "caption": "mockup-context"
                 }
             ],
             "wrappedimages": [
                 { 
-                    "image": "assets/donare/teaser.png",
+                    "image": "",
                     "caption": "gif"
                 }
             ],
@@ -500,17 +491,17 @@
             "id":"vismorn",
             "title": "VISMORN",
             "role": "Concept Development, UX/UI Design, User Research, Prototype",
-            "type": "Individual Work (Capstone Project, Interaction Design Specialization, UC San Diego on Coursera)",
+            "type": "Individual Work <br>(Interaction Design Specialization Capstone Project, UC San Diego on Coursera)",
             "product": "Mobile Application",
-            "tools": "Framer, UserTesting.com",
+            "tools": "Figma, Framer, UserTesting.com",
             "subtitle": "Goal-oriented alarm clock for the habitual snoozers",
             "teaser": "assets/vismorn/teaser-hand.jpeg",
             "tags":["UX/UI", "Concept", "Featured"],
             "video": "assets/vismorn/video.mp4",
             "rq": "How might we help people who constantly use the snooze button easier to wake up on time in the morning?",
-            "desc": "Vismorn is for people who struggle to wake up on time in the morning. Instead of setting a single time to wake up as other alarm clocks do, Vismorn provides two different times to set up, one for waking up and another for doing following task (e.g., go to work). <br><br>The app focuses on achieving a high-level goal as waking up on time is often only a part of reaching the goal. That is, it emphasizes the time gap between wake-up time and task time to encourage a user to be more aware of the goal when setting the times and hitting the snooze button.",
+            "desc": "Vismorn is for people who struggle to wake up on time in the morning. Instead of setting a single time to wake up as other alarm clocks do, Vismorn provides two different times to set up, one for waking up and another for doing following task (e.g., go to work). <br><br>The app focuses on achieving a high-level goal as waking up on time is often only a part of reaching the goal. That is, it emphasizes the time gap between wake-up time and task time to encourage a user to be more aware of the goal when setting the times and hitting the snooze button.<br><br>This work was my first self-initiated project as a capstone project in the Interaction Design certificates (40 hours).",
             "next": "steamdiscoverylab",
-            "linklabel": "→",
+            "linklabel": "→ VIEW PROTOTYPE",
             "link": "",
             "process": [
                 { 

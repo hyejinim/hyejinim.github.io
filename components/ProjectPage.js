@@ -57,17 +57,17 @@ export function ProjectDetail(d){
 
                 <div>
                     <a href="#finaldesign"><button class="basic-bt">↓ SKIP TO FINAL SOLUTION</button></a>
-                    <a href="${d.link}" target="_blank"><button class="basic-bt">${d.linklabel}</button></a>
+                    ${CustomButtons(d.link, d.linklabel)}
                 </div>
             </div>
         </div>
         <br><br>
         <div class="page-small-section bg-color">
             <div class="page-intro-inner">
-                <h1 class="project-title">Challenge</h1>
-                <div class="project-desc">
+                <h3 class="subsubtitle">The Opportunity</h3>
+                <h2 class="project-title">
                     <p>${d.rq}</p>
-                </div>
+                </h2>
                 
             </div>
         </div>
@@ -83,13 +83,6 @@ export function ProjectDetail(d){
             ${WrappedImages(d.wrappedimages)}
         </div>
         
-        <div class="page-small-section">
-            <div class="page-intro-inner">
-                <h1 class="project-title"></h1>
-                ${ReflectionItems(d.reflection)}
-            </div>
-        </div>
-
         <div class="wide">
             <a href="/${d.next}"><h1 class="title" style="text-align: center; margin-bottom: 80px;">NEXT PROJECT</h1></a>
         </div>
@@ -147,5 +140,15 @@ export function WrappedImages(images){
                 <img src="${d.image}" class="space">
             </div>
         `).join('');
+    }
+}
+
+export function CustomButtons(link ,linklabel){
+    if (!link) {
+        return "";
+    }else {
+        return `
+            <a href="${link}" target="_blank"><button class="basic-bt">${linklabel}</button></a>
+        `;
     }
 }
