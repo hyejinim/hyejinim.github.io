@@ -214,7 +214,6 @@
                 { 
                     "step": "Conducting Usability Inspection",
                     "image": "assets/steamdiscoverylab/heuristic-evaluation.png",
-                    "caption": "",
                     "caption": "Heuristic Evaluation"
                 },
                 { 
@@ -666,7 +665,13 @@
                 },
                 { 
                     "step": "Laika Back To The Earth",
-                    "image": "assets/tinkering/laika.jpeg",
+                    "image": "assets/laika/laika-dog.png",
+                    "caption": "",
+                    "info": ""
+                },
+                { 
+                    "step": "",
+                    "image": "assets/laika/teaser3.png",
                     "caption": "Laika Back To The Earth is a 2D simulation game written in Java. It is developed for Laika, a space dog from Soviet Union. In this game, the player plays a role of Laika and saves other dogs in the space and come back home, the Earth. I hoped more peoplae are aware of the behind story of this game: animals' sacrifice and contribution in science. I also wanted to give a positive lesson to players through this game; it does not require fighting and competeting against enemies but helping ohters to achieve the success.<br><br>It has game design and play modes so players can design their own games.",
                     "info": "As a project of space dog series, I developed a game for Laika. can design the game. Imaginary mission. By playing this game, the user can experience a journey of Laika, get interested in the behind story of the dog, and learn a lesson "
                 },
@@ -677,16 +682,16 @@
                     "info": ""
                 },
                 { 
-                    "step": "Friendly Monster",
+                    "step": "",
                     "image": "",
                     "caption": "",
-                    "info": ""
+                    "info": "Friendly Monster"
                 },
                 { 
-                    "step": "Trainable Motors",
+                    "step": "",
                     "image": "",
-                    "caption": "Training smart motors without programming",
-                    "info": ""
+                    "caption": "",
+                    "info": "Trainable Motors,Training smart motors without programming"
                 }
             ],
             "images": [
