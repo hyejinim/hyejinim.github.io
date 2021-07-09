@@ -208,46 +208,55 @@
                 { 
                     "step": "Background",
                     "image": "assets/steamdiscoverylab/poster.png",
-                    "caption": "• Not obvious site users, goals, do not look professional (Trustworthy) • Hard to navigate site • Inconsistent content: As multiple authors (students and staff at the center) had been creating a lot of different types of content, the original navigation and website structure were not optimized for the current content. Also, the content produced by different authors was not always consistent. It made users harder to find content easily and effectively on the website as well as to visit the website again."
+                    "caption": "",
+                    "info": "• Not obvious site users, goals, do not look professional (Trustworthy) • Hard to navigate site • Inconsistent content: As multiple authors (students and staff at the center) had been creating a lot of different types of content, the original navigation and website structure were not optimized for the current content. Also, the content produced by different authors was not always consistent. It made users harder to find content easily and effectively on the website as well as to visit the website again."
                 },
                 { 
                     "step": "Conducting Usability Inspection",
                     "image": "assets/steamdiscoverylab/heuristic-evaluation.png",
+                    "caption": "",
                     "caption": "Heuristic Evaluation"
                 },
                 { 
                     "step": "",
                     "image": "assets/steamdiscoverylab/grouped-content.png",
-                    "caption": "Information Architecture Analysis <br><br> User Testing (Let them freely explore websites and asked overall impression. Think Aloud and Breif Interview) <br>• I do not know what to start with this website <br>• It is hard to imagine where a specific content will be and it requires so many clicks <br>• It looks like it is designed for elementary school students <br> • Content and pages are not consistent and it looks like not professional and credible resources"
+                    "caption": "",
+                    "info": "Information Architecture Analysis <br><br> User Testing (Let them freely explore websites and asked overall impression. Think Aloud and Breif Interview) <br>• I do not know what to start with this website <br>• It is hard to imagine where a specific content will be and it requires so many clicks <br>• It looks like it is designed for elementary school students <br> • Content and pages are not consistent and it looks like not professional and credible resources"
                 },
                 { 
                     "step": "Design Goals",
                     "image": "",
-                    "caption": "• Welcoming and usable home page: Providing an informative information on the home page to target users and credibility and guidance how to use this website <br>• Easy navigation: Make it easy to expectable and offer short user flow with less amount of time based on understanding of primary user scenarios <br>• Consistent layout and user flow depending on content types<br>• Optimized Look and Feel: Understand target users and make them belong to the website"
+                    "caption": "",
+                    "info": "• Welcoming and usable home page: Providing an informative information on the home page to target users and credibility and guidance how to use this website <br>• Easy navigation: Make it easy to expectable and offer short user flow with less amount of time based on understanding of primary user scenarios <br>• Consistent layout and user flow depending on content types<br>• Optimized Look and Feel: Understand target users and make them belong to the website"
                 },
                 { 
                     "step": "Emphasizing Potential Primary Users",
                     "image": "assets/steamdiscoverylab/persona.png",
-                    "caption": "To reasonate design decision, persuade, on the same page with other members. Imaginary persona, user journey map, use case scenarios. The website provides teachers with inspiring lesson plans and activity ideas that they can tweak to best meet the needs of their students and subject area. The site also features activity ideas that combine different technologies in unconventional ways."
+                    "caption": "",
+                    "info": "To reasonate design decision, persuade, on the same page with other members. Imaginary persona, user journey map, use case scenarios. The website provides teachers with inspiring lesson plans and activity ideas that they can tweak to best meet the needs of their students and subject area. The site also features activity ideas that combine different technologies in unconventional ways."
                 },
                 { 
                     "step": "Redesigning the Website",
                     "image": "assets/steamdiscoverylab/steam-structure.png",
-                    "caption": "IA and User flow - Narrow to shallow, Reorganized information architecture and created content Metadata for each content. They grouped by content type, category, and tags"
+                    "caption": "",
+                    "info": "IA and User flow - Narrow to shallow, Reorganized information architecture and created content Metadata for each content. They grouped by content type, category, and tags"
                 },
                 { 
                     "step": "",
                     "image": "assets/steamdiscoverylab/grouping-project.png",
-                    "caption": "Organize content meta data"
+                    "caption": "",
+                    "info": "Organize content meta data"
                 },
                 { 
                     "step": "",
                     "image": "assets/steamdiscoverylab/sketch.png",
-                    "caption": "Sketch"
+                    "caption": "",
+                    "info": "Sketch"
                 },
                 { 
                     "step": "Impact",
-                    "image": "assets/steamdiscoverylab/",
+                    "image": "",
+                    "caption": "",
                     "caption": "The redesigned website was launched in August 2019. A demo session conducted after website redesign proved that the new site was a success; task success rate increased to 100%. The amount of time it took for users to find information significantly decreased. The website returning visitor rate also increased."
                 }
             ],
@@ -523,58 +532,6 @@
             ]
         },
         {
-            "id":"storyexplorer",
-            "title": "STORY EXPLORER",
-            "role": "Data Analysis, UX/UI Design",
-            "type": "Research Project<br>Collaborated with Nam Wook Kim",
-            "product": "Web Application",
-            "tools": "Figma",
-            "subtitle": "🖥️ Creating a visualization tool for authoring and exploring nonlinear narratives",
-            "teaser": "assets/storyexplorer/teaser.png",
-            "tags":["Visualization", "UX/UI", "Research", "Featured"],
-            "video": "assets/storyexplorer/video.mp4",
-            "rq": "",
-            "desc": "Comics are an entertaining and familiar medium for presenting compelling stories about data. However, existing visualization authoring tools do not leverage this expressive medium. In this paper, we seek to incorporate elements of comics into the construction of data-driven stories about dynamic networks. We contribute DataToon, a flexible data comic storyboarding tool that blends analysis and presentation with pen and touch interactions. A storyteller can use DataToon rapidly generate visualization panels, annotate them, and position them within a canvas to produce a visually compelling narrative. In a user study, participants quickly learned to use DataToon for producing data comics.",
-            "next": "donare",
-            "linklabel": "→ SEE THESIS",
-            "link": "",
-            "process": [
-                { 
-                    "step": "Background",
-                    "image": "assets/draw2code/kits-by-interface.png",
-                    "caption": ""
-                },
-                { 
-                    "step": "",
-                    "image": "assets/draw2code/kits-by-expressivity.png",
-                    "caption": ""
-                }
-            ],
-            "images": [
-                { 
-                    "image": "assets/draw2code/coding-blocks.png",
-                    "caption": ""
-                }
-            ],
-            "wrappedimages": [
- 		{ 
-                    "image": "assets/draw2code/coding-blocks.png",
-                    "caption": ""
-                }
-               
-            ],
-            "reflection": [
-                { 
-                    "title": "Joy of Implementing an Idea from Scratch",
-                    "desc": ""
-                },
-                { 
-                    "title": "Testing Early, Testing Often to Validate with Users",
-                    "desc": ""
-                }
-            ]
-        },
-        {
             "id":"donare",
             "title": "DONARE",
             "role": "UX/UI Design, Graphic Design, User Research",
@@ -685,6 +642,79 @@
                 }
             ]
         },
+        {
+            "id":"tinkering",
+            "title": "TINKERING",
+            "product": "Web Application, Game, Simulation",
+            "role": "UX/UI Design, Game Design, 3D Graphic Design, Development, Making",
+            "type": "Individual Work",
+            "tools": "Java, Javascript, Three.js, WebGL, 3D Printer, Laser Cutter",
+            "subtitle": "🧪 Miscellaneous digital and physical fabrication",
+            "teaser": "assets/spacedog/teaser.png",
+            "tags":["Development", "Concept"],
+            "video": "assets/spacedog/video.mp4",
+            "rq": "How can we use technologies to express creativity?",
+            "desc": "I beleive that people learn the best when they work on personally interesting or meaningful projects. Whenever I had a chance to learn new technologies or techniques, I tried to make something fun and experimental. These are some of the projects I created as results of learning.",
+            "next": "tinkering",
+            "linklabel": "→ SEE THESIS",
+            "link": "",
+            "process": [
+                { 
+                    "step": "Space Dog",
+                    "image": "assets/spacedog/screenshot.png",
+                    "caption": "Space Dog is a simulation application of floating dogs in the space. It is a simple and interactive 3D environment and developed using Three.js and WebGL. As the user move his/her mouse position, the movement of dogs and the speed of meteors would change. <br><br> I learned how to design animated 3D objects having multiple parts, how to express different materials, and how to use lights in the 3D world."
+                },
+                { 
+                    "step": "Laika Back To The Earth",
+                    "image": "assets/tinkering/laika.jpeg",
+                    "caption": "Laika Back To The Earth is a 2D simulation game written in Java. It is developed for Laika, a space dog from Soviet Union. In this game, the player plays a role of Laika and saves other dogs in the space and come back home, the Earth. I hoped more peoplae are aware of the behind story of this game: animals' sacrifice and contribution in science. I also wanted to give a positive lesson to players through this game; it does not require fighting and competeting against enemies but helping ohters to achieve the success.<br><br>It has game design and play modes so players can design their own games.",
+                    "info": "As a project of space dog series, I developed a game for Laika. can design the game. Imaginary mission. By playing this game, the user can experience a journey of Laika, get interested in the behind story of the dog, and learn a lesson "
+                },
+                { 
+                    "step": "Emoji Safari",
+                    "image": "assets/tinkering/emojisafari.png",
+                    "caption": "",
+                    "info": ""
+                },
+                { 
+                    "step": "Friendly Monster",
+                    "image": "",
+                    "caption": "",
+                    "info": ""
+                },
+                { 
+                    "step": "Trainable Motors",
+                    "image": "",
+                    "caption": "Training smart motors without programming",
+                    "info": ""
+                }
+            ],
+            "images": [
+                { 
+                    "image": "",
+                    "caption": ""
+                }
+            ],
+            "wrappedimages": [
+ 		{ 
+                    "image": "",
+                    "caption": ""
+                }
+               
+            ],
+            "reflection": [
+                { 
+                    "title": "",
+                    "desc": ""
+                },
+                { 
+                    "title": "",
+                    "desc": ""
+                }
+            ]
+        }
+    ],
+    "archaived": [
         {
             "id":"vismorn",
             "title": "VISMORN",
@@ -801,9 +831,9 @@
             "product": "Mobile Applications, Responsive Web Platforms, Home Appliances",
             "tools": "Keynote, Microsoft Powerpoint, HTML, Invision, Diary Study, In-Depth Interview, Survey",
             "subtitle": "📺 Designing UX/UI of mobile applications, responsive web platforms, and home appliance for clients in various industries",
-            "teaser": "assets/industrial/teaser.png",
+            "teaser": "assets/industrialwork/teaser.png",
             "tags":["UX/UI", "Featured"],
-            "video": "assets/industrial/video.mp4",
+            "video": "assets/industrialwork/video.mp4",
             "rq": "",
             "desc": "In this paper, we present BubbleView, an alternative methodology for eye tracking using discrete mouse clicks to measure which information people consciously choose to examine. BubbleView is a mouse-contingent, moving-window interface in which participants are presented with a series of blurred images and click to reveal 'bubbles' - small, circular areas of the image at original resolution, similar to having a confined area of focus like the eye fovea. Across 10 experiments with 28 different parameter combinations, we evaluated BubbleView on a variety of image types: information visualizations, natural images, static webpages, and graphic designs, and compared the clicks to eye fixations collected with eye-trackers in controlled lab settings. We found that BubbleView clicks can both (i) successfully approximate eye fixations on different images, and (ii) be used to rank image and design elements by importance. BubbleView is designed to collect clicks on static images, and works best for defined tasks such as describing the content of an information visualization or measuring image importance. BubbleView data is cleaner and more consistent than related methodologies that use continuous mouse movements. Our analyses validate the use of mouse-contingent, moving-window methodologies as approximating eye fixations for different image and task types.",
             "next": "tinkering",
@@ -839,50 +869,26 @@
             ]
         },
         {
-            "id":"tinkering",
-            "title": "TINKERING",
-            "product": "Individual Work",
-            "role": "UX/UI Design, Game Design, 3D Graphic Design, Development, Making",
-            "type": "Web Application, Game, Simulation",
-            "tools": "Java, Javascript, Three.js, WebGL, 3D Printer, Laser Cutter",
-            "subtitle": "🧪 Miscellaneous design experiments",
-            "teaser": "assets/spacedog/teaser.png",
-            "tags":["Development", "Concept"],
-            "video": "assets/spacedog/video.mp4",
+            "id":"storyexplorer",
+            "title": "STORY EXPLORER",
+            "role": "Data Analysis, UX/UI Design",
+            "type": "Research Project<br>Collaborated with Nam Wook Kim",
+            "product": "Web Application",
+            "tools": "Figma",
+            "subtitle": "🖥️ Creating a visualization tool for authoring and exploring nonlinear narratives",
+            "teaser": "assets/storyexplorer/teaser.png",
+            "tags":["Visualization", "UX/UI", "Research", "Featured"],
+            "video": "assets/storyexplorer/video.mp4",
             "rq": "",
-            "desc": "I beleive that people learn the best when they work on personally interesting or meaningful projects. Whenever I had a chance to learn new technologies or techniques, I tried to make something fun and experimental. These are some of the projects I created as results of learning.",
-            "next": "tinkering",
+            "desc": "Details will be updated soon!",
+            "next": "donare",
             "linklabel": "→ SEE THESIS",
             "link": "",
             "process": [
                 { 
-                    "step": "Space Dog",
-                    "image": "assets/spacedog/screenshot.png",
-                    "caption": "Space Dog is a simulation application of floating dogs in the space. It is a simple and interactive 3D environment and developed using Three.js and WebGL. As the user move his/her mouse position, the movement of dogs and the speed of meteors would change. <br><br> I learned how to design animated 3D objects having multiple parts, how to express different materials, and how to use lights in the 3D world."
-                },
-                { 
-                    "step": "Laika Back To The Earth",
-                    "image": "assets/tinkering/laika.jpeg",
-                    "caption": "Laika Back To The Earth is a 2D simulation game written in Java. It is developed for Laika, a space dog from Soviet Union. In this game, the player plays a role of Laika and saves other dogs in the space and come back home, the Earth. I hoped more peoplae are aware of the behind story of this game: animals' sacrifice and contribution in science. I also wanted to give a positive lesson to players through this game; it does not require fighting and competeting against enemies but helping ohters to achieve the success.<br><br>It has game design and play modes so players can design their own games.",
-                    "info": "As a project of space dog series, I developed a game for Laika. can design the game. Imaginary mission. By playing this game, the user can experience a journey of Laika, get interested in the behind story of the dog, and learn a lesson "
-                },
-                { 
-                    "step": "Emoji Safari",
-                    "image": "assets/tinkering/emojisafari.png",
-                    "caption": "",
-                    "info": ""
-                },
-                { 
-                    "step": "Friendly Monster",
+                    "step": "",
                     "image": "",
-                    "caption": "",
-                    "info": ""
-                },
-                { 
-                    "step": "Trainable Motors",
-                    "image": "",
-                    "caption": "Training smart motors without programming",
-                    "info": ""
+                    "caption": ""
                 }
             ],
             "images": [
@@ -893,7 +899,7 @@
             ],
             "wrappedimages": [
  		{ 
-                    "image": "",
+                    "image": "a",
                     "caption": ""
                 }
                
@@ -908,9 +914,7 @@
                     "desc": ""
                 }
             ]
-        }
-    ],
-    "archaived": [
+        },
         {
             "id":"sheetsite",
             "title": "SHEET-BASED WEBSITE",
