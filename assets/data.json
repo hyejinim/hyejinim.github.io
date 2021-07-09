@@ -313,7 +313,7 @@
             "rq": "How might we leverage voice user interfaces to create playful learning environment?",
             "desc": "Speak Go is a speech game that enhances memorizing with playful and engaging learning. It is a web application written in Javascript. It is a game with a voice controlled interface. We implemented Web Speech API. <br><br> As a member of a small team (two people), we worked together on from developing the concept of the game to developing the user interface.",
             "next": "",
-            "linklabel": "→ PLAY GAME (ON CHROME)",
+            "linklabel": "→ PLAY IT (ON CHROME)",
             "link": "https://hyejinim.github.io/speakgo/",
             "process": [
                 { 
