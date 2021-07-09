@@ -98,12 +98,8 @@ export function ProcessItems(process){
     }
     return process.map(d=>`
         <h3 class="subsubtitle">${d.step}</h3>
-        
-        <p>
-            
-            <img class="img-wrap" src="${d.image}">
-            ${d.caption}
-        </p>
+        <img class="img-wrap" src="${d.image}">
+        ${d.caption}
     `).join('');
 }
 

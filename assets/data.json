@@ -15,7 +15,7 @@
     },
     "news":[
         {
-            "title":"Our Draw2Code Work-in-Progress paper is accepted to the IDC conference",
+            "title":"Our Draw2Code paper is accepted to the IDC conference",
             "date": "May, 2021"
         },
         {
@@ -52,13 +52,12 @@
             "product": "Tangible Kit, Web-Based Mobile Application",
             "tools": "Figma, Miro, Qualtrics, Tableau, NVivo, Javascript, p5.js, Teachable Machine",
             "award": "🏆 Awarded for Graduate Research Competition",
-            "subtitle": "Paper-based AR kit to engage young children in a playful coding environment to develop computational thinking",
+            "subtitle": "📱 Creating a paper-based AR kit to engage young children in a playful coding environment to develop computational thinking",
             "teaser": "assets/draw2code/teaser.png",
             "tags":["UX/UI", "Concept", "Research", "Development", "Featured"],
             "video": "assets/draw2code/draw2code-tutorial.mp4",
             "rq": "How might we develop a computational kit that increases young children’s participation in computing, especially children from underrepresented groups in STEM?",
-            "desc": "Computational thinking is nowadays considered an essential skill in the K-12 educational curriculum. Many tangible computational kits designed for early childhood are either too expensive to benefit a wide range of children or only provide predetermined challenges with limited creative content creation opportunities. <br><br>We investigated low-cost and expressive tangible interfaces that foster computational literacy. We designed and implemented Draw2Code, a paper-based computational kit for young children to create an interactive AR animation. Children use Draw2Code to make their paper drawing alive as an animated virtual sprite and control it using hand gestures. It exposes children to basic programming concepts through playful and tangible interaction. <br><br> This work is awarded a winner for Graduate Student Research Competition by Tufts GSAS and presented at the IDC 2021 Conference and the PLAYfest 2021. <br><br><i>Im, H., Rogers, C. (2021) Draw2Code: Low-Cost Tangible Programming for Creating AR Animations. In proceedings of Interaction Design and Children Conference 2021.</i>",
-            "desc2": "Your drawing comes to life!",
+            "desc": "Computational thinking is nowadays considered an essential skill in the K-12 educational curriculum. Many tangible computational kits designed for early childhood are either too expensive to benefit a wide range of children or only provide predetermined challenges with limited creative content creation opportunities. <br><br>We investigated low-cost and expressive tangible interfaces that foster computational literacy. We designed and implemented Draw2Code, a paper-based computational kit for young children to create an interactive AR animation. Children use Draw2Code to make their paper drawing alive as an animated virtual sprite and control it using hand gestures. It exposes children to basic programming concepts through playful and tangible interaction. <br><br> This work is awarded a winner for Graduate Student Research Competition by Tufts GSAS and presented at the IDC 2021 Conference and the PLAYfest 2021. <br><br><i><strong>Im, H.</strong>, Rogers, C. (2021) Draw2Code: Low-Cost Tangible Programming for Creating AR Animations. In proceedings of Interaction Design and Children Conference 2021.</i>",
             "next": "steamdiscoverylab",
             "linklabel": "→ SEE THESIS",
             "link": "https://drive.google.com/file/d/19VSQYhYBQMyJ6bVujrVg8ovS3AOEefCk/view?usp=sharing",
@@ -196,7 +195,7 @@
             "type": "Tufts CEEO Summer Internship Project",
             "product": "Responsive Website",
             "tools": "Post-it, Figma, Weebly, Javascript",
-            "subtitle": "Redesigning an online community for K-12 STEAM educators",
+            "subtitle": "🖥️ Redesigning an online community for K-12 STEAM educators",
             "teaser": "assets/steamdiscoverylab/teaser-hand6.jpeg",
             "tags":["UX/UI", "Illustration"],
             "video": "assets/steamdiscoverylab/video.mp4",
@@ -307,7 +306,7 @@
             "type": "Team Project <br> (CS86: Object-Oriented Programming for Graphical User Interface)",
             "product": "Web Application",
             "tools": "HTML, Javascript, CSS, Web Speech API, Procreate",
-            "subtitle": "Voice-controlled game that enhances learning and memorizing",
+            "subtitle": "🎮 Developing a voice-controlled game that enhances learning and memorizing",
             "teaser": "assets/speakgo/kid.png",
             "tags":["Development", "UX/UI", "Concept"],
             "video": "assets/speakgo/video.mp4",
@@ -377,13 +376,212 @@
             ]
         },
         {
+            "id":"dataselfie",
+            "title": "DATA SELFIE",
+            "role": "Data Analysis, UX/UI Design",
+            "type": "Research Project<br>(Collaborated with Nam Wook Kim)",
+            "product": "Web Application",
+            "tools": "Figma, ATLAS.ti",
+            "subtitle": "🖍️ Creating a survey tool that empowers people to design personalized visuals to represent their data",
+            "teaser": "assets/dataselfie/teaser-mockup2.jpeg",
+            "tags":["Visualization", "UX/UI", "Research"],
+            "video": "https://doc-04-34-docs.googleusercontent.com/docs/securesc/lcmoth8lopeo9tdidfto12ph2tamcqpt/qdtp4ss81smlfitk06mpuj0uehoj3hgi/1625860500000/12084871565804967376/12272201305969183738/1hqJ0TjTspLf2_wEceGboqFQstCVcRE7Z?e=view&authuser=0&nonce=dpl322nou30go&user=12272201305969183738&hash=mdb44gvvpeh8gihqt8oonami4k66jnqq",
+            "rq": "How can we enable people to determine the representation of their data?",
+            "desc": "DataSelfie is a survey tool that allows any individuals to create a visual vocabulary to represent their personal data. <br><br>Using DataSelfie, you can create a questionnaire to ask questions about qualitative and nuanced aspects of yourself and to design a personalized visualization. <br><br> This work is published in CHI 2019. <br><br> <i>Kim N. W., <strong>Im, H.</strong>, Riche, N. H., Wang, A., Gajos, K. Z., Pfister, H. DataSelfie: Empowering People to Design Personalized Visuals to Represent Their Data. ACM Conference on Human Factors in Computing Systems (CHI) 2019.</i>",
+            "next": "steamdiscoverylab",
+            "linklabel": "→ VISIT WEBSITE",
+            "link": "https://dataselfie.namwkim.org/#/",
+            "process": [
+                { 
+                    "step": "Existing Personal Informatics Systems",
+                    "image": "assets/dataselfie/background.png",
+                    "caption": "<i>Existing Personal Informatics Systems: Apple Health, Reporter App, UbiFit’08</i><br><br><strong>More Convenient but Less Engaged</strong><br>Many personal informatics systems allow people to collect and manage personal data and reflect more deeply about themselves. The manual approaches for data collection have high data capture burdens, often hindering people from sustaining long-term practices. Automated tracking technology attempts to address this issue by leveraging personal devices embedded with various sensors to remove the need for manual data inputs. However, complete automation of data collection often eliminates additional opportunities for engagement and reflection with personal data.<br><br><strong>Lack of Support for Customizing Visualization</strong><br>Existing self-tracking tools focus on data collection and management, not necessarily on how to display the data. As a result, the design of the tools dictates the presentation of the data, showing data summaries in the form of standard charts or tables. People rarely have a chance to customize their data and have passive ownership of the visuals."
+                },
+                { 
+                    "step": "",
+                    "image": "assets/dataselfie/bullet-journal.png",
+                    "caption": "<br><br><strong>Advantages of Expressive Visuals Using Pen & Paper</strong><br>On the other hand, a lot of people still use pen & paper to create much more expressive representations that can communicate their emotion and personality, as well as the context of the data much better than standard charts."
+                },
+                { 
+                    "step": "Open Coding of 104 Postcards",
+                    "image": "assets/dataselfie/deardata.jpeg",
+                    "caption": ""
+                },
+                { 
+                    "step": "",
+                    "image": "assets/dataselfie/deardata2.jpeg",
+                    "caption": "<i>Stefanie’s Postcard of Week 14, Dear Data</i><br><br>To understand what types of data can capture personal lives and what kinds of visuals can be used to represent the data, we analyzed visualizations and retrospective texts of <strong>104 postcards from the Dear Data project </strong>in which two professional infographic designers, Lupi and Posavec, collected data about themselves and drew custom visualizations with the data every week for a year."
+                },
+                { 
+                    "step": "",
+                    "image": "assets/dataselfie/analysis.png",
+                    "caption": "<i>Themes identified through visual postcards and retrospective text analysis</i>"
+                },
+                { 
+                    "step": "Findings",
+                    "image": "",
+                    "caption": "While visual postcards revealed common design elements to represent personal data, retrospective texts allowed us to gain insights into the underlying rationale for the design choices and identify different stages of the process.<br><br><strong>Design Elements to Represent Personal Data</strong>"
+                },
+                { 
+                    "step": "",
+                    "image": "assets/dataselfie/histogram.png",
+                    "caption": "<i>A Histogram of Categories Identified through Visual Postcards Analysis</i><br><br><strong>Visual Postcard Design Process</strong>"
+                },
+                { 
+                    "step": "",
+                    "image": "assets/dataselfie/designprocess.png",
+                    "caption": "<i>Five Stages of Process Identified through Retrospective Text Analysis</i>"
+                },
+                { 
+                    "step": "",
+                    "image": "assets/dataselfie/painpoints.png",
+                    "caption": "<i>Painpoints in the Design Process</i>"
+                },
+                { 
+                    "step": "",
+                    "image": "",
+                    "caption": "<strong>Implications for Personal Informatics</strong><br>1. Capture qualitative aspects of self <br> 2. Reveal missing and uncertain data <br> 3. Provide different modes of data collection <br>4. Support data exploration for story harvesting <br>5. Use visual annotations to encode moments<br>6. Enable designing personalized visuals<br>7. Choose visual variables for personalization<br>8. Leverage visuals as personal documentaries <br>9. Address challenges with qualitative processes<br>10. Support conversations through data"
+                },
+                { 
+                    "step": "Design Goals",
+                    "image": "assets/dataselfie/designgoals.png",
+                    "caption": "Our design goal was to provide <strong>structured support for novices</strong> to crisply articulate the data they want to collect and visualize."
+                },
+                { 
+                    "step": "DataSelfie",
+                    "image": "assets/dataselfie/howitworks.gif",
+                    "caption": "<i>The production rule of a visualization in DataSelfie, generating a unique visual for each questionnaire response</i><br><br>We developed DataSelfie, a novel system that allows individuals to<strong> create a questionnaire</strong> to ask questions about qualitative and nuanced aspects of ourselves and to <strong>design a personalized visual vocabulary</strong> to represent the collected data, and <strong>share with others</strong>."
+                },
+                { 
+                    "step": "Interface Design",
+                    "image": "assets/dataselfie/teaser3.png",
+                    "caption": "DataSelfie consists of three main components: a questionnaire editor and a canvas for drawing visual mappings, an interactive legend, and a response viewer. To assist users with less experience in drawing, especially with a mouse, we support auto-drawing, duplicating a shape across all options in a question, along with the automatic size and color encoding."
+                },
+                { 
+                    "step": "",
+                    "image": "assets/dataselfie/feature1.png",
+                    "caption": "<i>The drawing interface of DataSelfie: !) Drawing canvas, B) Auto-drawing, C) Layer view and selection, D) Emoji tool</i>"
+                },
+                { 
+                    "step": "",
+                    "image": "assets/dataselfie/feature2.png",
+                    "caption": "<i>Automatic encoding support: A) Reusing a shpae, B) Color encoding, C) Size encoding, D) Customization</i>"
+                },
+                { 
+                    "step": "User Study",
+                    "image": "assets/dataselfie/questionnaire-examples.png",
+                    "caption": "<i>Examples of Questionnaires Created by Participants for Two Usage Scenarios (Left: tracking recurring states over time and Right: capturing a current state)</i><br><br>We conducted a user study with 14 participants to evaluate the usability of DataSelfie as well as its potential for individual and collaborative sensemaking of the data."
+                },
+                { 
+                    "step": "",
+                    "image": "assets/dataselfie/visualization-examples.png",
+                    "caption": "<i>Examples of Visualization Results Generated by Participants</i><br><br>❝<strong>It allows you to visualize goals and impacts in advance</strong>❞ <br>— P9 <br><br>❝<strong>I like visuals as they invoke more thoughts</strong>❞ <br>— P7<br><br>❝<strong>Freedom to draw anything to represent my data makes it fun and lively</strong>❞ <br>— P13<br><br>❝<strong>It would be good for emotion and well-being that lack clear forms</strong>❞ <br>— P8"
+                },
+                { 
+                    "step": "Actionable Conclusion",
+                    "image": "",
+                    "caption": "We believe that personal informatics systems that allow custom visualization benefit people to determine the representation of their data."
+                }
+            ],
+            "images": [
+                { 
+                    "image": "assets/dataselfie/teaser-mockup.jpeg",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/dataselfie/demo.gif",
+                    "caption": ""
+                }
+            ],
+            "wrappedimages": [
+ 		        { 
+                    "image": "assets/dataselfie/teaser3.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/dataselfie/teaser2.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/dataselfie/teaser.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/dataselfie/user-demo.jpeg",
+                    "caption": ""
+                }
+            ],
+            "reflection": [
+                { 
+                    "title": "",
+                    "desc": ""
+                },
+                { 
+                    "title": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
+            "id":"storyexplorer",
+            "title": "STORY EXPLORER",
+            "role": "Data Analysis, UX/UI Design",
+            "type": "Web Application",
+            "product": "Web Application",
+            "tools": "Figma",
+            "subtitle": "🖥️ Creating a visualization tool for authoring and exploring nonlinear narratives",
+            "teaser": "assets/storyexplorer/teaser.png",
+            "tags":["Visualization", "UX/UI", "Research", "Featured"],
+            "video": "assets/storyexplorer/video.mp4",
+            "rq": "",
+            "desc": "Comics are an entertaining and familiar medium for presenting compelling stories about data. However, existing visualization authoring tools do not leverage this expressive medium. In this paper, we seek to incorporate elements of comics into the construction of data-driven stories about dynamic networks. We contribute DataToon, a flexible data comic storyboarding tool that blends analysis and presentation with pen and touch interactions. A storyteller can use DataToon rapidly generate visualization panels, annotate them, and position them within a canvas to produce a visually compelling narrative. In a user study, participants quickly learned to use DataToon for producing data comics.",
+            "next": "",
+            "linklabel": "→ SEE THESIS",
+            "link": "",
+            "process": [
+                { 
+                    "step": "Background",
+                    "image": "assets/draw2code/kits-by-interface.png",
+                    "caption": ""
+                },
+                { 
+                    "step": "",
+                    "image": "assets/draw2code/kits-by-expressivity.png",
+                    "caption": ""
+                }
+            ],
+            "images": [
+                { 
+                    "image": "assets/draw2code/coding-blocks.png",
+                    "caption": ""
+                }
+            ],
+            "wrappedimages": [
+ 		{ 
+                    "image": "assets/draw2code/coding-blocks.png",
+                    "caption": ""
+                }
+               
+            ],
+            "reflection": [
+                { 
+                    "title": "Joy of Implementing an Idea from Scratch",
+                    "desc": ""
+                },
+                { 
+                    "title": "Testing Early, Testing Often to Validate with Users",
+                    "desc": ""
+                }
+            ]
+        },
+        {
             "id":"donare",
             "title": "DONARE",
             "role": "UX/UI Design, Graphic Design, User Research",
             "type": "Team Project<br> (CS171: HCI)",
             "product": "Mobile Application",
             "tools": "Paper Prototyping, Heuristic Evaluation, Figma, Usability Testing",
-            "subtitle": "Mobile app helping people donate to their cause quickly and delightfully",
+            "subtitle": "📱 Designing a mobile app helping people donate to their cause quickly and delightfully",
             "teaser": "assets/donare/donare-hand.png",
             "tags":["UX/UI", "Featured"],
             "video": "assets/donare/video.mp4",
@@ -494,12 +692,13 @@
             "type": "Individual Work <br>(Interaction Design Specialization Capstone Project, UC San Diego on Coursera)",
             "product": "Mobile Application",
             "tools": "Figma, Framer, UserTesting.com",
-            "subtitle": "Goal-oriented alarm clock for the habitual snoozers",
+            "subtitle": "📱 Reinventing an alarm clock for the habitual snoozers",
             "teaser": "assets/vismorn/teaser-hand.jpeg",
             "tags":["UX/UI", "Concept", "Featured"],
             "video": "assets/vismorn/video.mp4",
             "rq": "How might we help people who constantly use the snooze button easier to wake up on time in the morning?",
             "desc": "Vismorn is for people who struggle to wake up on time in the morning. Instead of setting a single time to wake up as other alarm clocks do, Vismorn provides two different times to set up, one for waking up and another for doing following task (e.g., go to work). <br><br>The app focuses on achieving a high-level goal as waking up on time is often only a part of reaching the goal. That is, it emphasizes the time gap between wake-up time and task time to encourage a user to be more aware of the goal when setting the times and hitting the snooze button.<br><br>This work was my first self-initiated project as a capstone project in the Interaction Design certificates (40 hours).",
+            "desc2": "We set our alarms for good reason but hit snooze too many times, making the rest of our morning unnecessarily stressful. If you find yourself confronting too many of these self-imposed crises, there are some pretty nifty solutions to force you out of bed. Some alarm clocks simply amp up the aggravation, shaking, squawking, and shining bright lights at habitual snoozers. On these models, of course, there’s no snooze button at all. We recommend placing them out of arm’s reach, so you’ll need to get out of bed to turn them off. Another ingenious solution for habitual snoozers is Ruggie, which looks more or less like a well-cushioned floor matt. To turn off this innovative alarm, you actually need to step on it for three full seconds – and get out of bed in the process. Pros: Kiss the temptation to snooze goodbye and start your mornings on time. Cons: There’s really no middle ground: On the rare occasion where you can snooze responsibly, you’re basically out of luck.",
             "next": "steamdiscoverylab",
             "linklabel": "→ VIEW PROTOTYPE",
             "link": "",
@@ -595,85 +794,21 @@
             ]
         },
         {
-            "id":"storyexplorer",
-            "title": "STORY EXPLORER",
-            "authors": "Collaborated with Nam Wook Kim",
-            "role": "Data Analysis, UX/UI Design",
-            "type": "Web Application",
-            "tools": "Data Authoring, Figma",
-            "subtitle": "Visualization tool for authoring and exploring nonlinear narratives",
-            "teaser": "assets/storyexplorer/teaser.png",
-            "tags":["Visualization", "UX/UI", "Research", "Featured"],
-            "video": "assets/storyexplorer/video.mp4",
-            "materials": [
-                { 
-                    "label": "Paper",
-                    "path": "assets/datatoon/paper.pdf"
-                },
-                { 
-                    "label": "Video",
-                    "path": "assets/datatoon/video.mp4"
-                },
-                { 
-                    "label": "Demo",
-                    "path": "https://datatoon.github.io/"
-                }
-            ],
-            "desc": "Comics are an entertaining and familiar medium for presenting compelling stories about data. However, existing visualization authoring tools do not leverage this expressive medium. In this paper, we seek to incorporate elements of comics into the construction of data-driven stories about dynamic networks. We contribute DataToon, a flexible data comic storyboarding tool that blends analysis and presentation with pen and touch interactions. A storyteller can use DataToon rapidly generate visualization panels, annotate them, and position them within a canvas to produce a visually compelling narrative. In a user study, participants quickly learned to use DataToon for producing data comics."
-        },
-        {
-            "id":"dataselfie",
-            "title": "DATA SELFIE",
-            "authors": "Collaborated with Nam Wook Kim",
-            "role": "Data Analysis, UX/UI Design",
-            "type": "Web Application",
-            "tools": "Figma, Thematic Coding",
-            "subtitle": "Survey tool for creating personalized visuals representing data",
-            "teaser": "assets/dataselfie/teaser-mockup2.jpeg",
-            "tags":["Visualization", "UX/UI", "Research"],
-            "video": "assets/dataselfie/video.mp4",
-            "link": "https://dataselfie.namwkim.org/",
-            "materials": [
-                { 
-                    "label": "Paper",
-                    "path": "assets/datatoon/paper.pdf"
-                },
-                { 
-                    "label": "Video",
-                    "path": "assets/datatoon/video.mp4"
-                },
-                { 
-                    "label": "Demo",
-                    "path": "https://datatoon.github.io/"
-                }
-            ],
-            "desc": "Using DataSelfie, you can create a questionnaire to ask questions about qualitative and nuanced aspects of yourself and to design a personalized visual vocabulary to represent the collected data. <br><br> It is published in CHI 2019."
-        },
-        {
             "id":"clientwork",
-            "title": "INDUSTRY WORK",
-            "authors": "Selected clients (Samsung, LG, SKTelecom)",
+            "title": "INDUSTRIAL WORK",
             "type": "Web Application",
             "role": "UX/UI Design, User Research",
+            "product": "",
             "tools": "Wireframing, Affinity Diagraming, Prototyping, Interview, Survey",
-            "subtitle": "Mobile applications, responsive web platforms, and home appliance UX/UI design",
+            "subtitle": "📺 Designing UX/UI of mobile applications, responsive web platforms, and home appliance for clients in various industries",
             "teaser": "assets/clientwork/teaser.png",
             "tags":["UX/UI", "Featured"],
             "video": "assets/clientwork/video.mp4",
-            "materials": [
-                { 
-                    "label": "Paper",
-                    "path": "assets/bubbleview/paper.pdf"
-                },
-                { 
-                    "label": "Video",
-                    "path": "assets/bubbleview/video.mp4"
-                },
-                { 
-                    "label": "Demo",
-                    "path": "https://bubbleview.namwkim.org/"
-                }
-            ],
+            "rq": "",
+            "desc": "In this paper, we present BubbleView, an alternative methodology for eye tracking using discrete mouse clicks to measure which information people consciously choose to examine. BubbleView is a mouse-contingent, moving-window interface in which participants are presented with a series of blurred images and click to reveal 'bubbles' - small, circular areas of the image at original resolution, similar to having a confined area of focus like the eye fovea. Across 10 experiments with 28 different parameter combinations, we evaluated BubbleView on a variety of image types: information visualizations, natural images, static webpages, and graphic designs, and compared the clicks to eye fixations collected with eye-trackers in controlled lab settings. We found that BubbleView clicks can both (i) successfully approximate eye fixations on different images, and (ii) be used to rank image and design elements by importance. BubbleView is designed to collect clicks on static images, and works best for defined tasks such as describing the content of an information visualization or measuring image importance. BubbleView data is cleaner and more consistent than related methodologies that use continuous mouse movements. Our analyses validate the use of mouse-contingent, moving-window methodologies as approximating eye fixations for different image and task types.",
+            "next": "",
+            "linklabel": "",
+            "link": "",
             "images": [
                 { 
                     "image": "assets/making/teaser.png",
@@ -701,37 +836,59 @@
                     "image": "assets/laika/teaser.png",
                     "caption": "reflection: client-facing projects, ideally in consulting, agency or other business-related services You can explain and sell design decisions to clients and stakeholders"
                 }
-            ],
-            "desc": "In this paper, we present BubbleView, an alternative methodology for eye tracking using discrete mouse clicks to measure which information people consciously choose to examine. BubbleView is a mouse-contingent, moving-window interface in which participants are presented with a series of blurred images and click to reveal 'bubbles' - small, circular areas of the image at original resolution, similar to having a confined area of focus like the eye fovea. Across 10 experiments with 28 different parameter combinations, we evaluated BubbleView on a variety of image types: information visualizations, natural images, static webpages, and graphic designs, and compared the clicks to eye fixations collected with eye-trackers in controlled lab settings. We found that BubbleView clicks can both (i) successfully approximate eye fixations on different images, and (ii) be used to rank image and design elements by importance. BubbleView is designed to collect clicks on static images, and works best for defined tasks such as describing the content of an information visualization or measuring image importance. BubbleView data is cleaner and more consistent than related methodologies that use continuous mouse movements. Our analyses validate the use of mouse-contingent, moving-window methodologies as approximating eye fixations for different image and task types."
+            ]
         },
         {
             "id":"tinkering",
             "title": "TINKERING",
-            "authors": "Individual Work",
+            "product": "Individual Work",
             "role": "Concept Development, Design, Development",
             "type": "Web Application, Game, Simulation",
-            "link": "https://hyejinim.github.io/spacedog/",
             "tools": "Java, Javascript, Three.js, WebGL",
-            "subtitle": "Miscellaneous experiments for interaction and interface",
+            "subtitle": "🧪 Miscellaneous design experiments",
             "teaser": "assets/spacedog/teaser.png",
-            "img1": "assets/spacedog/thumbnail.png",
             "tags":["Development", "Concept"],
             "video": "assets/spacedog/video.mp4",
-            "materials": [
+            "rq": "",
+            "desc": "While I was learning about object-oriented programming, I wanted to create a simple yet interactive 3D environment using Three.js and WebGL. As user moves his/her mouse position, the movement of dogs and the speed of meteors would change. <br><br> Through this project, I learned how to design animated 3D objects having multiple parts, how to express different materials, and how to use lights in the 3D world.",
+            "next": "steamdiscoverylab",
+            "linklabel": "→ SEE THESIS",
+            "link": "https://hyejinim.github.io/spacedog/",
+            "process": [
                 { 
-                    "label": "Paper",
-                    "path": "assets/datatoon/paper.pdf"
+                    "step": "Background",
+                    "image": "assets/draw2code/kits-by-interface.png",
+                    "caption": ""
                 },
                 { 
-                    "label": "Video",
-                    "path": "assets/datatoon/video.mp4"
-                },
-                { 
-                    "label": "Demo",
-                    "path": "https://datatoon.github.io/"
+                    "step": "",
+                    "image": "assets/draw2code/kits-by-expressivity.png",
+                    "caption": ""
                 }
             ],
-            "desc": "While I was learning about object-oriented programming, I wanted to create a simple yet interactive 3D environment using Three.js and WebGL. As user moves his/her mouse position, the movement of dogs and the speed of meteors would change. <br><br> Through this project, I learned how to design animated 3D objects having multiple parts, how to express different materials, and how to use lights in the 3D world."
+            "images": [
+                { 
+                    "image": "assets/draw2code/coding-blocks.png",
+                    "caption": ""
+                }
+            ],
+            "wrappedimages": [
+ 		{ 
+                    "image": "assets/draw2code/coding-blocks.png",
+                    "caption": ""
+                }
+               
+            ],
+            "reflection": [
+                { 
+                    "title": "Joy of Implementing an Idea from Scratch",
+                    "desc": ""
+                },
+                { 
+                    "title": "Testing Early, Testing Often to Validate with Users",
+                    "desc": ""
+                }
+            ]
         }
     ],
     "archaived": [
