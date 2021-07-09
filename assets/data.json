@@ -393,7 +393,7 @@
             "tools": "Figma, ATLAS.ti",
             "subtitle": "🖍️ Creating a survey tool that empowers people to design personalized visuals to represent their data",
             "teaser": "assets/dataselfie/teaser-mockup2.jpeg",
-            "tags":["Visualization", "UX/UI", "Research"],
+            "tags":["Visualization", "UX/UI", "Research", "Featured"],
             "video": "https://doc-04-34-docs.googleusercontent.com/docs/securesc/lcmoth8lopeo9tdidfto12ph2tamcqpt/qdtp4ss81smlfitk06mpuj0uehoj3hgi/1625860500000/12084871565804967376/12272201305969183738/1hqJ0TjTspLf2_wEceGboqFQstCVcRE7Z?e=view&authuser=0&nonce=dpl322nou30go&user=12272201305969183738&hash=mdb44gvvpeh8gihqt8oonami4k66jnqq",
             "rq": "How can we enable people to determine the representation of their data?",
             "desc": "DataSelfie is a survey tool that allows any individuals to create a visual vocabulary to represent their personal data. <br><br>Using DataSelfie, you can create a questionnaire to ask questions about qualitative and nuanced aspects of yourself and to design a personalized visualization. <br><br> This work is published in CHI 2019. <br><br> <i>Kim N. W., <strong>Im, H.</strong>, Riche, N. H., Wang, A., Gajos, K. Z., Pfister, H. DataSelfie: Empowering People to Design Personalized Visuals to Represent Their Data. ACM Conference on Human Factors in Computing Systems (CHI) 2019.</i>",
