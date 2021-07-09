@@ -14,10 +14,7 @@ export function ProjectDetail(d){
     <section>
     
         <div class="full">
-            <video autoplay="autoplay"loop="loop" playsinline="playsinline" preload="metadata" data-aos="fade-up" controls>
-                <source src="${d.video}" type="video/mp4">
-                <source scr="video.webm" type="video/webm">
-            </video>
+            <img class="img-wrap"  src="${d.teaser}">
         </div>
         <div class="full bg-color">
         <div class="row">
