@@ -66,12 +66,12 @@
                 { 
                     "step": "Background",
                     "image": "assets/draw2code/kits-by-expressivity.png",
-                    "caption": "<br><br><i><strong>Underrepresented Children in STEM Matters</strong></i><br>• STEM gender stereotypes emerges in early childhood <br>• Previous coding experience is correlated with self-efficacy toward CS<br>• Children from low-income families do not have equal opportunities <br><br><i><strong>Opportunities in Tangible Inteface for Computational Thinking</strong></i><br>While tangible Interface are known as effective for young children's learning, many of them are not accessible to all children since they are expensive. They also constrain to predetermined challenges thus might not be engaging enough for some children.<br><br>"
+                    "caption": "<br><br><strong>Underrepresented Children in STEM Matters</strong><br>• STEM gender stereotypes emerges in early childhood <br>• Previous coding experience is correlated with self-efficacy toward CS<br>• Children from low-income families do not have equal opportunities <br><br><strong>Opportunities in Tangible Inteface for Computational Thinking</strong><br>While tangible Interface are known as effective for young children's learning, many of them are not accessible to all children since they are expensive. They also constrain to predetermined challenges thus might not be engaging enough for some children.<br><br>"
                 },
                 { 
                     "step": "Design Goals",
                     "image": "assets/draw2code/design-consideration.png",
-                    "caption": "<br><br>The intended audience of Draw2Code is young children of pre-school through early elementary school. In addition to being age-appropriate, intuitive, and attractive, Draw2Code has three design goals: <br><br><i><strong>1. Supporting tangible programming</strong></i> that encourages natural interaction and physical movement — We achieve this by allowing users to use <i>drawing and gesture-based</i> interaction<br><br><i><strong>2. Using low-cost materials</strong></i> that can be deployed at home/in classroom settings — We address this by using <i>pen & paper</i> and widely available personal <i>mobile devices</i> such as cell phones and tablets<br><br><i><strong>3. Creating open-ended system</strong></i> in which children can express their creativity and personally meaningful ideas — We tackle this goal by enabling creating <i>AR animation using a physical drawing</i><br><br>To make the both tangible and virtual interfaces appropriate for young children, we minimized text usage, made buttons big, and made icons straightforward to understand. We also paid attention to involving both boys and girls, such as using colors to which both genders can feel a sense of belonging.<br><br>"
+                    "caption": "<br><br>The intended audience of Draw2Code is young children of pre-school through early elementary school. In addition to being age-appropriate, intuitive, and attractive, Draw2Code has three design goals: <br><br><strong>1. Supporting tangible programming</strong> that encourages natural interaction and physical movement — We achieve this by allowing users to use drawing and gesture-based interaction<br><br><strong>2. Using low-cost materials</strong> that can be deployed at home/in classroom settings — We address this by using pen & paper and widely available personal mobile devices such as cell phones and tablets<br><br><strong>3. Creating open-ended system</strong> in which children can express their creativity and personally meaningful ideas — We tackle this goal by enabling creating AR animation using a physical drawing<br><br>To make the both tangible and virtual interfaces appropriate for young children, we minimized text usage, made buttons big, and made icons straightforward to understand. We also paid attention to involving both boys and girls, such as using colors to which both genders can feel a sense of belonging.<br><br>"
                 },
                 { 
                     "step": "Draw2Code Interface",
@@ -128,16 +128,6 @@
                     "step": "",
                     "image": "assets/draw2code/children-outcome.png",
                     "caption": "<i>Artifacts of the diverse AR animations with stories children created: (a) a truck is blowing up, (b) a creepy monster living in a forest is chasing and attacking a child, (c) a bee is coming close to a child's face and she is trying to dodge, (d) a child is showing her fist and a mouse is moving around on a green meadow, (e) an anger cloud is appearing over a child's head, (f) a little himself of a child is jumping on the snow.</i>"
-                },
-                { 
-                    "step": "Users' Quotes",
-                    "image": "",
-                    "caption": ""
-                },
-                { 
-                    "step": "Take-Away",
-                    "image": "",
-                    "caption": "<br><br>*For more details, please look into my thesis or the IDC paper."
                 }
             ],
             "images": [
