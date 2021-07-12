@@ -114,6 +114,9 @@ a:hover{
     color: #CBA7D5;
 }
 
+a h1:hover {
+    color: #CBA7D5;
+}
 nav ul{
     list-style-type: none;
     margin: 0;
