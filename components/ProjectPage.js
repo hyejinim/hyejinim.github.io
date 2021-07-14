@@ -81,7 +81,7 @@ export function ProjectDetail(d){
         </div>
         
         <div class="wide">
-            <a href="/${d.next}"><h1 class="title" style="text-align: center; margin-bottom: 80px;">NEXT PROJECT</h1></a>
+            <a href="/?project=${d.next}"><h1 class="title" style="text-align: center; margin-bottom: 80px;">NEXT PROJECT</h1></a>
         </div>
     </div>
         
