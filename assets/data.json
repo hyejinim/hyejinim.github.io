@@ -48,7 +48,7 @@
             "id":"draw2code",
             "title": "DRAW2CODE",
             "role": "Lit Review, Concept Development, Design, Developlemnt, User Study, Data Analysis",
-            "type": "Individual Work<br>Master's Thesis, <br> Advised by Prof. Chris Rogers",
+            "type": "Self-Directed Project<br>Master's Thesis, <br> Advised by Prof. Chris Rogers",
             "product": "Tangible Kit, Web-Based Mobile Application",
             "tools": "Figma, Miro, Qualtrics, Tableau, NVivo, Javascript, p5.js, Teachable Machine",
             "award": "🏆 Awarded for Graduate Research Competition",
@@ -57,16 +57,21 @@
             "tags":["UX/UI", "Concept", "Research", "Development", "Featured"],
             "video": "assets/draw2code/draw2code-tutorial.mp4",
             "rq": "How might we develop a computational kit that increases young children’s participation in computing, especially children from underrepresented groups in STEM?",
-            "desc": "Computational thinking is nowadays considered an essential skill in the K-12 educational curriculum. Many tangible computational kits designed for early childhood are either too expensive to benefit a wide range of children or only provide predetermined challenges with limited creative content creation opportunities. <br><br>We investigated <strong>low-cost and expressive tangible interfaces</strong> that foster <strong>computational literacy</strong>. We designed and implemented Draw2Code, a <strong>paper-based</strong> computational kit for young children to create an <strong>interactive AR animation</strong>. Children use Draw2Code to make their paper drawing alive as an animated virtual sprite and control it using hand gestures. It exposes children to basic programming concepts through playful and tangible interaction. <br><br> This work is awarded a winner for Graduate Student Research Competition by Tufts GSAS and presented at the IDC 2021 Conference and the PLAYfest 2021. <br><br><i><strong>Im, H.</strong>, Rogers, C. (2021) Draw2Code: Low-Cost Tangible Programming for Creating AR Animations. In proceedings of Interaction Design and Children Conference 2021.</i>",
+            "desc": "Draw2Code is a <strong>paper-based computational kit </strong>that provides playful coding environment for young children to create an <strong>interactive AR animation</strong>. Children use Draw2Code to make their paper drawing alive as an animated virtual sprite and control it using hand gestures. It exposes children to basic programming concepts through tangible interaction. <br><br> This work is awarded a winner for Graduate Student Research Competition by Tufts GSAS and presented at the IDC 2021 Conference and the PLAYfest 2021. <br><br><i><strong>Im, H.</strong>, Rogers, C. Draw2Code: Low-Cost Tangible Programming for Creating AR Animations. In proceedings of Interaction Design and Children Conference 2021.</i>",
             "next": "steamdiscoverylab",
             "linklabel": "→ SEE THESIS",
             "link": "https://drive.google.com/file/d/19VSQYhYBQMyJ6bVujrVg8ovS3AOEefCk/view?usp=sharing",
             "link2": "https://drive.google.com/file/d/1JW_O21dNBpp3T8bE5ZrRDM6w61Vzob_J/view?usp=sharing",
             "process": [
-                { 
+                {
                     "step": "Background",
                     "image": "assets/draw2code/kits-by-expressivity.png",
-                    "caption": "<br><br><strong>Underrepresented Children in STEM Matters</strong><br>• STEM gender stereotypes emerges in early childhood <br>• Previous coding experience is correlated with self-efficacy toward CS<br>• Children from low-income families do not have equal opportunities <br><br><strong>Opportunities in Tangible Inteface for Computational Thinking</strong><br>While tangible Interface are known as effective for young children's learning, many of them are not accessible to all children since they are expensive. They also constrain to predetermined challenges thus might not be engaging enough for some children.<br><br>"
+                    "caption": "<br><br><i>Investigation of low-cost and expressive tangible interfaces that foster computational literacy</i><br><br>Computational thinking is nowadays considered an essential skill in the K-12 educational curriculum. Many tangible computational kits designed for early childhood are either too expensive to benefit a wide range of children or only provide predetermined challenges with limited creative content creation opportunities."
+                },
+                { 
+                    "step": "Why Young Children?",
+                    "image": "",
+                    "caption": "<strong>Underrepresented Children in STEM Matters</strong><br>• STEM gender stereotypes emerges in early childhood <br>• Previous coding experience is correlated with self-efficacy toward CS<br>• Children from low-income families do not have equal opportunities <br><br><strong>Opportunities in Tangible Inteface for Computational Thinking</strong><br>While tangible Interface are known as effective for young children's learning, many of them are not accessible to all children since they are expensive. They also constrain to predetermined challenges thus might not be engaging enough for some children.<br><br>"
                 },
                 { 
                     "step": "Design Goals",
@@ -190,7 +195,7 @@
             "tags":["UX/UI", "Illustration"],
             "video": "assets/steamdiscoverylab/video.mp4",
             "rq": "How might we increase content discoverability and user engagement on the website?",
-            "desc": "The STEAM (Science, Technology, Engineering, Art, and Math) Discovery Lab is one of Tufts Center for Engineering Education and Outreach (CEEO) research projects. The goal of the STEAM Discovery Lab is to provide educators with new and exciting ideas and resources for conducting hands-on activities in their classroom. <br><br>Over 10-week summer internship, I was responsible for redesining the website to improve user experience and make it more user-friendly. I focused on identifying primary user scenarios and existing usability issues. Based on that, I redesigned information architecture, user flow, and user interface.",
+            "desc": "The STEAM (Science, Technology, Engineering, Art, and Math) Discovery Lab is one of Tufts Center for Engineering Education and Outreach (CEEO) research projects. The goal of the STEAM Discovery Lab is to provide educators with new and exciting <strong>ideas and resources for conducting hands-on activities</strong> in their classroom. <br><br>Over 10-week summer internship, I was responsible for redesining the website to improve user experience and make it more user-friendly. I focused on identifying primary user scenarios and existing usability issues. Based on that, I redesigned information architecture, user flow, and user interface.",
             "next": "speakgo",
             "linklabel": "→ VISIT WEBSITE",
             "link": "https://www.steamdiscoverylab.com/",
@@ -521,6 +526,128 @@
             ]
         },
         {
+            "id":"storyexplorer",
+            "title": "STORY EXPLORER",
+            "role": "Visualization, Data Labeling, UX/UI Design",
+            "type": "Research Project<br>Collaborated with Nam Wook Kim",
+            "product": "Web Application",
+            "tools": "Figma",
+            "subtitle": "🖥️ Creating a visualization tool for authoring and exploring nonlinear narratives",
+            "teaser": "assets/storyexplorer/teaser-mockup1.jpeg",
+            "tags":["Visualization", "UX/UI", "Research", "Featured"],
+            "video": "assets/storyexplorer/video.mp4",
+            "rq": "How can we support people to easily explore and learn about the nonlinear narrative of movies through visualization?",
+            "desc": "Story Explorer is an <strong>interactive tool</strong> that visualizes a story curve, a <strong>visualization of the nonlinear narrative of a movie</strong>, together with complementary information such as characters and settings. Story Explorer further provides a <strong>script curation interface </strong>that allows users to specify the chronological order of events in movies. <br><br>As one of the collaborators of this project, I worked on brainstorming and generating visualization sketches to reveal nonlinear narrative patterns in movie scripts, and helped with labeling data and designing user interface of Story Explorer. <br><br>This work is awarded Kantar Information is Beautiful Awards and published in IEEE transactions on visualization and computer graphics (InfoVis'18)<br><br> <i>Kim, N. W., Bach B., <strong>Im, H.</strong>, Schriber, S., Gross M., Pfister, H. Visualizing Nonlinear Narratives with Story Curves. IEEE Transactions on Visualization and Computer Graphics (InfoVis), 2018</i>",
+            "next": "donare",
+            "linklabel": "→ VISIT WEBSITE",
+            "link": "https://storycurve.namwkim.org/",
+            "process": [
+                { 
+                    "step": "Background",
+                    "image": "assets/storyexplorer/movies.jpeg",
+                    "caption": "<i>10 Popular Nonlinear Movies</i><br><br>A nonlinear narrative is a storytelling device that portrays events of a story out of chronological order (e.g., in reverse order or going back and forth between past and future events). Understanding the wealth of patterns in narratives as well as their respective effects has been an ongoing effort in the humanities and the domains associated with the production of narratives  There are relatively few studies that focus on the temporal aspect of narratives. "
+                },
+                { 
+                    "step": "The Problem",
+                    "image": "assets/storyexplorer/atlantic.png",
+                    "caption": "<i>Image Credit: Chelsea Beck, The Atlantic</i><br><br>Explicit data about the chronological order of events is typically not available and difficult to infer from the final narratives in film, theater, or video games. The complexity of temporal disorientation makes it not only hard to write a nonlinear narrative but also difficult to understand it. In addition, there are no computational tools that can ease exploration and communication of intricate nonlinear narrative patterns."
+                },
+                {
+                    "step": "Design Goals",
+                    "image": "",
+                    "caption": "D1. Show events in both narrative and story order<br>D2. Present story metadata to reveal the semantic structure of narrative<br>D3. Let users access and read actual narrative texts"
+                },
+                { 
+                    "step": "Story Curves",
+                    "image": "assets/storyexplorer/visualizations.png",
+                    "caption": "<i>Story curves (a) compared to design alternatives (b,c) for Pulp Fiction (top) and Memento (bottom).</i><br><br>We brainstormed and tested various visualization techniques with movie scripts. We then came up with Story Curves."
+                },
+                {
+                    "step": "",
+                    "image": "assets/storyexplorer/storycurve.png",
+                    "caption": "Story Curves visualize the nonlinear narrative of a movie by showing the order in which events are told in the movie and comparing them to their actual chronological order, resulting in possibly meandering visual patterns in the curve. "
+                },
+                {
+                    "step": "Story Explorer Interface Design",
+                    "image": "assets/storyexplorer/sketch.png",
+                    "caption": "<i>Initial Skektch of Story Explorer</i>"
+                },
+                {
+                    "step": "",
+                    "image": "assets/storyexplorer/iteration.png",
+                    "caption": "<i>Design Iteration</i>"
+                },
+                {
+                    "step": "",
+                    "image": "assets/storyexplorer/storyexplorer.png",
+                    "caption": "<i>Overview of Story Explorer with three embedded views: (a) story curve view, (b) script view, and (c) metadata view. The story curve succinctly summarizes the nonlinear narrative of Pulp Fiction with additional metadata displayed along the story curve.</i> <br><br>Story Explorer processes a movie script, extracts story elements (scenes, characters, settings), and visualizes the narrative of the movie alongside the script text. It supports the curation of the chronological order of scenes and enables close reading of the script in both story and narrative order."
+                },
+                {
+                    "step": "Useful Features",
+                    "image": "assets/storyexplorer/reconstruction.png",
+                    "caption": "<i> Arranging scenes in story order in the script reading interface</i>"
+                },
+                {
+                    "step": "",
+                    "image": "assets/storyexplorer/sentiment.png",
+                    "caption": "<i>Pulp Fiction’s story curve showing character dialog sentiment; red: negative, gray: neutral, green: positive</i>"
+                },
+                {
+                    "step": "",
+                    "image": "assets/storyexplorer/co-occurrence.png",
+                    "caption": "<i>Pulp Fiction’s story curve showing the co-occurrence of the two main characters, Jules and Vincent in the morning</i>"
+                },
+                {
+                    "step": "Nonlinear Narrative Patterns with Story Curves",
+                    "image": "",
+                    "caption": "We created story curves for 10 popular nonlinear narrative movies. We gathered the movie scripts from a public database and manually restored the story order of the scenes in each movie using Story Explorer. We describe the spectrum of narrative patterns that we discovered, including some novel patterns not previously described in the literature. "
+                }
+            ],
+            "images": [
+                { 
+                    "image": "assets/storyexplorer/teaser-mockup3.jpeg",
+                    "caption": ""
+                }
+            ],
+            "wrappedimages": [
+                { 
+                    "image": "assets/storyexplorer/teaser.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/storyexplorer/storyexplorer-08.png",
+                    "caption": ""
+                },
+ 		        { 
+                    "image": "assets/storyexplorer/storycurves-01.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/storyexplorer/storycurves-02.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/storyexplorer/storycurves-03.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/storyexplorer/storycurves-04.png",
+                    "caption": ""
+                }
+               
+            ],
+            "reflection": [
+                { 
+                    "title": "",
+                    "desc": ""
+                },
+                { 
+                    "title": "",
+                    "desc": ""
+                }
+            ]
+        },
+        {
             "id":"donare",
             "title": "DONARE",
             "role": "UX/UI Design, Graphic Design, User Research",
@@ -615,14 +742,11 @@
                 },
                 { 
                     "image": "assets/donare/teaser.png",
-                    "caption": "mockup-context"
+                    "caption": ""
                 }
             ],
             "wrappedimages": [
-                { 
-                    "image": "",
-                    "caption": "gif"
-                }
+               
             ],
             "reflection": [
                 { 
@@ -636,7 +760,7 @@
             "title": "TINKERING",
             "product": "Web Application, Game, Simulation",
             "role": "UX/UI Design, Game Design, 3D Graphic Design, Development, Making",
-            "type": "Individual Work",
+            "type": "Self-Directed Project",
             "tools": "Java, Javascript, Three.js, WebGL, 3D Printer, Laser Cutter",
             "subtitle": "🧪 Miscellaneous digital and physical fabrication",
             "teaser": "assets/spacedog/teaser.png",
@@ -860,53 +984,6 @@
                 { 
                     "image": "assets/laika/teaser.png",
                     "caption": "reflection: client-facing projects, ideally in consulting, agency or other business-related services You can explain and sell design decisions to clients and stakeholders"
-                }
-            ]
-        },
-        {
-            "id":"storyexplorer",
-            "title": "STORY EXPLORER",
-            "role": "Data Analysis, UX/UI Design",
-            "type": "Research Project<br>Collaborated with Nam Wook Kim",
-            "product": "Web Application",
-            "tools": "Figma",
-            "subtitle": "🖥️ Creating a visualization tool for authoring and exploring nonlinear narratives",
-            "teaser": "assets/storyexplorer/teaser.png",
-            "tags":["Visualization", "UX/UI", "Research", "Featured"],
-            "video": "assets/storyexplorer/video.mp4",
-            "rq": "",
-            "desc": "Details will be updated soon!",
-            "next": "donare",
-            "linklabel": "→ SEE THESIS",
-            "link": "",
-            "process": [
-                { 
-                    "step": "",
-                    "image": "",
-                    "caption": ""
-                }
-            ],
-            "images": [
-                { 
-                    "image": "",
-                    "caption": ""
-                }
-            ],
-            "wrappedimages": [
- 		{ 
-                    "image": "a",
-                    "caption": ""
-                }
-               
-            ],
-            "reflection": [
-                { 
-                    "title": "",
-                    "desc": ""
-                },
-                { 
-                    "title": "",
-                    "desc": ""
                 }
             ]
         },
