@@ -660,7 +660,7 @@
             "video": "assets/donare/video.mp4",
             "rq": "How might we encourage people to donate their items to cause they care about?",
             "desc": "Donare is a mobile application that helps people easily and delightfully donate items to causes they care about. <br><br>I worked in a cross-functional team of five members in the Human-Computer Interaction (HCI) course. Throughout the semester, we designed, developed, and evaluated Donare. As a leading UX designer, I was involved in all phases of the project, from mapping out the problem to delivering final designs.",
-            "next": "vismorn",
+            "next": "draw2code",
             "linklabel": "→ LAUNCH PROTOTYPE",
             "link": "",
             "process": [
@@ -754,7 +754,10 @@
                     "desc": "Our team members learned from one another by closely working in every step and actively sharing our knowledge and ideas. I realized that our team culture that we appreciated other's contribution and commitment made all of us motivated."
                 }
             ]
-        },
+        }
+        
+    ],
+    "archaived": [
         {
             "id":"tinkering",
             "title": "TINKERING",
@@ -831,9 +834,7 @@
                     "desc": ""
                 }
             ]
-        }
-    ],
-    "archaived": [
+        },
         {
             "id":"vismorn",
             "title": "VISMORN",
