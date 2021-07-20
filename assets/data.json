@@ -5,7 +5,7 @@
         "title2":"<br>📚 Graduate Research Assistant",
         "photo":"assets/profile.png",
         "desc":"Based in <strong>Boston</strong> with experience in delivering <strong>end-to-end UX/UI design</strong> for digital products. I'm passionate about improving the lives of others through technology and am constantly looking to learn new things everyday. I love <strong>design, coding, and HCI</strong>.",
-        "desc2":"Working at <strong>Tufts Center for Engineering Education and Outreach (CEEO) </strong>, being advised by Prof. Chris Rogers. My studies and work are supported by scholarships from <strong>LEGO Foundation</strong>.",
+        "desc2":"Working at <strong>Tufts Center for Engineering Education and Outreach (CEEO) </strong>, being advised by Prof. Chris Rogers. My studies and work are partially supported by scholarships from <strong>LEGO Foundation</strong>.",
         "email": "hyejinim17@gmail.com",
         "address": "",
         "resume": "https://drive.google.com/file/d/17yPNy6cSE-3l3vAXcbhz4xvVWO9yzHYN/view?usp=sharing",
@@ -754,8 +754,102 @@
                     "desc": "Our team members learned from one another by closely working in every step and actively sharing our knowledge and ideas. I realized that our team culture that we appreciated other's contribution and commitment made all of us motivated."
                 }
             ]
+        },
+{
+            "id":"vismorn",
+            "title": "VISMORN",
+            "role": "Concept Development, UX/UI Design, User Research, Prototype",
+            "type": "Individual Work <br>Interaction Design Specialization Capstone Project on Coursera",
+            "product": "Mobile Application",
+            "tools": "Figma, Framer, UserTesting.com",
+            "subtitle": "📱 Reinventing an alarm clock for the habitual snoozers",
+            "teaser": "assets/vismorn/teaser-hand.jpeg",
+            "tags":["UX/UI", "Concept", "Featured"],
+            "video": "assets/vismorn/video.mp4",
+            "rq": "How might we help people who constantly use the snooze button easily wake up on time in the morning?",
+            "desc": "Vismorn is for people who struggle to wake up on time in the morning. Instead of setting a single time to wake up as other alarm clocks do, Vismorn provides two different times to set up, one for waking up and another for doing following task (e.g., go to work). <br><br>The app focuses on achieving a high-level goal as waking up on time is often only a part of reaching the goal. That is, it emphasizes the time gap between wake-up time and task time to encourage a user to be more aware of the goal when setting the times and hitting the snooze button.",
+            "desc2": "We set our alarms for good reason but hit snooze too many times, making the rest of our morning unnecessarily stressful. If you find yourself confronting too many of these self-imposed crises, there are some pretty nifty solutions to force you out of bed. Some alarm clocks simply amp up the aggravation, shaking, squawking, and shining bright lights at habitual snoozers. On these models, of course, there’s no snooze button at all. We recommend placing them out of arm’s reach, so you’ll need to get out of bed to turn them off. Another ingenious solution for habitual snoozers is Ruggie, which looks more or less like a well-cushioned floor matt. To turn off this innovative alarm, you actually need to step on it for three full seconds – and get out of bed in the process. Pros: Kiss the temptation to snooze goodbye and start your mornings on time. Cons: There’s really no middle ground: On the rare occasion where you can snooze responsibly, you’re basically out of luck.",
+            "next": "industrialwork",
+            "linklabel": "→ VIEW PROTOTYPE",
+            "link": "",
+            "process": [
+                { 
+                    "step": "Design Process",
+                    "image": "assets/vismorn/design-process.png",
+                    "caption": "<strong>1. Needfinding</strong> — Observation, survey, interview<br><strong>2. Ideation</strong> — Inspiration boards, brainstorming, storyboards<br><strong>3. Prototyping</strong> — Paper prototype, wireframe, funtional prototype<br><strong>4. Evaluation</strong> — Heuristic evaluation, usability testing"
+                },
+                { 
+                    "step": "Background",
+                    "image": "",
+                    "caption": "Are you satisfied with your alarm clock? How can it help you to become a more productive person? Alarm clock is not just for waking you up at a certain time. Starting your morning as you have planned is the key of your success of the day."
+                },
+                { 
+                    "step": "User Research",
+                    "image": "",
+                    "caption":  "I conducted a survey with 126 people ages 20 through 60. I then conducted a semi-structured in-depth interview with three people to identify their needs and painpoints around using an alarm clock. <br><br> My main research questions were on 1) how people use an alarm clock, 2) their considerations/behaviors to make sure to wake up on time, and 3) the causes they fail to wake up on time."
+                },
+                { 
+                    "step": "Key Findings",
+                    "image": "assets/vismorn/survey-results.png",
+                    "caption":  "People use an alarm clock not just to wake up in the morning but eventually to not be late at school/work. Participants answered that they are late for various reasons. Major reasons they fail to be on time at work/school were not only due to the failure to wake up on time (61%) but also the failure to leave their home on time (29%). There are four primary causes for that: 1) habitual snooze (53%), 2) missing an ideal time for leaving home (24%) 3) miscalculation of the amount of the time for enough sleep, preparation, and commute time (10%), 4) accidentally not setting up an alarm clock (8%).<br><br> I also learned that people use multiple alarms for different times and use additional methods to make sure to wake up (e.g., analog alarm clock, alarm clock app that forces you to wake up physically, family/friends' help)."
+                },
+                { 
+                    "step": "Design",
+                    "image": "assets/vismorn/vismorn-04.png",
+                    "caption":  "<i>Storyboards</i><br><br>Based on the findings, I created storyboards. I then brainstormed functionalities and user interface. I came up with two different concepts of alarm clock."
+                },
+                { 
+                    "step": "",
+                    "image": "assets/vismorn/vismorn-05.png",
+                    "caption":  "<i>Paper prototypes: a chat-bot based alarm clock (left) and an alarm clock showing the duration for sleep and morning preparation</i> <br><br> Focusing on the problem I wanted to solve, I ended up going for the second concept and created a high-fidelity prototype using Framer. "
+                },
+                { 
+                    "step": "",
+                    "image": "assets/vismorn/vismorn-07.png",
+                    "caption":  "<i>Functional prototype to test out interactions created using Framer</i>"
+                },
+                { 
+                    "step": "User Testing and Iterations",
+                    "image": "assets/vismorn/vismorn-08.png",
+                    "caption":  "<i>Comparing two different design in a user study session on Usertesting.com</i><br><br> Since the interaction I designed is novel, I tested out different designs with five people. The second option was easier to understand how to interact with the elements as it provides a more make-sense affordance (i.e., arrow to drag up and down). People tend to tap the plus and minus button with the first option which was not an efficient way to do set up the time."
+                }
+            ],
+            "images": [
+                { 
+                    "image": "assets/vismorn/vismorn-p4.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/vismorn/vismorn-p5.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/vismorn/vismorn-01.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/vismorn/vismorn-03.png",
+                    "caption": ""
+                },
+                { 
+                    "image": "assets/vismorn/vismorn-02.png",
+                    "caption": ""
+                }
+            ],
+            "wrappedimages": [
+            ],
+            "reflection": [
+                { 
+                    "title": "Joy of Implementing an Idea from Scratch",
+                    "desc": ""
+                },
+                { 
+                    "title": "Testing Early, Testing Often to Validate with Users",
+                    "desc": ""
+                }
+            ]
         }
-        
+                
     ],
     "archaived": [
         {
@@ -835,114 +929,7 @@
                 }
             ]
         },
-        {
-            "id":"vismorn",
-            "title": "VISMORN",
-            "role": "Concept Development, UX/UI Design, User Research, Prototype",
-            "type": "Individual Work <br>Interaction Design Specialization Capstone Project on Coursera",
-            "product": "Mobile Application",
-            "tools": "Figma, Framer, UserTesting.com",
-            "subtitle": "📱 Reinventing an alarm clock for the habitual snoozers",
-            "teaser": "assets/vismorn/teaser-hand.jpeg",
-            "tags":["UX/UI", "Concept", "Featured"],
-            "video": "assets/vismorn/video.mp4",
-            "rq": "How might we help people who constantly use the snooze button easier to wake up on time in the morning?",
-            "desc": "Vismorn is for people who struggle to wake up on time in the morning. Instead of setting a single time to wake up as other alarm clocks do, Vismorn provides two different times to set up, one for waking up and another for doing following task (e.g., go to work). <br><br>The app focuses on achieving a high-level goal as waking up on time is often only a part of reaching the goal. That is, it emphasizes the time gap between wake-up time and task time to encourage a user to be more aware of the goal when setting the times and hitting the snooze button.<br><br>This work was my first self-initiated project as a capstone project in the Interaction Design certificates (40 hours).",
-            "desc2": "We set our alarms for good reason but hit snooze too many times, making the rest of our morning unnecessarily stressful. If you find yourself confronting too many of these self-imposed crises, there are some pretty nifty solutions to force you out of bed. Some alarm clocks simply amp up the aggravation, shaking, squawking, and shining bright lights at habitual snoozers. On these models, of course, there’s no snooze button at all. We recommend placing them out of arm’s reach, so you’ll need to get out of bed to turn them off. Another ingenious solution for habitual snoozers is Ruggie, which looks more or less like a well-cushioned floor matt. To turn off this innovative alarm, you actually need to step on it for three full seconds – and get out of bed in the process. Pros: Kiss the temptation to snooze goodbye and start your mornings on time. Cons: There’s really no middle ground: On the rare occasion where you can snooze responsibly, you’re basically out of luck.",
-            "next": "industrialwork",
-            "linklabel": "→ VIEW PROTOTYPE",
-            "link": "",
-            "process": [
-                { 
-                    "step": "Design Process",
-                    "image": "",
-                    "caption": "<strong>1. Needfinding</strong><br>Observation, interview, qualitative data analysis<br><strong>2. Ideation</strong><br>Inspiration boards, brainstorming, storyboards<br><strong>3. Prototyping</strong><br>Paper prototyping, wireframing, funtional prototyping<br><strong>4. Evaluation</strong><br>Heuristic evaluation, usability teseting, A/B testing"
-                },
-                { 
-                    "step": "User Research",
-                    "image": "assets/vismorn/vismorn-p1.png",
-                    "caption":  "I conducted survey with 26 people and a semi-structured interview interview with three people. "
-                },
-                { 
-                    "step": "Key Findings",
-                    "image": "assets/vismorn/vismorn-p1.png",
-                    "caption":  "• The gap between the time you want to wake up and the time you actually wake up <br>• Habitual snooze and regret it <br>• Multiple factors existed that affect to find an ideal wake-up time and it is cumbersome to calculate it every night"
-                },
-                { 
-                    "step": "Inspiration",
-                    "image": "assets/vismorn/vismorn-p2.png",
-                    "caption":  "Inspiration"
-                },
-                { 
-                    "step": "Storyboards",
-                    "image": "assets/vismorn/vismorn-04.png",
-                    "caption":  "Storyboards"
-                },
-                { 
-                    "step": "Paper Prototypes",
-                    "image": "assets/vismorn/vismorn-05.png",
-                    "caption":  ""
-                },
-                { 
-                    "step": "Funtional Prototype",
-                    "image": "assets/vismorn/vismorn-07.png",
-                    "caption":  ""
-                },
-                { 
-                    "step": "Iterations",
-                    "image": "assets/vismorn/vismorn-08.png",
-                    "caption":  ""
-                },
-                { 
-                    "step": "",
-                    "image": "assets/vismorn/vismorn-09.png",
-                    "caption":  ""
-                },
-                { 
-                    "step": "",
-                    "image": "assets/vismorn/vismorn-p3.png",
-                    "caption":  ""
-                }
-            ],
-            "images": [
-                { 
-                    "image": "assets/vismorn/vismorn-01.png",
-                    "caption": ""
-                },
-                { 
-                    "image": "assets/vismorn/vismorn-03.png",
-                    "caption": ""
-                },
-                { 
-                    "image": "assets/vismorn/vismorn-02.png",
-                    "caption": ""
-                },
-                { 
-                    "image": "assets/vismorn/vismorn-p4.png",
-                    "caption": ""
-                },
-                { 
-                    "image": "assets/vismorn/vismorn-p5.png",
-                    "caption": ""
-                },
-                { 
-                    "image": "assets/vismorn/vismorn.png",
-                    "caption": ""
-                }
-            ],
-            "wrappedimages": [
-            ],
-            "reflection": [
-                { 
-                    "title": "Joy of Implementing an Idea from Scratch",
-                    "desc": ""
-                },
-                { 
-                    "title": "Testing Early, Testing Often to Validate with Users",
-                    "desc": ""
-                }
-            ]
-        },
+        
         {
             "id":"industrialwork",
             "title": "INDUSTRIAL WORK",
