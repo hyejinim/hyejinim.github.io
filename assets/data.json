@@ -203,8 +203,8 @@
                 { 
                     "step": "Background",
                     "image": "assets/steamdiscoverylab/poster.png",
-                    "caption": "<i>As-Is</i>",
-                    "info": "• Not obvious site users, goals, do not look professional (Trustworthy) • Hard to navigate site • Inconsistent content: As multiple authors (students and staff at the center) had been creating a lot of different types of content, the original navigation and website structure were not optimized for the current content. Also, the content produced by different authors was not always consistent. It made users harder to find content easily and effectively on the website as well as to visit the website again."
+                    "caption": "<i>As-Is Look and Feel of the Website</i><br><br> STEAM Discovery Lab had more than 100 engineering education activities and resources. Since there were many content authors including graduate researchers, undergraduate interns, and staff at the center and there were no specific rules about creating content, there were different types of content here and there. The website structure and user interface remained the same since it had been created. It made our valuable content not easy to be discovered and site revisiting rate started decreasing.",
+                    "info": "As multiple authors (students and staff at the center) had been creating a lot of different types of content, the original navigation and website structure were not optimized for the current content. Also, the content produced by different authors was not always consistent. It made users harder to find content easily and effectively on the website as well as to visit the website again."
                 },
                 { 
                     "step": "Usability Inspection",
@@ -214,43 +214,37 @@
                 { 
                     "step": "",
                     "image": "assets/steamdiscoverylab/grouped-content.png",
-                    "caption": "<i>Information Architecture Analysis</i>",
-                    "info": " <br><br> User Testing (Let them freely explore websites and asked overall impression. Think Aloud and Breif Interview) <br>• I do not know what to start with this website <br>• It is hard to imagine where a specific content will be and it requires so many clicks <br>• It looks like it is designed for elementary school students <br> • Content and pages are not consistent and it looks like not professional and credible resources"
+                    "caption": "<i>Information Architecture Analysis</i><br><br> To identify usability issues, I conducted heuristic evaluation and analyzed the information architecture of the website. I also asked three people to complete tasks, including free exploration and finding a specific content. I used think aloud method during the observation and conducted a breif interview to know about their overall impression. Repetitive comments from participants were:<br><br>• I do not know what to start with this website <br>• It is hard to imagine where a specific content will be<br>• It looks like the website is for elementary school students not teachers <br> • Website flow is not consistent and it is easy to get lost",
+                    "info": ""
                 },
                 { 
                     "step": "Design Goals",
                     "image": "",
-                    "caption": "• Welcoming and usable home page: Providing optimized look and feel and information on how to use the website  <br>• Straightforward navigation: Make it easy to find content and reduce page depth <br>• Consistent layout and user flow",
-                    "info": ""
+                    "caption": "<strong>1. Making the site's purpose clear</strong> — Explain what this website is about and how you can use the website<br><strong>2. Helping users find content they need</strong> — Provide a clear navigation with a broad and shallow site structure and leverage filters <br><strong>3. Making the website more trustworthy</strong> — Make sure it has consistent layout and user flow; display information for social proof"
                 },
                 { 
                     "step": "Potential Primary Users",
                     "image": "assets/steamdiscoverylab/persona.png",
-                    "caption": "",
-                    "info": "To reasonate design decision, persuade, on the same page with other members. Imaginary persona, user journey map, use case scenarios. The website provides teachers with inspiring lesson plans and activity ideas that they can tweak to best meet the needs of their students and subject area. The site also features activity ideas that combine different technologies in unconventional ways."
+                    "caption": "<i>User Journey Map</i><br><br>I created a quick and simple user journey map based on imaginary potential primary users. I used it to communicate with stakeholders including a research advisor and content authors. It made people resonated with my design decisions and be on the same page about our target users' main tasks. It also helped me come up with useful features and user flow."
                 },
                 { 
                     "step": "Website Redesign",
-                    "image": "assets/steamdiscoverylab/steam-structure.png",
-                    "caption": "<i>Reorganized information architecture and made the website structure wide and narrow</i>",
-                    "info": "IA and User flow - Narrow to shallow, Reorganized information architecture and created content Metadata for each content. They grouped by content type, category, and tags"
+                    "image": "assets/steamdiscoverylab/grouping-project.png",
+                    "caption": "<i>Content Metadata</i>"
                 },
                 { 
                     "step": "",
-                    "image": "assets/steamdiscoverylab/grouping-project.png",
-                    "caption": "<i>Organized content metadata</i>",
-                    "info": "Organize content meta data"
+                    "image": "assets/steamdiscoverylab/steam-structure.png",
+                    "caption": "<i>Information Architecture</i><br><br> I regrouped content and reorganized information architecture. The previous website structure had different types and levels of content without consistency thus was not easy to find content needed. It required many clicks as the structure was pretty deep. The redesigned website structure only required one or two clicks."
                 },
                 { 
                     "step": "",
                     "image": "assets/steamdiscoverylab/sketch.png",
-                    "caption": "<i>User interface design</i>",
-                    "info": "Sketch"
+                    "caption": "<i>Medium-Fidelity User Interface Design</i><br><br> I redesinged the whole website user interface to optimize it. The homepage is long with description and illustrations. It enables users to learn about the website and the content it provides by simply scrolling up. The layout and UI elements are carefully designed depending on the content type and user needs."
                 },
                 { 
                     "step": "Impact",
                     "image": "",
-                    "caption": "",
                     "caption": "The redesigned website was launched in August 2019. A demo session conducted after website redesign proved that the new site was a success; task success rate increased to 100%. The amount of time it took for users to find information significantly decreased. The website returning visitor rate also increased."
                 }
             ],
