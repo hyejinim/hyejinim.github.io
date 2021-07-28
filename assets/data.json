@@ -197,8 +197,8 @@
             "rq": "How might we increase content discoverability and user engagement on the website?",
             "desc": "The STEAM (Science, Technology, Engineering, Art, and Math) Discovery Lab is one of Tufts Center for Engineering Education and Outreach (CEEO) research projects. The goal of the STEAM Discovery Lab is to provide educators with new and exciting <strong>ideas and resources for conducting hands-on activities</strong> in their classroom. <br><br>Over 10-week summer internship, I was responsible for redesining the website to improve user experience and make it more user-friendly. I focused on identifying primary user scenarios and existing usability issues. Based on that, I redesigned information architecture, user flow, and user interface.",
             "next": "speakgo",
-            "linklabel": "→ VISIT WEBSITE",
-            "link": "https://www.steamdiscoverylab.com/",
+            "linklabel": "",
+            "link": "",
             "process": [
                 { 
                     "step": "Background",
@@ -207,7 +207,7 @@
                     "info": "• Not obvious site users, goals, do not look professional (Trustworthy) • Hard to navigate site • Inconsistent content: As multiple authors (students and staff at the center) had been creating a lot of different types of content, the original navigation and website structure were not optimized for the current content. Also, the content produced by different authors was not always consistent. It made users harder to find content easily and effectively on the website as well as to visit the website again."
                 },
                 { 
-                    "step": "Conducting Usability Inspection",
+                    "step": "Usability Inspection",
                     "image": "assets/steamdiscoverylab/heuristic-evaluation.png",
                     "caption": "<i>Heuristic Evaluation</i>"
                 },
@@ -224,27 +224,27 @@
                     "info": ""
                 },
                 { 
-                    "step": "Emphasizing Potential Primary Users",
+                    "step": "Potential Primary Users",
                     "image": "assets/steamdiscoverylab/persona.png",
                     "caption": "",
                     "info": "To reasonate design decision, persuade, on the same page with other members. Imaginary persona, user journey map, use case scenarios. The website provides teachers with inspiring lesson plans and activity ideas that they can tweak to best meet the needs of their students and subject area. The site also features activity ideas that combine different technologies in unconventional ways."
                 },
                 { 
-                    "step": "Redesigning the Website",
+                    "step": "Website Redesign",
                     "image": "assets/steamdiscoverylab/steam-structure.png",
-                    "caption": "",
+                    "caption": "<i>Reorganized information architecture and made the website structure wide and narrow</i>",
                     "info": "IA and User flow - Narrow to shallow, Reorganized information architecture and created content Metadata for each content. They grouped by content type, category, and tags"
                 },
                 { 
                     "step": "",
                     "image": "assets/steamdiscoverylab/grouping-project.png",
-                    "caption": "",
+                    "caption": "<i>Organized content metadata</i>",
                     "info": "Organize content meta data"
                 },
                 { 
                     "step": "",
                     "image": "assets/steamdiscoverylab/sketch.png",
-                    "caption": "",
+                    "caption": "<i>User interface design</i>",
                     "info": "Sketch"
                 },
                 { 
@@ -282,7 +282,7 @@
                     "caption": "teaser"
                 },
                 { 
-                    "image": "assets/steamdiscoverylab/logo.png",
+                    "image": "assets/steamdiscoverylab/Logo.png",
                     "caption": ""
                 },
                 { 
