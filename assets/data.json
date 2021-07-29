@@ -680,13 +680,13 @@
                 },
                 { 
                     "step": "Low-Fidelity Prototype",
-                    "image": "assets/donare/paper.png",
+                    "image": "assets/donare/paper-prototype.png",
                     "caption": "We created a paper prototype based on the conceptual model and tested it with potential users. Several changes had been made on the user flow and new features are added as we incorporated their feedback into our app design. Heuristic evaluation"
                 },
                 { 
-                    "step": "Wireframe",
+                    "step": "Medium-Fidelity Wireframe",
                     "image": "assets/donare/donare-12.png",
-                    "caption": "Usability testing"
+                    "caption": ""
                 },
                 { 
                     "step": "Key Features",
