@@ -655,8 +655,8 @@
             "rq": "How might we encourage people to donate their items to cause they care about?",
             "desc": "Donare is a mobile application that helps people easily and delightfully donate items to causes they care about. <br><br>I worked in a cross-functional team of five members in the Human-Computer Interaction (HCI) course. Throughout the semester, we designed, developed, and evaluated Donare. As a leading UX designer, I was involved in all phases of the project, from mapping out the problem to delivering final designs.",
             "next": "draw2code",
-            "linklabel": "→ LAUNCH PROTOTYPE",
-            "link": "",
+            "linklabel": "→ VIEW PROTOTYPE",
+            "link": "https://www.figma.com/proto/RU6pI9RGl3tpnqhSJihvUm/Donare?kind=&node-id=822%3A7716&scaling=scale-down",
             "process": [
                 { 
                     "step": "The Opportunity",
@@ -684,8 +684,13 @@
                     "caption": "We created a paper prototype based on the conceptual model and tested it with potential users. Several changes had been made on the user flow and new features are added as we incorporated their feedback into our app design. Heuristic evaluation"
                 },
                 { 
-                    "step": "Medium-Fidelity Wireframe",
+                    "step": "Wireframe",
                     "image": "assets/donare/donare-12.png",
+                    "caption": ""
+                },
+                { 
+                    "step": "High-Fidelity Prototype",
+                    "image": "assets/donare/donare-demo.gif",
                     "caption": ""
                 },
                 { 
@@ -720,7 +725,7 @@
                 },
                 { 
                     "step": "Evaluation",
-                    "image": "",
+                    "image": "assets/donare/donare-13.png",
                     "caption": "We conducted usability testing with the final version of prototype. User satisfaction improved on all metrics comparing to the first prototype. <br><br>Metrics: <br> • How easy did you find the donation process on a scale from 1 to 5 (5 easiest)?: 4.2 to 4.66 (+.46) <br>• How many times did you not know what to do next?: 2 to 0.66 (-1.34) <br>• How easy was it to use to achieve your goal? (5 easiest): 3.9 to 4.66 (+.76) <br>• Did you like the experience of using the app? (1 to 5): 3.8 to 4.33 (+.53)"
                 },
                 { 
