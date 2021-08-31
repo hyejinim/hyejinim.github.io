@@ -11,14 +11,15 @@
         "resume": "https://drive.google.com/file/d/17yPNy6cSE-3l3vAXcbhz4xvVWO9yzHYN/view?usp=sharing",
         "twitter":"https://twitter.com/hyecoo",
         "linkedin":"https://www.linkedin.com/in/hyejin-im/",
-        "github":"https://github.com/namwkim"
+        "github":"https://github.com/namwkim",
+        "gogolescholar": "https://scholar.google.com/citations?user=jFcKUGkAAAAJ&hl=en&oi=sra"
     },
     "publications":[
         {
             "title":"Draw2Code: Low-Cost Tangible Programming for Creating AR Animations",
             "authors": "<strong>Hyejin Im</strong>, Chris Rogers",
             "venue": "ACM Conference on Interaction Design and Children (IDC), 2021",
-            "award": "",
+            "award": "🏆  Tufts Graduate Student Research Competition - Winner",
             "paper": "https://drive.google.com/file/d/1EKjE7OT6WbFFFKXMqATimi7axDcTO5iX/view?usp=sharing",
             "website": "",
             "software": ""
