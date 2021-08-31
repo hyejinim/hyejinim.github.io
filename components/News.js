@@ -2,7 +2,7 @@
 export default function News(news){
     return `
     <section id="news">
-        <div class="page-intro main bg-color">
+        <div class="full-page bg-color">
             <div class="page-intro-inner">
                 <h1 class="title">News</h1>
                 <div class="search">

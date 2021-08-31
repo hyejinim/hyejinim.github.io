@@ -3,7 +3,7 @@ import MaterialIcon from './MaterialIcon.js';
 export default function Publications(pubs){
     return `
     <section id="publications">
-        <div class="page-intro main bg-sub-color">
+        <div class="full-page bg-sub-color">
             <div class="page-intro-inner">
                 <h1 class="title">Publications</h1>
                 <div class="news-list">

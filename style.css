@@ -91,6 +91,10 @@ body {
     justify-content: center;
 }
 
+#projects .wide{
+    padding-bottom: 100px;
+}
+
 .videoWrapper{
     position: relative;
     padding-bottom: 56.25%; 
@@ -401,6 +405,22 @@ section{
 
 }
 
+.full-page{
+    position: relative;
+    display: flex;
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+    width: 100%;
+    height: auto;
+    /* min-height: 100vh; */
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 140px;
+}
+
 .page-intro{
     position: relative;
     display: flex;
@@ -429,9 +449,7 @@ section{
     /* min-height: 100vh; */
     text-align: left;
 }
-.main{
-    /* background: lemonchiffon; */
-}
+
 
 .page-intro-inner{
     position: relative;
