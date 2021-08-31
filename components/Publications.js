@@ -1,12 +1,13 @@
+import MaterialIcon from './MaterialIcon.js';
 
 export default function Publications(pubs){
     return `
     <section id="publications">
-        <div class="page-intro main bg-color">
+        <div class="page-intro main bg-sub-color">
             <div class="page-intro-inner">
-                <h2 class="title">Publications</h2>
+                <h1 class="title">Publications</h1>
                 <div class="news-list">
-                    ${NewsItems(pubs)}
+                    ${PubItems(pubs)}
                 </div>
             </div>
         </div>
@@ -15,10 +16,10 @@ export default function Publications(pubs){
 }
 
 export function PubItems(pubs){
-    return news.map(d=>`
-        <div class="row">
+    return pubs.map(d=>`
+        <div class="pub-item">
             <div class="pub-title">
-                <strong>${d.title}<strong>
+                <a href="${d.paper}" target="_blank"><strong>${d.title}</strong></a>
             </div>
             <div class="pub-authors">
                 ${d.authors}
@@ -27,7 +28,7 @@ export function PubItems(pubs){
                 <em>${d.venue}</em>
             </div>
             <div class="pub-awards">
-                <strong>${d.award}<strong>
+                <strong>${d.award}</strong>
             </div>
         </div>
     `).join('');

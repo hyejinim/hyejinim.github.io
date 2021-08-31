@@ -26,7 +26,7 @@ export default function Projects(projects){
             ${ProjectItems(projects)}
         </div>
         </div>
-    </section>`;
+    </section>`
 }
 
 export function ProjectItems(projects){

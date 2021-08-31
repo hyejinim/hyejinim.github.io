@@ -110,6 +110,16 @@ a:hover{
     cursor: pointer; */
 }
 
+.pub-item{
+    /* color: #9a61aa;  */
+}
+
+.pub-item a:hover{
+    color: #9a61aa;
+}
+.pub-title {
+    color: #510d64;
+}
 .project-title a:hover{
     color: #CBA7D5;
 }
@@ -534,7 +544,8 @@ section{
 
 .bg-sub-color{
     background-color: #e3c6eb;
-    color: #9a61aa;
+    /* color: #9a61aa; */
+    color: #510d64;
 }
 
 .highlight-color{
@@ -660,7 +671,13 @@ button:hover {
     cursor: pointer;
 }
 
+.pub-item{
+    margin-bottom: 20px;
+}
 
+.pub-authors .pub-venue{
+    color: #9a61aa;
+}
 @media only screen and (max-width: 600px) {
     .project-item {width: 100%;}
 }

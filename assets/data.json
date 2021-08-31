@@ -13,6 +13,35 @@
         "linkedin":"https://www.linkedin.com/in/hyejin-im/",
         "github":"https://github.com/namwkim"
     },
+    "publications":[
+        {
+            "title":"Draw2Code: Low-Cost Tangible Programming for Creating AR Animations",
+            "authors": "<strong>Hyejin Im</strong>, Chris Rogers",
+            "venue": "ACM Conference on Interaction Design and Children (IDC), 2021",
+            "award": "",
+            "paper": "https://drive.google.com/file/d/1EKjE7OT6WbFFFKXMqATimi7axDcTO5iX/view?usp=sharing",
+            "website": "",
+            "software": ""
+        },
+        {
+            "title":"DataSelfie: Empowering People to Design Personalized Visuals to Represent Their Data",
+            "authors": "Nam Wook Kim, <strong>Hyejin Im</strong>, Nathalie Henry Riche, Alicia Wang, Krzysztof Z. Gajos, Hanspeter Pfister",
+            "venue": "ACM Conference on Human Factors in Computing Systems (CHI), 2019",
+            "award": "",
+            "paper": "https://drive.google.com/uc?export=view&id=1zEbS25ZBdm6H4gDYIneRSa6TNg0VDg7t",
+            "website": "",
+            "software": ""
+        },
+        {
+            "title":"Visualizing Nonlinear Narratives with Story Curves",
+            "authors": "Nam Wook Kim, Benjamin Bach, <strong>Hyejin Im</strong>, Sasha Schriber, Markus Gross, Hanspeter Pfister",
+            "venue": "IEEE Transactions on Visualization and Computer Graphics (InfoVis), 2018",
+            "award": "🏆  Kantar Information is Beautiful Awards - Long List",
+            "paper": "https://drive.google.com/uc?export=view&id=1naE6rZy2IW4kn2KIf4AQhkclU9oCNirV",
+            "website": "",
+            "software": ""
+        }
+    ],
     "news":[
         {
             "title":"Our Draw2Code paper is accepted to the IDC conference",
