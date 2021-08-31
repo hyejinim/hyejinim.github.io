@@ -4,7 +4,7 @@ export default function News(news){
     <section id="news">
         <div class="full-page bg-color">
             <div class="page-intro-inner">
-                <h1 class="title">News</h1>
+                <h1 class="subtitle">NEWS</h1>
                 <div class="search">
                     <input type="text" name='news' placeholder="Search News...">
                 </div>

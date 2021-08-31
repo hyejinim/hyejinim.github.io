@@ -5,7 +5,7 @@ export default function Publications(pubs){
     <section id="publications">
         <div class="full-page bg-sub-color">
             <div class="page-intro-inner">
-                <h1 class="title">Publications</h1>
+                <h1 class="subtitle">PUBLICAIONS</h1>
                 <div class="news-list">
                     ${PubItems(pubs)}
                 </div>
