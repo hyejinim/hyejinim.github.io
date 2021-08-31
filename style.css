@@ -219,6 +219,7 @@ section .subtitle{
     font-size: 4rem;
     text-align: left;
     line-height: 4rem;
+    margin-bottom: 40px;
 }
 
 .row{
