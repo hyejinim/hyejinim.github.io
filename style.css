@@ -95,11 +95,20 @@ body {
     padding-bottom: 100px;
 }
 
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 .videoWrapper{
     position: relative;
     padding-bottom: 56.25%; 
     height: 0;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .videoWrapper iframe {

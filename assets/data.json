@@ -5,7 +5,7 @@
         "title2":"<br>📚 Graduate Research Assistant",
         "photo":"assets/profile.png",
         "desc":"Based in <strong>Boston</strong> with experience in delivering <strong>end-to-end UX/UI design</strong> for digital products. I'm passionate about improving the lives of others through technology and am constantly looking to learn new things everyday. I love <strong>design, coding, and HCI</strong>.",
-        "desc2":"Working at <strong>Tufts Center for Engineering Education and Outreach (CEEO) </strong>, being advised by Prof. Chris Rogers. My studies and work are partially supported by scholarships from <strong>LEGO Foundation</strong>.",
+        "desc2":"Working at <strong>Tufts Center for Engineering Education and Outreach (CEEO)</strong>. My studies and work are partially supported by scholarships from <strong>LEGO Foundation</strong>.",
         "email": "hyejinim17@gmail.com",
         "address": "",
         "resume": "https://drive.google.com/file/d/17yPNy6cSE-3l3vAXcbhz4xvVWO9yzHYN/view?usp=sharing",
@@ -85,12 +85,12 @@
             "subtitle": "📱 Creating a paper-based AR kit to engage young children in a playful coding environment to develop computational thinking",
             "teaser": "assets/draw2code/teaser.png",
             "tags":["UX/UI", "Concept", "Research", "Development", "Featured"],
-            "video": "assets/draw2code/draw2code-tutorial.mp4",
+            "video": "https://www.youtube.com/embed/t7gDyvwuobI",
             "rq": "How might we develop a computational kit that increases young children’s participation in computing, especially children from underrepresented groups in STEM?",
             "desc": "Draw2Code is a <strong>paper-based computational kit </strong>that provides playful coding environment for young children to create an <strong>interactive AR animation</strong>. Children use Draw2Code to make their paper drawing alive as an animated virtual sprite and control it using hand gestures. It exposes children to basic programming concepts through tangible interaction. <br><br> This work is awarded a winner for Graduate Student Research Competition by Tufts GSAS and presented at the IDC 2021 Conference and the PLAYfest 2021. <br><br><i><strong>Im, H.</strong>, Rogers, C. Draw2Code: Low-Cost Tangible Programming for Creating AR Animations. In proceedings of Interaction Design and Children Conference 2021.</i>",
             "next": "steamdiscoverylab",
-            "linklabel": "→ SEE THESIS",
-            "link": "https://drive.google.com/file/d/19VSQYhYBQMyJ6bVujrVg8ovS3AOEefCk/view?usp=sharing",
+            "linklabel": "→ SEE PAPER",
+            "link": "https://drive.google.com/file/d/1EKjE7OT6WbFFFKXMqATimi7axDcTO5iX/view?usp=sharing",
             "link2": "https://drive.google.com/file/d/1JW_O21dNBpp3T8bE5ZrRDM6w61Vzob_J/view?usp=sharing",
             "process": [
                 {
@@ -147,12 +147,12 @@
                 { 
                     "step": "",
                     "image": "assets/draw2code/task-results.png",
-                    "caption": "<br><br><i>Task Success Rate and Free Play Length</i><br><br>The task success rate shows that all children successfully used Draw2Code without direct help from the researcher. Children showed high level of engagement in playing with Draw2Code regardless of age and gender. The results of free play task indicates that children played with it for 33 minutes on average (Min: 20, Max: 45)."
+                    "caption": "<br><br><i>Task success rate and free play length</i><br><br>The task success rate shows that all children successfully used Draw2Code without direct help from the researcher. Children showed high level of engagement in playing with Draw2Code regardless of age and gender. The results of free play task indicates that children played with it for 33 minutes on average (Min: 20, Max: 45)."
                 },
                 { 
                     "step": "",
                     "image": "assets/draw2code/survey-results.png",
-                    "caption": "<br><br><i>Survey Results</i><br><br>The children each created at least two and as many as five different AR animations based on their ideas. Throughout the sessions, all children were engaged in computational thinking concepts and practices including decomposition, abstraction, and algorithms. Most children mentioned they particularly liked the moment when their drawing came to life on the AR screen. They also liked intuitive drawing and gesture-based interactions to code for and control their program."
+                    "caption": "<br><br><i>Survey results</i><br><br>The children each created at least two and as many as five different AR animations based on their ideas. Throughout the sessions, all children were engaged in computational thinking concepts and practices including decomposition, abstraction, and algorithms. Most children mentioned they particularly liked the moment when their drawing came to life on the AR screen. They also liked intuitive drawing and gesture-based interactions to code for and control their program."
                 },
                 { 
                     "step": "",
@@ -162,7 +162,7 @@
                 { 
                     "step": "",
                     "image": "assets/draw2code/children-outcome.png",
-                    "caption": "<i>Artifacts of the diverse AR animations with stories children created: (a) a truck is blowing up, (b) a creepy monster living in a forest is chasing and attacking a child, (c) a bee is coming close to a child's face and she is trying to dodge, (d) a child is showing her fist and a mouse is moving around on a green meadow, (e) an anger cloud is appearing over a child's head, (f) a little himself of a child is jumping on the snow.</i>"
+                    "caption": "<i>Screenshots of the diverse AR animations with stories children created: (a) a truck is blowing up, (b) a creepy monster living in a forest is chasing and attacking a child, (c) a bee is coming close to a child's face and she is trying to dodge, (d) a child is showing her fist and a mouse is moving around on a green meadow, (e) an anger cloud is appearing over a child's head, (f) a little himself of a child is jumping on the snow.</i>"
                 }
             ],
             "images": [
@@ -223,12 +223,12 @@
             "subtitle": "🖥️ Redesigning an online community for K-12 STEAM educators",
             "teaser": "assets/steamdiscoverylab/teaser-hand6.jpeg",
             "tags":["UX/UI", "Illustration"],
-            "video": "assets/steamdiscoverylab/video.mp4",
+            "video": "",
             "rq": "How might we increase content discoverability and user engagement on the website?",
             "desc": "The STEAM (Science, Technology, Engineering, Art, and Math) Discovery Lab is one of Tufts Center for Engineering Education and Outreach (CEEO) research projects. The goal of the STEAM Discovery Lab is to provide educators with new and exciting <strong>ideas and resources for conducting hands-on activities</strong> in their classroom. <br><br>Over 10-week summer internship, I was responsible for redesining the website to improve user experience and make it more user-friendly. I focused on identifying primary user scenarios and existing usability issues. Based on that, I redesigned information architecture, user flow, and user interface.",
             "next": "speakgo",
-            "linklabel": "",
-            "link": "",
+            "linklabel": "→ GO TO WEBSITE",
+            "link": "https://steamdiscoverylab.weebly.com/",
             "process": [
                 { 
                     "step": "Background",
@@ -336,7 +336,7 @@
             "subtitle": "🎮 Developing a voice-controlled game that enhances learning and memorizing",
             "teaser": "assets/speakgo/kid.png",
             "tags":["Development", "UX/UI", "Concept"],
-            "video": "assets/speakgo/video.mp4",
+            "video": "https://www.youtube.com/embed/AL292jcLM9k",
             "rq": "How might we leverage voice user interfaces to create playful learning environment?",
             "desc": "Speak Go is a speech game that enhances memorizing with playful and engaging learning. It is a web application written in Javascript. It is a game with a voice controlled interface. We implemented Web Speech API. <br><br> As a member of a small team (two people), we worked together on from developing the concept of the game to developing the user interface.",
             "next": "dataselfie",
@@ -395,6 +395,10 @@
                 { 
                     "image": "assets/speakgo/gameover.png",
                     "caption": ""
+                },
+                { 
+                    "image": "assets/speakgo/speakgo-user.png",
+                    "caption": ""
                 }
                
             ],
@@ -412,11 +416,11 @@
             "subtitle": "🖍️ Creating a survey tool that empowers people to design personalized visuals to represent their data",
             "teaser": "assets/dataselfie/teaser-mockup2.jpeg",
             "tags":["Visualization", "UX/UI", "Research", "Featured"],
-            "video": "https://doc-04-34-docs.googleusercontent.com/docs/securesc/lcmoth8lopeo9tdidfto12ph2tamcqpt/qdtp4ss81smlfitk06mpuj0uehoj3hgi/1625860500000/12084871565804967376/12272201305969183738/1hqJ0TjTspLf2_wEceGboqFQstCVcRE7Z?e=view&authuser=0&nonce=dpl322nou30go&user=12272201305969183738&hash=mdb44gvvpeh8gihqt8oonami4k66jnqq",
+            "video": "https://www.youtube.com/embed/JxTnn_lw62U",
             "rq": "How can we enable people to determine the representation of their data?",
             "desc": "DataSelfie is a survey tool that allows any individuals to create a visual vocabulary to represent their personal data. <br><br>Using DataSelfie, you can create a questionnaire to ask questions about qualitative and nuanced aspects of yourself and to design a personalized visualization. <br><br> This work is published in CHI 2019. <br><br> <i>Kim N. W., <strong>Im, H.</strong>, Riche, N. H., Wang, A., Gajos, K. Z., Pfister, H. DataSelfie: Empowering People to Design Personalized Visuals to Represent Their Data. ACM Conference on Human Factors in Computing Systems (CHI) 2019.</i>",
             "next": "storyexplorer",
-            "linklabel": "→ VISIT WEBSITE",
+            "linklabel": "→ GO TO WEBSITE",
             "link": "https://dataselfie.namwkim.org/#/",
             "process": [
                 { 
@@ -559,11 +563,11 @@
             "subtitle": "🖥️ Creating a visualization tool for authoring and exploring nonlinear narratives",
             "teaser": "assets/storyexplorer/teaser-mockup1.jpeg",
             "tags":["Visualization", "UX/UI", "Research", "Featured"],
-            "video": "assets/storyexplorer/video.mp4",
+            "video": "https://www.youtube.com/embed/Dx5YJfZmy4w",
             "rq": "How can we support people to easily explore and learn about the nonlinear narrative of movies through visualization?",
             "desc": "Story Explorer is an <strong>interactive tool</strong> that visualizes a story curve, a <strong>visualization of the nonlinear narrative of a movie</strong>, together with complementary information such as characters and settings. Story Explorer further provides a <strong>script curation interface </strong>that allows users to specify the chronological order of events in movies. <br><br>As one of the collaborators of this project, I worked on brainstorming and generating visualization sketches to reveal nonlinear narrative patterns in movie scripts, and helped with labeling data and designing user interface of Story Explorer. <br><br>This work is awarded Kantar Information is Beautiful Awards and published in IEEE transactions on visualization and computer graphics (InfoVis'18)<br><br> <i>Kim, N. W., Bach B., <strong>Im, H.</strong>, Schriber, S., Gross M., Pfister, H. Visualizing Nonlinear Narratives with Story Curves. IEEE Transactions on Visualization and Computer Graphics (InfoVis), 2018</i>",
             "next": "donare",
-            "linklabel": "→ VISIT WEBSITE",
+            "linklabel": "→ GO TO WEBSITE",
             "link": "https://storycurve.namwkim.org/",
             "process": [
                 { 
@@ -681,7 +685,7 @@
             "subtitle": "📱 Designing a mobile app helping people donate to their cause quickly and delightfully",
             "teaser": "assets/donare/donare-hand.png",
             "tags":["UX/UI", "Featured"],
-            "video": "assets/donare/video.mp4",
+            "video": "",
             "rq": "How might we encourage people to donate their items to cause they care about?",
             "desc": "Donare is a mobile application that helps people easily and delightfully donate items to causes they care about. <br><br>I worked in a cross-functional team of five members in the Human-Computer Interaction (HCI) course. Throughout the semester, we designed, developed, and evaluated Donare. As a leading UX designer, I was involved in all phases of the project, from mapping out the problem to delivering final designs.",
             "next": "draw2code",
@@ -794,7 +798,7 @@
             "subtitle": "📱 Reinventing an alarm clock for the habitual snoozers",
             "teaser": "assets/vismorn/teaser-hand.jpeg",
             "tags":["UX/UI", "Concept", "Featured"],
-            "video": "assets/vismorn/video.mp4",
+            "video": "https://www.youtube.com/embed/bMYwuVZC9bU",
             "rq": "How might we help people who constantly use the snooze button easily wake up on time in the morning?",
             "desc": "Vismorn is for people who struggle to wake up on time in the morning. Instead of setting a single time to wake up as other alarm clocks do, Vismorn provides two different times to set up, one for waking up and another for doing following task (e.g., go to work). <br><br>The app focuses on achieving a high-level goal as waking up on time is often only a part of reaching the goal. That is, it emphasizes the time gap between wake-up time and task time to encourage a user to be more aware of the goal when setting the times and hitting the snooze button.",
             "desc2": "We set our alarms for good reason but hit snooze too many times, making the rest of our morning unnecessarily stressful. If you find yourself confronting too many of these self-imposed crises, there are some pretty nifty solutions to force you out of bed. Some alarm clocks simply amp up the aggravation, shaking, squawking, and shining bright lights at habitual snoozers. On these models, of course, there’s no snooze button at all. We recommend placing them out of arm’s reach, so you’ll need to get out of bed to turn them off. Another ingenious solution for habitual snoozers is Ruggie, which looks more or less like a well-cushioned floor matt. To turn off this innovative alarm, you actually need to step on it for three full seconds – and get out of bed in the process. Pros: Kiss the temptation to snooze goodbye and start your mornings on time. Cons: There’s really no middle ground: On the rare occasion where you can snooze responsibly, you’re basically out of luck.",
@@ -810,7 +814,7 @@
                 { 
                     "step": "Background",
                     "image": "",
-                    "caption": "Are you satisfied with your alarm clock? How can it help you to become a more productive person? Alarm clock is not just for waking you up at a certain time. Starting your morning as you have planned is the key of your success of the day."
+                    "caption": "Are you satisfied with your alarm clock? How can it help you become a more productive person? Alarm clock is not just for waking you up at a certain time. Starting your morning as you have planned is the key of your success of the day."
                 },
                 { 
                     "step": "User Research",
@@ -820,7 +824,7 @@
                 { 
                     "step": "Key Findings",
                     "image": "assets/vismorn/survey-results.png",
-                    "caption":  "People use an alarm clock not just to wake up in the morning but eventually to not be late at school/work. Participants answered that they are late for various reasons. Major reasons they fail to be on time at work/school were not only due to the failure to wake up on time (61%) but also the failure to leave their home on time (29%). There are four primary causes for that: 1) habitual snooze (53%), 2) missing an ideal time for leaving home (24%) 3) miscalculation of the amount of the time for enough sleep, preparation, and commute time (10%), 4) accidentally not setting up an alarm clock (8%).<br><br> I also learned that people use multiple alarms for different times and use additional methods to make sure to wake up (e.g., analog alarm clock, alarm clock app that forces you to wake up physically, family/friends' help)."
+                    "caption":  "I found that people use an alarm clock not just to wake up in the morning but eventually to not be late at school/work. Participants answered that they are late for various reasons. Major reasons they fail to be on time at work/school were not only due to the failure to wake up on time (61%) but also the failure to leave their home on time (29%). There are four primary causes for that: 1) habitual snooze (53%), 2) missing an ideal time for leaving home (24%) 3) miscalculation of the amount of the time for enough sleep, preparation, and commute time (10%), 4) accidentally not setting up an alarm clock (8%).<br><br> I also learned that people use multiple alarms for different times and use additional methods to make sure to wake up (e.g., analog alarm clock, alarm clock app that forces you to wake up physically, family/friends' help)."
                 },
                 { 
                     "step": "Design",
@@ -877,23 +881,20 @@
                     "desc": ""
                 }
             ]
-        }
-                
-    ],
-    "archaived": [
+        },
         {
             "id":"tinkering",
             "title": "TINKERING",
-            "product": "Web Application, Game, Simulation",
+            "product": "Web Application, Game, Tools",
             "role": "UX/UI Design, Game Design, 3D Graphic Design, Development, Making",
             "type": "Self-Directed Project",
             "tools": "Java, Javascript, Three.js, WebGL, 3D Printer, Laser Cutter",
-            "subtitle": "🧪 Miscellaneous digital and physical fabrication",
-            "teaser": "assets/spacedog/teaser.png",
+            "subtitle": "🧪 Miscellaneous digital products and tools",
+            "teaser": "assets/tinkering/spacedog.gif",
             "tags":["Development", "Concept"],
-            "video": "assets/spacedog/video.mp4",
-            "rq": "How can we use technologies to express creativity?",
-            "desc": "I beleive that people learn the best when they work on personally interesting or meaningful projects. Whenever I had a chance to learn new technologies or techniques, I tried to make something fun and experimental. These are some of the projects I created as results of learning.",
+            "video": "",
+            "rq": "",
+            "desc": "I beleive that people learn the best when they work on personally meaningful projects. Whenever I had a chance to learn new technologies or techniques, I tried to make something fun and experimental. These are some of the projects I created as results of learning.",
             "next": "tinkering",
             "linklabel": "→ SEE THESIS",
             "link": "",
@@ -901,7 +902,12 @@
                 { 
                     "step": "Space Dog",
                     "image": "assets/spacedog/screenshot.png",
-                    "caption": "Space Dog is a simulation application of floating dogs in the space. It is a simple and interactive 3D environment and developed using Three.js and WebGL. As the user move his/her mouse position, the movement of dogs and the speed of meteors would change. <br><br> I learned how to design animated 3D objects having multiple parts, how to express different materials, and how to use lights in the 3D world."
+                    "caption": ""
+                },
+                { 
+                    "step": "",
+                    "image": "assets/tinkering/spacedog.gif",
+                    "caption": "Space Dog is a simulation application of floating dogs in the space. It is a simple and interactive 3D environment and developed using Three.js and WebGL. As the user move their mouse position, the movement of dogs and the speed of meteors would change. <br><br> I learned how to design animated 3D objects having multiple parts, how to express different materials, and how to use lights in the 3D world."
                 },
                 { 
                     "step": "Laika Back To The Earth",
@@ -911,54 +917,29 @@
                 },
                 { 
                     "step": "",
-                    "image": "assets/laika/teaser3.png",
-                    "caption": "Laika Back To The Earth is a 2D simulation game written in Java. It is developed for Laika, a space dog from Soviet Union. In this game, the player plays a role of Laika and saves other dogs in the space and come back home, the Earth. I hoped more peoplae are aware of the behind story of this game: animals' sacrifice and contribution in science. I also wanted to give a positive lesson to players through this game; it does not require fighting and competeting against enemies but helping ohters to achieve the success.<br><br>It has game design and play modes so players can design their own games.",
-                    "info": "As a project of space dog series, I developed a game for Laika. can design the game. Imaginary mission. By playing this game, the user can experience a journey of Laika, get interested in the behind story of the dog, and learn a lesson "
-                },
-                { 
-                    "step": "Emoji Safari",
-                    "image": "assets/tinkering/emojisafari.png",
+                    "image": "assets/laika/mockup.jpeg",
                     "caption": "",
                     "info": ""
                 },
                 { 
                     "step": "",
-                    "image": "",
-                    "caption": "",
-                    "info": "Friendly Monster"
+                    "image": "assets/laika/laikagame.gif",
+                    "caption": "Laika Back To The Earth is a 2D simulation game written in Java. It is developed for Laika, a space dog from Soviet Union. In this game, the player plays a role of Laika and saves other dogs in the space and come back home, the Earth. I hoped more people are aware of the behind story of this game: animals' sacrifice and contribution in science. I also wanted to give a positive lesson to players through this game; it does not require fighting and competeting against enemies but helping ohters to achieve the success.<br><br>It has game design and play modes so players can design their own games and the game level. While developing the game, I learned the concept of object-oriented programming and applied it in Java."
+                },
+                { 
+                    "step": "Twenty-Second Smiley Timer",
+                    "image": "assets/tinkering/smiley-revised.png",
+                    "caption": ""
                 },
                 { 
                     "step": "",
-                    "image": "",
-                    "caption": "",
-                    "info": "Trainable Motors,Training smart motors without programming"
-                }
-            ],
-            "images": [
-                { 
-                    "image": "",
-                    "caption": ""
-                }
-            ],
-            "wrappedimages": [
- 		{ 
-                    "image": "",
-                    "caption": ""
-                }
-               
-            ],
-            "reflection": [
-                { 
-                    "title": "",
-                    "desc": ""
-                },
-                { 
-                    "title": "",
-                    "desc": ""
+                    "image": "assets/tinkering/smiley-sketch.png",
+                    "caption": "In the recent times, there has been an urgent need to design solutions that would benefit our community. The smiley timer was designed keeping in mind the CDC hand washing guidelines in the COVID times. Hand washing is a habit that needs to be a part of personal hygiene at all times and this device is here to add more fun to this process. <br><br>This is a kid-friendly design which consists of: an Arduino Nano, a mini motor, a distance sensor, a buzzer sensor (with a piezo speaker), an acrylic panel, a waterproof membrane, resistors and jumper wires."
                 }
             ]
-        },
-        
+        }
+    ],
+    "archaived": [
         {
             "id":"industrialwork",
             "title": "INDUSTRIAL WORK",

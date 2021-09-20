@@ -53,29 +53,20 @@ export function ProjectDetail(d){
                 </div>
 
                 <div>
-                    <a href="#finaldesign"><button class="basic-bt">↓ SKIP TO FINAL SOLUTION</button></a>
+                    ${SkipButton(d.images)}
                     ${CustomButtons(d.link, d.linklabel)}
                 </div>
             </div>
         </div>
         <br><br>
-        <div class="page-small-section bg-color">
-            <div class="page-intro-inner">
-                <h3 class="subsubtitle">The Opportunity</h3>
-                <h2 class="project-title">
-                    <p>${d.rq}</p>
-                </h2>
-                
-            </div>
+        
+        ${ResearchQuestion(d.rq)}
+        <div class="page-intro-inner">
+            ${ProcessItems(d.process)}
         </div>
 
-            <div class="page-intro-inner">
-            
-                ${ProcessItems(d.process)}
-            </div>
-
         <div class="wide" style="margin-top: 100px" id="finaldesign">
-    
+            ${Video(d.video)}
             ${FullImages(d.images)}
             ${WrappedImages(d.wrappedimages)}
         </div>
@@ -136,12 +127,53 @@ export function WrappedImages(images){
     }
 }
 
-export function CustomButtons(link ,linklabel){
+export function CustomButtons(link,linklabel){
     if (!link) {
         return "";
     }else {
         return `
             <a href="${link}" target="_blank"><button class="basic-bt">${linklabel}</button></a>
         `;
+    }
+}
+
+export function SkipButton(images){
+    if (!images) {
+        return "";
+    }else {
+        return `
+        <a href="#finaldesign"><button class="basic-bt">↓ SKIP TO FINAL SOLUTION</button></a>
+        `
+    }
+}
+
+export function Video(video){
+    if (!video) {
+        return "";
+    }else {
+        return `
+            <div class="videoWrapper">
+                <iframe src="${video}" allowfullscreen="true"></iframe>
+            </div>
+           
+            `
+    }
+}
+
+export function ResearchQuestion(rq){
+    if (!rq) {
+        return "";
+    }else {
+        return `
+        <div class="page-small-section bg-color">
+            <div class="page-intro-inner">
+                <h3 class="subsubtitle">The Opportunity</h3>
+                <h2 class="project-title">
+                    <p>${rq}</p>
+                </h2>
+                
+            </div>
+        </div>
+        `
     }
 }
